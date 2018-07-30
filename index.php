@@ -11,7 +11,7 @@
   $conn->set_charset('utf8mb4');
 
   if ($conn->connect_error) {
-      header("Location: /bplaced/oops/");
+      header("Location: /mojira/oops/");
       die();
   }
 
@@ -29,7 +29,7 @@
 		}
     }
   } else {
-    header("Location: /bplaced/oops/");
+    header("Location: /mojira/oops/");
     die();
   }
 
