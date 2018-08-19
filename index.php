@@ -12,7 +12,7 @@
    $conn->set_charset('utf8mb4');
 
    if ($conn->connect_error) {
-       header("Location: /mojira/oops/");
+       echo "<script>window.location.href = '/mojira/oops/';</script>";
        die();
    }
 
@@ -30,7 +30,7 @@
          }
      }
    } else {
-     header("Location: /mojira/oops/");
+     echo "<script>window.location.href = '/mojira/oops/';</script>";
      die();
    }
 
