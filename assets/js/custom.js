@@ -5,45 +5,49 @@ const projects = ["mc", "mcl", "mcpe", "mcapi"];
 
 $(document).ready(function() {
   var url = window.location.href;
-  if(!url.includes('#')) {
+  if (!url.includes('#')) {
     window.location.replace(url + '#MC');
   } else {
     var id = url.substring(url.lastIndexOf('#') + 1).toLowerCase();
-    if(projects.includes(id)) {
+    if (projects.includes(id)) {
       project = id;
     } else {
-      window.location.replace(url.substring(0,url.lastIndexOf('#')) + '#MC');
+      window.location.replace(url.substring(0, url.lastIndexOf('#')) + '#MC');
     }
   }
   // Sort messages by shown name
-  msg.sort(function(a,b) {return a.name.localeCompare(b.name);} );
-  
-  $('[data-toggle="tooltip"]').tooltip({trigger:'manual'});
+  msg.sort(function(a, b) {
+    return a.name.localeCompare(b.name);
+  });
+
+  $('[data-toggle="tooltip"]').tooltip({
+    trigger: 'manual'
+  });
   $("#copybutton").tooltip('disable');
   $(".main").css("margin-top", getMargin() + "px");
   updateDisplay();
 });
 
-  // Declare dropdown onClick events for each project in the dropdown list
-  for(let i in projects) {
-	  $("." + projects[i] + "-dropdown").click(function() {
-		  if(project != projects[i]) {
-			project = projects[i];
-			updateDisplay();
-		  }
-	  });
-  }
+// Declare dropdown onClick events for each project in the dropdown list
+for (let i in projects) {
+  $("." + projects[i] + "-dropdown").click(function() {
+    if (project != projects[i]) {
+      project = projects[i];
+      updateDisplay();
+    }
+  });
+}
 
 $("#copybutton").click(function() {
   var id = $("select").val();
-  if(id == "-1") {
+  if (id == "-1") {
     // just no
     return;
   }
   var m = msg[id].message.replace(/\\n/g, '\n');
 
-  if(msg[id].needfill == "1") {
-    if(!$("#fill").val()) {
+  if (msg[id].needfill == "1") {
+    if (!$("#fill").val()) {
       wiggle($("#fill"));
       return;
     } else {
@@ -64,13 +68,13 @@ $("#copybutton").click(function() {
 
 $("select").change(function() {
   var code = $(this).val();
-  if(code == "-1") {
+  if (code == "-1") {
     $(".stdtext").html('<p class="text-muted" id="msginfo">Please select a message.</p>');
     $("#copybutton").attr("disabled", "");
     return;
   }
 
-  if(msg[code].needfill == "1") {
+  if (msg[code].needfill == "1") {
     $(".stdtext").html('<input class="form-control" type="text" placeholder="' + msg[code].fillname + '" id="fill">');
   } else {
     $(".stdtext").html('<p class="text-muted" id="msginfo">This message doesn\'t require any extra info.</p>');
@@ -82,15 +86,15 @@ $("select").change(function() {
 function updateDisplay() {
   var text = "";
   text += '<option value="-1" selected>Select a message...</option>';
-  for(let i in projects) {
-	  if(projects[i] === project.toLowerCase()) {
-		  $("#dropdownMenuButton").text("Project: " + projects[i].toUpperCase());
-		  for(let j in msg) {
-			  if(msg[j].project === projects[i]) {
-				text += '<option value="' + j + '">' + msg[j].name + '</option>';
-			  }
-		  }
-	  }
+  for (let i in projects) {
+    if (projects[i] === project.toLowerCase()) {
+      $("#dropdownMenuButton").text("Project: " + projects[i].toUpperCase());
+      for (let j in msg) {
+        if (msg[j].project === projects[i]) {
+          text += '<option value="' + j + '">' + msg[j].name + '</option>';
+        }
+      }
+    }
   }
   $(".stdtext").html('<p class="text-muted" id="msginfo">Please select a message.</p>');
   $(".custom-select").html(text);
@@ -99,13 +103,13 @@ function updateDisplay() {
 
 function getMargin() {
   var height = $(".main").css("height");
-  return (height.substring(0, height.length-2) / 2) * -1;
+  return (height.substring(0, height.length - 2) / 2) * -1;
 }
 
 function wiggle(textbox) {
   $(textbox).addClass("shake");
   setTimeout(function() {
-      $(textbox).removeClass("shake");
+    $(textbox).removeClass("shake");
   }, 820);
 }
 

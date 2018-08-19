@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Mojira Helper Messages</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <?php
   $conn = new mysqli("localhost", "bemoty_web", "bemoty_web", "bemoty_mojira");
   $conn->set_charset('utf8mb4');
@@ -48,6 +49,7 @@
 
    ?>
 </head>
+
 <body>
   <div class="background container-fluid">
     <div class="main">
@@ -62,7 +64,7 @@
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item mc-dropdown" href="#MC">MC</a>
-			<a class="dropdown-item mcl-dropdown" href="#MCL">MCL</a>
+            <a class="dropdown-item mcl-dropdown" href="#MCL">MCL</a>
             <a class="dropdown-item mcpe-dropdown" href="#MCPE">MCPE</a>
             <a class="dropdown-item mcapi-dropdown" href="#MCAPI">MCAPI</a>
           </div>
@@ -84,4 +86,5 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="assets/js/custom.js"></script>
 </body>
+
 </html>

@@ -7,15 +7,21 @@ a:hover {
 }
 
 @keyframes main_in {
-  from {top: -25%; opacity: 0;}
-  to {top: 50%; opacity: 1;}
+  from {
+    top: -25%;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
 }
 
 div.main {
   animation-name: main_in;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier();
-	width: 800px;
+  width: 800px;
   height: 350px;
   position: absolute;
   top: 50%;
@@ -23,7 +29,7 @@ div.main {
   padding: 25px;
   margin-left: -400px;
   margin-top: -175px;
-	text-align: center;
+  text-align: center;
 }
 
 div.main div.head h2 {
@@ -40,13 +46,24 @@ div.main img {
 }
 
 @keyframes float {
-  from {-webkit-transform: translate3d(0, -4px, 0); transform:translate3d(0,-4px,0);}
-  to {-webkit-transform:translate3d(0, 4px, 0); transform:translate3d(0, 4px, 0)};
+  from {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 4px, 0);
+    transform: translate3d(0, 4px, 0)
+  }
+  ;
 }
 
 @keyframes blend {
-  from {opacity: 0.2;}
-  to {opacity: 0.6;}
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.6;
+  }
 }
 
 div.main #sad {
