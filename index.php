@@ -8,46 +8,45 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <?php
-  $conn = new mysqli("localhost", "bemoty_web", "bemoty_web", "bemoty_mojira");
-  $conn->set_charset('utf8mb4');
+   $conn = new mysqli("localhost", "bemoty_web", "bemoty_web", "bemoty_mojira");
+   $conn->set_charset('utf8mb4');
 
-  if ($conn->connect_error) {
-      header("Location: /mojira/oops/");
-      die();
-  }
+   if ($conn->connect_error) {
+       header("Location: /mojira/oops/");
+       die();
+   }
 
-  $sql = "SELECT * FROM messages";
-  $result = $conn->query($sql);
-  if ($result->num_rows > 0) {
-    while ($row = $result->fetch_assoc()) {
-		$s = explode(",", $row["project"]);
-		if(count($s) >= 2) {
-			for($i = 0; $i < count($s); $i++) {
-				$res[] = array("shortname"=>$row["shortname"], "project"=>$s[$i], "name"=>$row["name"], "message"=>$row["message"], "needfill"=>$row["needfill"], "fillname"=>$row["fillname"]);
-			}
-		} else {
-			$res[] = array("shortname"=>$row["shortname"], "project"=>$row["project"], "name"=>$row["name"], "message"=>$row["message"], "needfill"=>$row["needfill"], "fillname"=>$row["fillname"]);
-		}
-    }
-  } else {
-    header("Location: /mojira/oops/");
-    die();
-  }
+   $sql = "SELECT * FROM messages";
+   $result = $conn->query($sql);
+   if ($result->num_rows > 0) {
+     while ($row = $result->fetch_assoc()) {
+         $s = explode(",", $row["project"]);
+         if(count($s) >= 2) {
+             for($i = 0; $i < count($s); $i++) {
+                 $res[] = array("shortname"=>$row["shortname"], "project"=>$s[$i], "name"=>$row["name"], "message"=>$row["message"], "needfill"=>$row["needfill"], "fillname"=>$row["fillname"]);
+             }
+         } else {
+             $res[] = array("shortname"=>$row["shortname"], "project"=>$row["project"], "name"=>$row["name"], "message"=>$row["message"], "needfill"=>$row["needfill"], "fillname"=>$row["fillname"]);
+         }
+     }
+   } else {
+     header("Location: /mojira/oops/");
+     die();
+   }
 
-  $html = "<script>var msg = [];\n\n";
+   $html = "<script>var msg = [];\n\n";
 
-  for ($i = 0; $i < count($res); $i++) {
-    $html = $html . "msg.push({";
-    foreach($res[$i] as $key => $value) {
-      $html = $html . $key . ": \"" . $conn->escape_string($value) . "\",\n";
-    }
-    $html = substr($html, 0, strlen($html) - 2);
-    $html = $html . "});\n\n";
-  }
+   for ($i = 0; $i < count($res); $i++) {
+     $html = $html . "msg.push({";
+     foreach($res[$i] as $key => $value) {
+       $html = $html . $key . ": \"" . $conn->escape_string($value) . "\",\n";
+     }
+     $html = substr($html, 0, strlen($html) - 2);
+     $html = $html . "});\n\n";
+   }
 
-  echo $html . "</script>";
-
-   ?>
+   echo $html . "</script>";
+  ?>
 </head>
 
 <body>
