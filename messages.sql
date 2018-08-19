@@ -1,3 +1,6 @@
+/* This file just contains all messages which are currently stored in the database.
+I really need to rearrange my DB structure 'cause it's awkward as hell to work with this. */
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
