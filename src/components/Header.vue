@@ -14,6 +14,7 @@
 
 <script lang="ts">
 let dropdownText = 'Project: MC';
+let messages;
 export default {
   data() {
     return {
@@ -31,6 +32,13 @@ export function setDropdownText(newText: string) {
   }
 
   dropdownButton.innerHTML = newText;
+}
+export function setMessages(jsonMessages: object[]) {
+  console.log(jsonMessages);
+  messages = jsonMessages;
+}
+export function reloadMessages(projectName: string) {
+
 }
 </script>
 
