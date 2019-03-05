@@ -8,11 +8,11 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 // Vue Components
 import Header from './components/Header.vue';
-import DropdownItem from './components/DropdownItem.vue';
+import ProjectDropdownItem from './components/ProjectDropdownItem.vue';
 import InputArea from './components/InputArea.vue';
 import Footer from './components/Footer.vue';
 Vue.component('headerComponent', Header);
-Vue.component('dropdownItemComponent', DropdownItem);
+Vue.component('projectDropdownItemComponent', ProjectDropdownItem);
 Vue.component('inputAreaComponent', InputArea);
 Vue.component('footerComponent', Footer);
 

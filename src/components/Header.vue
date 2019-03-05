@@ -6,7 +6,7 @@
     </select>
     <div class="dropdown">
       <b-dd id="projectDropdown" v-bind:text="dropdownText">
-        <dropdownItemComponent/>
+        <projectDropdownItemComponent/>
       </b-dd>
     </div>
   </div>
