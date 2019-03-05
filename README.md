@@ -1,29 +1,19 @@
-# helper-messages
+# Mojira Helper Message Application
 
-## Project setup
-```
-npm install
-```
+This VueJS application is developed by Mojang's Mojira Team, the bug tracker helpers and moderators. "Mojira Helper Message Application" aggregates & serves copy + paste messages for use in comments on the bug tracker.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## How to use the tool
 
-### Compiles and minifies for production
-```
-npm run build
-```
+We use GitHub pages to dynamically deploy the web app after something was changed in the repository. You can get to the live version of this repository [here](https://mojira.github.io/helper-messages).
 
-### Run your tests
-```
-npm run test
-```
+## Contribute
 
-### Lints and fixes files
-```
-npm run lint
-```
+Issues and pull requests are always very much appreciated. Please make sure to give reason for changing helper messages in `messages.json` in your PR.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Found a bug in Minecraft?
+
+Please head over to [bugs.mojang.com](https://bugs.mojang.com), search whether your bug is already reported and if not, create an account and click the red "Create" button on the top of the page.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) – see the [LICENSE](LICENSE) file for more details.
