@@ -15,6 +15,7 @@ after_success:
       npm run-script build &&
       git add index.html assets/* &&
       git commit -m 'Auto-publishing via TravisCI [skip ci]' &&
-      GIT_ASKPASS=./gh-publish-pass.sh git push origin +HEAD:refs/heads/gh-pages
+      GIT_ASKPASS=./gh-publish-pass.sh &&
+      git push origin +HEAD:refs/heads/gh-pages
       ;
     fi
