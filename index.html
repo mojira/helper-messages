@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mojira Helper Messages</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="background container-fluid">
+        <div class="main">
+            <h2 class="display-4">Mojira Helper Message Web Application</h2>
+            <div class="selector">
+                <select class="custom-select mr-sm-2">
+                    <option value="0" selected>Select a message</option>
+                </select>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Project: MC
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item mc-dropdown" href="#MC">MC</a>
+                        <a class="dropdown-item mcl-dropdown" href="#MCL">MCL</a>
+                        <a class="dropdown-item mcpe-dropdown" href="#MCPE">MCPE</a>
+                        <a class="dropdown-item mcapi-dropdown" href="#MCAPI">MCAPI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="inputarea">
+                <div class="stdtext">
+                    <p class="text-muted" id="msginfo">Please select a message.</p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-secondary" id="copybutton" data-toggle="tooltip"
+                data-placement="top" title="Copied!" disabled>Copy</button>
+            <div class="footer">
+                <small class="text-muted">Made by <a href="https://bugs.mojang.com/secure/ViewProfile.jspa?name=Bemoty"
+                        target="_blank">Bemoty</a></small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import JS Bundle -->
+    <script src="bundle.js"></script>
+</body>
+
+</html>
