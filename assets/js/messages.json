@@ -1,0 +1,415 @@
+{
+    "messages": [{
+            "c297": [{
+                "project": "mc",
+                "name": "Duplicate of MC-297",
+                "message": "*Thank you for your report!*\\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-297*.\\n\\nThis is known to be a problem with your computer.\\n-- Update your [graphics card drivers|https://help.mojang.com/customer/portal/articles/928493-error-bad-video-card-driver]. (Do not rely on automatic updates)\\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\\n-- If that did not help, please use the *community support* link below.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        },
+        {
+            "cl5638": [{
+                "project": "mcl",
+                "name": "Duplicate of MCL-5638",
+                "message": "*Thank you for your report!*\\nHowever, this issue is a {color:orangered}*Duplicate*{color} of *MCL-5638*.\\n\\nThis is known to be an issue involving detection of the Java runtime.\\nPlease take a look at the Moderator’s Note on that ticket to see solutions to your issue.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        },
+        {
+            "cacc": [{
+                "project": "mc",
+                "name": "Account issue",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThis is an account issue. We do not have the tools to help you on this tracker.\\nPlease use the *customer support* link below.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        },
+        {
+            "cauth": [{
+                "project": "mc",
+                "name": "Auth server down",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThe authentication services are offline. Check https://help.mojang.com.\\nThis will be fixed shortly, please hang tight.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        },
+        {
+            "ccons": [{
+                    "project": "mc",
+                    "name": "Wrong project",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThis is related to a different version of Minecraft. Use one of the links below to go to the correct project.\\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- PC, Mac and Linux\\n-- [Minecraft: Console Edition|https://bugs.mojang.com/browse/MCCE] --- Xbox 360, Playstation and Wii U\\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10, Xbox One and Nintendo Switch\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                },
+                {
+                    "project": "mcpe",
+                    "name": "Wrong project",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThis is related to a different version of Minecraft. Use one of the links below to go to the correct project.\\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- PC, Mac and Linux\\n-- [Minecraft: Console Edition|https://bugs.mojang.com/browse/MCCE] --- Xbox 360, Playstation and Wii U\\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10, Xbox One and Nintendo Switch\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                }, {
+                    "project": "mcapi",
+                    "name": "Wrong project",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThis is related to a different version of Minecraft. Use one of the links below to go to the correct project.\\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- PC, Mac and Linux\\n-- [Minecraft: Console Edition|https://bugs.mojang.com/browse/MCCE] --- Xbox 360, Playstation and Wii U\\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10, Xbox One and Nintendo Switch\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                }
+            ]
+        },
+        {
+            "cdup": [{
+                "project": "mc",
+                "name": "Duplicate",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue at *%s%*, so we will resolve and link this ticket as a duplicate.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=MCPE] to see if the issue has already been mentioned.",
+                "fillname": ["Enter parent issue ID"]
+            }, {
+                "project": "mcpe",
+                "name": "Duplicate",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue at *%s%*, so we will resolve and link this ticket as a duplicate.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=MCPE] to see if the issue has already been mentioned.",
+                "fillname": ["Enter parent issue ID"]
+            }, {
+                "project": "mcl",
+                "name": "Duplicate",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue at *%s%*, so we will resolve and link this ticket as a duplicate.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=MCPE] to see if the issue has already been mentioned.",
+                "fillname": ["Enter parent issue ID"]
+            }]
+        },
+        {
+            "cdup_p": [{
+                "project": "mc",
+                "name": "Duplicate (private)",
+                "message": "*Thank you for your report!*\\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%* (private).\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": ["Enter parent issue ID"]
+            }, {
+                "project": "mcpe",
+                "name": "Duplicate (private)",
+                "message": "*Thank you for your report!*\\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%* (private).\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": ["Enter parent issue ID"]
+            }, {
+                "project": "mcl",
+                "name": "Duplicate (private)",
+                "message": "*Thank you for your report!*\\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%* (private).\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": ["Enter parent issue ID"]
+            }]
+        },
+        {
+            "cfeat": [{
+                "project": "mc",
+                "name": "Feature request",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Feature request",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Feature request",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        },
+        {
+            "cforce": [{
+                "project": "mc",
+                "name": "Force debug crash report",
+                "message": "*Thank you for your report!*\\nHowever, this issue has been temporarily closed as {color:#FF5722}*Awaiting Response*{color}.\\n\\nWe do not have enough information to find the cause of this issue.\\nPlease force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}) here.\\n\\nOnce attached, the report will be reopened automatically.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        },
+        {
+            "cint": [{
+                    "project": "mc",
+                    "name": "Works As Intended",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\\n\\nThe report you have submitted is working as intended, mechanics of the game may change between updates.\\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\\n\\n[Full Version History|https://minecraft.gamepedia.com/Version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                }, {
+                    "project": "mcpe",
+                    "name": "Works As Intended",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\\n\\nThe report you have submitted is working as intended, mechanics of the game may change between updates.\\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\\n\\n[Full Version History|https://minecraft.gamepedia.com/Version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                },
+                {
+                    "project": "mcl",
+                    "name": "Works As Intended",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\\n\\nThe report you have submitted is working as intended, mechanics of the game may change between updates.\\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\\n\\n[Full Version History|https://minecraft.gamepedia.com/Version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                }
+            ]
+        },
+        {
+            "cfut": [{
+                    "project": "mc",
+                    "name": "Future Version",
+                    "message": "{panel:borderColor=orange}(!) Please do not mark _unreleased versions_ as affected. You don't have access to them yet.{panel}\\n",
+                    "fillname": []
+                },
+                {
+                    "project": "mcpe",
+                    "name": "Future Version",
+                    "message": "{panel:borderColor=orange}(!) Please do not mark _unreleased versions_ as affected. You don't have access to them yet.{panel}\\n",
+                    "fillname": []
+                },
+                {
+                    "project": "mcl",
+                    "name": "Future Version",
+                    "message": "{panel:borderColor=orange}(!) Please do not mark _unreleased versions_ as affected. You don't have access to them yet.{panel}\\n",
+                    "fillname": []
+                }
+            ]
+        },
+        {
+            "cinc": [{
+                "project": "mc",
+                "name": "Incomplete",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\\n\\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\\nPlease review the guidelines linked below before making further reports.\\n\\nIn case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Incomplete",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\\n\\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\\nPlease review the guidelines linked below before making further reports.\\n\\nIn case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Incomplete",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\\n\\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\\nPlease review the guidelines linked below before making further reports.\\n\\nIn case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        },
+        {
+            "clang": [{
+                "project": "mc",
+                "name": "Report not in English",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nBug reports are only accepted in English, sorry.\\nFeel free to create a new report if you can speak English.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Report not in English",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nBug reports are only accepted in English, sorry.\\nFeel free to create a new report if you can speak English.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Report not in English",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nBug reports are only accepted in English, sorry.\\nFeel free to create a new report if you can speak English.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcapi",
+                "name": "Report not in English",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nBug reports are only accepted in English, sorry.\\nFeel free to create a new report if you can speak English.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "cmod": [{
+                "project": "mc",
+                "name": "Modified game",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nYour game, launcher or server is modified.\\nIf you can reproduce the issue in a vanilla environment, please recreate the issue.\\n\\n* Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.\\n* Any plugin issues need to be addressed to the creator of the plugin or resource pack.\\n* If you have problems on large servers, such as The Hive and Hypixel, please contact them first as they run modified server software.\\n\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Modified game",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nYour game, launcher or server is modified.\\nIf you can reproduce the issue in a vanilla environment, please recreate the issue.\\n\\n* Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.\\n* Any plugin issues need to be addressed to the creator of the plugin or resource pack.\\n* If you have problems on large servers, such as The Hive and Hypixel, please contact them first as they run modified server software.\\n\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Modified game",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThe server you are playing on is modified.\\nIf you can reproduce the issue in a vanilla environment, please recreate the issue.\\n\\n* Any non-standard client/server build needs to be taken up with the appropriate team, not Mojang.\\n* Any plugin issues need to be addressed to the creator of the plugin, add-on or resource pack.\\n* If you have problems on large servers, such as Mineplex and Lifeboat, please contact them first as they run modified server software.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "cout": [{
+                "project": "mc",
+                "name": "Outdated client",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.\nPlease update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.\nIn case of a game crash, please also attach the [crashlog|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder].\n\n*Quick Links*:\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": ["Enter the latest MC version"]
+            }]
+        }, {
+            "cpir": [{
+                    "project": "mc",
+                    "name": "Pirated Minecraft",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nYou are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://minecraft.net/store].\\nWe will not provide support for pirated versions of the game, these versions are modified and may contain malware.\\n\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                },
+                {
+                    "project": "mcl",
+                    "name": "Pirated Minecraft",
+                    "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nYou are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://minecraft.net/store].\\nWe will not provide support for pirated versions of the game, these versions are modified and may contain malware.\\n\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                    "fillname": []
+                }
+            ]
+        }, {
+            "cpriv": [{
+                "project": "mc",
+                "name": "Private issue",
+                "message": "{panel:borderColor=orange}(!) Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}\\n",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Private issue",
+                "message": "{panel:borderColor=orange}(!) Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}\\n",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Private issue",
+                "message": "{panel:borderColor=orange}(!) Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}\\n",
+                "fillname": []
+            }]
+        }, {
+            "cquick": [{
+                "project": "mc",
+                "name": "Quick links",
+                "message": "*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Quick links",
+                "message": "*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Quick links",
+                "message": "*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcapi",
+                "name": "Quick links",
+                "message": "*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "ctech": [{
+                "project": "mc",
+                "name": "Technical support issue",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\\nPlease contact the *community support*, linked below.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Technical support issue",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\\nPlease contact the *community support*, linked below.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "ctrans": [{
+                "project": "mc",
+                "name": "Translation issue",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nTranslations are done by the community and take place on the [Crowdin Minecraft Translation Project|http://crowdin.net/project/minecraft].\\nPlease use Crowdin for suggesting and adding translations.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Translation issue",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nTranslations are done by the community and take place on the [Crowdin Minecraft Translation Project|http://crowdin.net/project/minecraft].\\nPlease use Crowdin for suggesting and adding translations.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "cmult": [{
+                "project": "mc",
+                "name": "Multiple issues in one report",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nPlease put only one bug report in each ticket. It is very difficult to keep track of bugs when they are not in their own tickets, and it is easier for you to make multiple tickets than for the mods to separate them.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Multiple issues in one report",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nPlease put only one bug report in each ticket. It is very difficult to keep track of bugs when they are not in their own tickets, and it is easier for you to make multiple tickets than for the mods to separate them.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Multiple issues in one report",
+                "message": "*Thank you for your report!*\\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\\n\\nPlease put only one bug report in each ticket. It is very difficult to keep track of bugs when they are not in their own tickets, and it is easier for you to make multiple tickets than for the mods to separate them.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "ccrash": [{
+                "project": "mc",
+                "name": "Attach crash report",
+                "message": "_We do not have enough information to find the cause of this issue._\\n\\nPlease *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}} here.\\nIf you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|http://hopper.minecraft.net/help/guides/minecraft-logs/]}}.\\n\\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Attach crash report",
+                "message": "_We do not have enough information to find the cause of this issue._\\n\\nPlease *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}} here.\\nIf you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|http://hopper.minecraft.net/help/guides/minecraft-logs/]}}.\\n\\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "cmin": [{
+                "project": "mc",
+                "name": "Minimum requirements not met",
+                "message": "*Thank you for your report!* \\nHowever, this issue is {color:red}*Invalid*{color}.\\n\\nYour computer does not meet the [minimum system requirements|https://help.mojang.com/customer/en/portal/articles/325948-minecraft-system-requirements] to run Minecraft.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Minimum requirements not met",
+                "message": "*Thank you for your report!* \\nHowever, this issue is {color:red}*Invalid*{color}.\\n\\nYour computer does not meet the [minimum system requirements|https://help.mojang.com/customer/en/portal/articles/325948-minecraft-system-requirements] to run Minecraft.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "clog": [{
+                "project": "mcpe",
+                "name": "Crash logged automatically",
+                "message": "*Thank you for your report!*\\n\\nCrashes such as these are now logged automatically, this will therefore be investigated further by the development team internally.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "chash": [{
+                "project": "mcpe",
+                "name": "Hashtag issue",
+                "message": "For any new or ongoing hashtag issues, please create a new ticket for any gamertags still affected and use the label {{[chat-filter|https://bugs.mojang.com/issues/?jql=labels+%3D+chat-filter]}}.",
+                "fillname": []
+            }]
+        }, {
+            "cparity": [{
+                "project": "mc",
+                "name": "Parity issue",
+                "message": "Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.",
+                "fillname": []
+            }, {
+                "project": "mcpe",
+                "name": "Parity issue",
+                "message": "Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.",
+                "fillname": []
+            }]
+        }, {
+            "c128302": [{
+                "project": "mc",
+                "name": "Duplicate of MC-128302",
+                "message": "*Thank you for your report!*\\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-128302*.\\n\\nThis is known to be a problem with your computer.\\n-- Update your [graphics card drivers|https://help.mojang.com/customer/portal/articles/928493-error-bad-video-card-driver]. (Do not rely on automatic updates)\\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\\n-- If that did not help, please use the *community support* link below.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }, {
+                "project": "mcl",
+                "name": "Duplicate of MC-128302",
+                "message": "*Thank you for your report!*\\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-128302*.\\n\\nThis is known to be a problem with your computer.\\n-- Update your [graphics card drivers|https://help.mojang.com/customer/portal/articles/928493-error-bad-video-card-driver]. (Do not rely on automatic updates)\\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\\n-- If that did not help, please use the *community support* link below.\\n\\n*Quick Links*:\\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "csup": [{
+                "project": "mcpe",
+                "name": "Contact Support",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nAs this is an issue with your account or billing, you will need to contact [Mojang Customer Support|https://help.mojang.com/customer/portal/emails/new] directly.\n\n*Quick Links*:\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "cext": [{
+                "project": "mcpe",
+                "name": "External server issue",
+                "message": "*Thank you for your report!*\r\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\r\n\r\nUnfortunately we don't accept issues related to External Servers here on the bug tracker, but please add more details if you think this also affects multiplayer over Realms, LAN, or XBL.\n\nI'd suggest contacting the server owner directly or seeking help on the Minecraft forums.\r\n\r\n*Quick Links*:\r\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "cenv": [{
+                "project": "mc",
+                "name": "Environment Desc.",
+                "message": "{panel:borderColor=orange}(!) The environment is supposed to only contain PC details.{panel}",
+                "fillname": ""
+            }, {
+                "project": "mcpe",
+                "name": "Environment Desc.",
+                "message": "{panel:borderColor=orange}(!) The environment is supposed to only contain PC details.{panel}",
+                "fillname": ""
+            }, {
+                "project": "mcl",
+                "name": "Environment Desc.",
+                "message": "{panel:borderColor=orange}(!) The environment is supposed to only contain PC details.{panel}",
+                "fillname": ""
+            }, {
+                "project": "mcapi",
+                "name": "Environment Desc.",
+                "message": "{panel:borderColor=orange}(!) The environment is supposed to only contain PC details.{panel}",
+                "fillname": ""
+            }]
+        }
+    ]
+}
