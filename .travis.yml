@@ -4,6 +4,8 @@ branches:
     - master
 
 language: node_js
+node_js:
+  - "7"
 
 after_success:
   - git config user.name 'TravisCI Auto-publisher'
