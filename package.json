@@ -7,7 +7,8 @@
   "scripts": {
     "copy-bootstrap": "copyfiles -u 4 \"node_modules/bootstrap/dist/css/bootstrap.min.css\" \"assets/css/\"",
     "build-dev": "npm run-script copy-bootstrap && browserify assets/js/index.js -o bundle.js",
-    "build": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js"
+    "build": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js",
+    "deploy": "npm run-script build && copyfiles index.html ../helper-message-dist/ && copyfiles assets/**/*.* ../helper-message-dist/ && cd .. && cd helper-message-dist && git add * && git commit -m \"Auto deploy\" && git push origin gh-pages"
   },
   "repository": {
     "type": "git",
