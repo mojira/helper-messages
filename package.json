@@ -1,0 +1,31 @@
+{
+  "name": "helper-messages",
+  "version": "1.0.0",
+  "description": "Mojira Helper Message application for use by bug tracker moderators and helpers.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "copy-bootstrap": "copyfiles -u 4 \"node_modules/bootstrap/dist/css/bootstrap.min.css\" \"assets/css/\"",
+    "build-dev": "npm run-script copy-bootstrap && browserify assets/js/index.js -o bundle.js",
+    "build": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojira/helper-messages.git"
+  },
+  "author": "Bemoty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mojira/helper-messages/issues"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.1",
+    "terser-webpack-plugin": "^1.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "browserify": "^16.3.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

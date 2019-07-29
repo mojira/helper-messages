@@ -1,9 +1,19 @@
-# INFO
+# Mojira Helper Message Application
 
-This tool is currently being rewritten on branch "vue-update".
+This web application is developed by Mojang's Mojira Team, the bug tracker helpers and moderators. "Mojira Helper Message Application" aggregates & serves copy + paste messages for use in comments on the bug tracker.
 
-# helper-messages
+## How to use the tool
 
-This little tool outputs auto moderation messages for usage on [Mojang's bug tracker (Mojira)](https://bugs.mojang.com) by volunteer helpers & moderators. If you need to have a message added to the site, create an issue here or hit me up about it on Slack.
+We use GitHub pages to dynamically deploy the web app after something was changed in the repository. You can get to the live version of this repository [here](https://mojira.github.io/helper-messages).
 
-PRs are welcome, but beware of my code, it is awful. inb4 i'm not a good programmer
+## Contribute
+
+Issues and pull requests are always very much appreciated. Please make sure to give reason for changing helper messages in `messages.json` in your PR.
+
+## Found a bug in Minecraft?
+
+Please head over to [bugs.mojang.com](https://bugs.mojang.com), search whether your bug is already reported and if not, create an account and click the red "Create" button on the top of the page.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) – see the [LICENSE](LICENSE) file for more details.
