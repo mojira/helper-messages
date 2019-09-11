@@ -389,6 +389,20 @@
                 "fillname": []
             }]
         }, {
+            "devinfo": [{
+                "project": "mce",
+                "name": "Attach device information",
+                "message": "*Thank you for your report!*\r\nCould you please include information about your device? Without it we may be unable to reproduce the issue.\r\n\r\n*Quick Links*:\r\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
+            "noarkit": [{
+                "project": "mce",
+                "name": "Attach device information",
+                "message": "*Thank you for your report!*\r\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\r\n\r\nDevices must be ARCore / ARKit compatible to run Minecraft Earth.\r\nA list of compatible devices can be found [here|https://developers.google.com/ar/discover/supported-devices].\r\nIf you need help or have a suggestion you might like to follow a link below.\r\n\r\n*Quick Links*:\r\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.mojang.com/customer/portal/emails/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "fillname": []
+            }]
+        }, {
             "cenv": [{
                 "project": "mc",
                 "name": "Environment Desc.",
