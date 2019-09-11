@@ -5,7 +5,7 @@ window.$ = window.jQuery = require('jquery');
 window.Popper = require('popper.js');
 
 // Available projects
-const projects = ["mc", "mcl", "mcpe", "mcapi"];
+const projects = ["mc", "mcl", "mcpe", "mcapi", "mce"];
 // Timeout for popper copy tooltip
 var clicktimeout;
 // Currently selected project
