@@ -398,8 +398,8 @@
         }, {
             "noarkit": [{
                 "project": "mce",
-                "name": "No AR Kit",
-                "message": "*Thank you for your report!*\r\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\r\n\r\nDevices must be ARCore / ARKit compatible to run Minecraft Earth.\r\nA list of compatible devices can be found [here|https://developers.google.com/ar/discover/supported-devices].\r\nIf you need help or have a suggestion you might like to follow a link below.\r\n\r\n*Quick Links*:\r\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
+                "name": "Device not supported",
+                "message": "*Thank you for your report!*\r\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\r\n\r\nDevices must be ARCore / ARKit compatible to run Minecraft Earth.\r\nSome devices are also currently blacklisted due to issues\r\nA list of compatible and blacklisted devices [can be found here|https://t.co/qSAUjO7lsZ?amp=1].\r\nIf you need help or have a suggestion you might like to follow a link below.\r\n\r\n*Quick Links*:\r\n📓 [Issue Guidelines|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]",
                 "fillname": []
             }]
         }, {
