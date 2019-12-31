@@ -1,5 +1,5 @@
 // ES6 imports
-const messages = require('./messages.json').messages;
+let messages = require('./messages.json').messages;
 window.bootstrap = require('bootstrap');
 window.$ = window.jQuery = require('jquery');
 window.Popper = require('popper.js');
@@ -32,9 +32,7 @@ $(document).ready(function () {
   }
 
   // Sort messages by shown name
-  messages.forEach((value) => value[Object.keys(value)[0]].sort(function (a, b) {
-    return a.name.localeCompare(b.name);
-  }));
+  messages = messages.sort((a, b) => a[Object.keys(a)[0]][0].name.localeCompare(b[Object.keys(b)[0]][0].name));
 
   // Initialize popper tooltips
   $('[data-toggle="tooltip"]').tooltip({
