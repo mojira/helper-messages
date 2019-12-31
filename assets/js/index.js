@@ -1,5 +1,5 @@
 // ES6 imports
-let messages = require('./messages.json').messages;
+let { messages, variables } = require('./messages.json');
 window.bootstrap = require('bootstrap');
 window.$ = window.jQuery = require('jquery');
 window.Popper = require('popper.js');
@@ -70,7 +70,15 @@ $("#copybutton").click(function () {
   }
 
   const message = dropdownMap.get(id);
-  const messageBody = message.message.replace(/\\n/g, '\n');
+  let messageBody = message.message.replace(/\\n/g, '\n');
+  // Replace predefined variables in the message body
+  for (const variable in variables) {
+    for (const { project: expected, value } of variables[variable]) {
+      if (isExpectedProject(expected, project)) {
+        messageBody = messageBody.replace(new RegExp(`%${variable}%`, 'g'), value);
+      }
+    }
+  }
   // TODO: Allow more than one variable
   if (message.fillname.length >= 1) {
     if (!$("#fill").val()) {
@@ -119,6 +127,19 @@ $("select").change(function () {
 });
 
 /**
+ * Check if the current project matches the expected projects.
+ * @param {string | string[]} expected The expected projects.
+ * @param {string} current The current project.
+ */
+function isExpectedProject(expected, current) {
+  if (typeof expected === 'string') {
+    return expected === current;
+  } else {
+    return expected.includes(current);
+  }
+}
+
+/**
  * Updates messages in the message dropdown according to the currently selected project
  */
 function updateDisplay() {
@@ -137,7 +158,7 @@ function updateDisplay() {
         var messageObject = messages[j][Object.keys(messages[j])[0]];
         for (let x in messageObject) {
           // Only get messages for current project
-          if (messageObject[x].project === projects[i]) {
+          if (isExpectedProject(messageObject[x].project, projects[i])) {
             text += '<option value="' + j + '">' + messageObject[x].name + '</option>';
             // Map message to dropdown ID for later recognition
             dropdownMap.set(j, messageObject[x]);
