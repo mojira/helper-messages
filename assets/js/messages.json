@@ -19,7 +19,7 @@
             },
             {
                 "project": "mce",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]"
             }
         ],
         "project_id": [
@@ -65,7 +65,7 @@
             "cacc": [{
                 "project": "mc",
                 "name": "Account issue",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is an account issue. We do not have the tools to help you on this tracker.\nPlease use the *customer support* link below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is an account issue. We do not have the tools to help you on this tracker.\nPlease use the *Customer Support* link below.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -127,7 +127,7 @@
         },
         {
             "cfeat": [{
-                "project": ["mc", "mcpe", "mcl"],
+                "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Feature request",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].\n\n%quick_links%",
                 "fillname": []
@@ -135,7 +135,7 @@
         },
         {
             "cforce": [{
-                "project": "mc",
+                "project": ["mc", "mcl"],
                 "name": "Force debug crash report",
                 "message": "*Thank you for your report!*\nHowever, this issue has been temporarily closed as {color:#FF5722}*Awaiting Response*{color}.\n\nWe do not have enough information to find the cause of this issue.\nPlease force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}) here.\n\nOnce attached, the report will be reopened automatically.\n\n%quick_links%",
                 "fillname": []
@@ -163,8 +163,8 @@
         {
             "cfut": [{
                 "project": ["mc", "mcpe", "mcl", "mce"],
-                "name": "Future Version",
-                "message": "{panel:borderColor=orange}(!) Please do not mark _unreleased versions_ as affected. You don't have access to them yet.{panel}\n",
+                "name": "Panel - Future Version",
+                "message": "{panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}\n",
                 "fillname": []
             }]
         },
@@ -219,7 +219,7 @@
         }, {
             "cpriv": [{
                 "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
-                "name": "Private issue",
+                "name": "Panel - Private issue",
                 "message": "{panel:borderColor=orange}(!) Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}\n",
                 "fillname": []
             }]
@@ -343,21 +343,28 @@
         }, {
             "cenv": [{
                 "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
-                "name": "Environment Desc.",
+                "name": "Panel - Environment Desc.",
                 "message": "{panel:borderColor=orange}(!) The environment is supposed to only contain PC details.{panel}",
+                "fillname": []
+            }]
+        }, {
+            "cmopriority": [{
+                "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
+                "name": "Panel - Mojang Priority",
+                "message": "{panel:borderColor=orange}(!) Don't try to change \"Mojang Priority\". It may only be changed by the developers. Consider this a warning.{panel}",
                 "fillname": []
             }]
         }, {
             "cnote": [{
                 "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
-                "name": "Note panel",
+                "name": "Panel - Note",
                 "message": "{panel:title=Note|borderStyle=dashed|borderColor=#ccc|titleBGColor=#F7D6C1|bgColor=#FFFFCE}\n%s%\n{panel}",
                 "fillname": ["Enter note here."]
             }]
         }, {
             "cworkaround": [{
                 "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
-                "name": "Workaround panel",
+                "name": "Panel - Workaround",
                 "message": "{panel:title=Workaround|borderStyle=dashed|borderColor=#ccc|titleBGColor=#C1F7D6|bgColor=#CEFFFF}\n%s%\n{panel}",
                 "fillname": ["Enter workaround here."]
             }]
