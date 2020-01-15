@@ -129,7 +129,7 @@
             "cfeat": [{
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Feature request",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions] or visit the [Feedback website|https://feedback.minecraft.net/hc/en-us].\n\n%quick_links%",
                 "fillname": []
             }]
         },
