@@ -81,7 +81,7 @@
             "ccons": [{
                 "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Wrong project",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is related to a different project. Use one of the links below to go to the correct project.\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux\n-- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- bugs about the Minecraft Launcher specifically\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Windows store), Xbox One, Windows 10 Mobile, Fire TV, and Nintendo Switch\n-- [Minecraft: Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is related to a different project. Use one of the links below to go to the correct project.\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux\n-- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- bugs about the Minecraft Launcher specifically\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Windows store), Xbox One, Windows 10 Mobile, Fire TV, Nintendo Switch and PS4\n-- [Minecraft: Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices\n\n%quick_links%",
                 "fillname": []
             }]
         },
