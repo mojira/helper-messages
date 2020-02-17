@@ -20,6 +20,10 @@
             {
                 "project": "mce",
                 "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]"
+            },
+            {
+                "project": "bds",
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]"
             }
         ],
         "project_id": [
@@ -42,6 +46,10 @@
             {
                 "project": "mce",
                 "value": "MCE"
+            },
+            {
+                "project": "bds",
+                "value": "BDS"
             }
         ]
     },
@@ -83,6 +91,11 @@
                 "name": "Wrong project",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is related to a different project. Use one of the links below to go to the correct project.\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux\n-- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- bugs about the Minecraft Launcher specifically\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Windows store), Xbox One, Windows 10 Mobile, Fire TV, Nintendo Switch, and PS4\n-- [Minecraft: Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices\n\n%quick_links%",
                 "fillname": []
+            }, {
+                "project": "bds",
+                "name": "Wrong project",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is related to a different project. Use one of the links below to go to the correct project.\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux\n-- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- bugs about the Minecraft Launcher specifically\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Windows store), Xbox One, Windows 10 Mobile, Fire TV, Nintendo Switch, and PS4\n-- [Minecraft: Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices\n\nPlease don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.\n\n%quick_links%",
+                "fillname": []
             }]
         },
         {
@@ -98,6 +111,11 @@
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Duplicate",
                 "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%*.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "fillname": ["Enter parent issue ID"]
+            }, {
+                "project": "bds",
+                "name": "Duplicate",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue at *%s%*.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }]
         },
@@ -127,7 +145,7 @@
         },
         {
             "cfeat": [{
-                "project": ["mc", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcpe", "mcl", "mce", "bds"],
                 "name": "Feature request",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions] or visit the [Feedback website|https://feedback.minecraft.net/hc/en-us].\n\n%quick_links%",
                 "fillname": []
@@ -170,7 +188,7 @@
         },
         {
             "cinc": [{
-                "project": ["mc", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcpe", "mcl", "mce", "bds"],
                 "name": "Incomplete",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\n\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\nPlease review the guidelines linked below before making further reports.\n\nIn case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}.\n\n%quick_links%",
                 "fillname": []
@@ -182,6 +200,11 @@
                 "name": "Report not in English",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nBug reports are only accepted in English, sorry.\nFeel free to create a new report if you can speak English.\n\n%quick_links%",
                 "fillname": []
+            }, {
+                "project": ["bds"],
+                "name": "Report not in English",
+                "message": "*Thank you for your report!*\n\nUnfortunately we are only able to accept bug reports in English. You are welcome to use an online translator, if that helps. (You can find an example bug ticket [here|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft].)\n\nAlso, we'd recommend making use of the search feature before writing a new bug report, as it's very likely that the issue has been mentioned already, and you can add a vote and any new information to the main ticket.\n\n%quick_links%",
+                "fillname": []
             }]
         }, {
             "cmod": [{
@@ -190,7 +213,7 @@
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYour game, launcher or server is modified.\nIf you can reproduce the issue in a vanilla environment, please recreate the issue.\n\n* Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.\n* Any plugin issues need to be addressed to the creator of the plugin or resource pack.\n* If you have problems on large servers, such as The Hive and Hypixel, please contact them first as they run modified server software.\n\n\n%quick_links%",
                 "fillname": []
             }, {
-                "project": "mcpe",
+                "project": ["mcpe", "bds"],
                 "name": "Modified game",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThe server you are playing on is modified.\nIf you can reproduce the issue in a vanilla environment, please recreate the issue.\n\n* Any non-standard client/server build needs to be taken up with the appropriate team, not Mojang.\n* Any plugin issues need to be addressed to the creator of the plugin, add-on or resource pack.\n* If you have problems on large servers, such as Mineplex and Lifeboat, please contact them first as they run modified server software.\n\n%quick_links%",
                 "fillname": []
@@ -225,14 +248,14 @@
             }]
         }, {
             "cquick": [{
-                "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
+                "project": ["mc", "mcpe", "mcl", "mcapi", "mce", "bds"],
                 "name": "Quick links",
                 "message": "%quick_links%",
                 "fillname": []
             }]
         }, {
             "ctech": [{
-                "project": ["mc", "mcl"],
+                "project": ["mc", "mcl", "bds"],
                 "name": "Technical support issue",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\nPlease contact the *community support*, linked below.\n\n%quick_links%",
                 "fillname": []
@@ -251,7 +274,7 @@
             }]
         }, {
             "cmult": [{
-                "project": ["mc", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcpe", "mcl", "mce", "bds"],
                 "name": "Multiple issues in one report",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nPlease put only one bug report in each ticket. It is very difficult to keep track of bugs when they are not in their own tickets, and it is easier for you to make multiple tickets than for the mods to separate them.\n\n%quick_links%",
                 "fillname": []
@@ -272,7 +295,7 @@
             }]
         }, {
             "clog": [{
-                "project": "mcpe",
+                "project": ["mcpe", "bds"],
                 "name": "Crash logged automatically",
                 "message": "*Thank you for your report!*\n\nCrashes such as these are now logged automatically, this will therefore be investigated further by the development team internally.\n\n%quick_links%",
                 "fillname": []
@@ -307,7 +330,7 @@
             }]
         }, {
             "cext": [{
-                "project": "mcpe",
+                "project": ["mcpe", "bds"],
                 "name": "External server issue",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nUnfortunately we don't accept issues related to External Servers here on the bug tracker, but please add more details if you think this also affects multiplayer over Realms, LAN, or XBL.\n\nI'd suggest contacting the server owner directly or seeking help on the Minecraft forums.\n\n%quick_links%",
                 "fillname": []
@@ -317,6 +340,11 @@
                 "project": "mce",
                 "name": "Attach device information",
                 "message": "*Thank you for your report!*\nCould you please include information about your device? Without it we may be unable to reproduce the issue.\n\n%quick_links%",
+                "fillname": []
+            }, {
+                "project": "bds",
+                "name": "Attach server information",
+                "message": "*Thank you for your report!*\nCould you please include information about your server? Without it we may be unable to reproduce the issue.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
