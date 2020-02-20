@@ -192,6 +192,11 @@
                 "name": "Incomplete",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\n\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\nPlease review the guidelines linked below before making further reports.\n\nIn case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}.\n\n%quick_links%",
                 "fillname": []
+            }, {
+                "project": ["mcpe", "bds"],
+                "name": "Incomplete",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\n\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\n\nPlease review the guidelines linked below before making further reports.\n\n%quick_links%",
+                "fillname": []
             }]
         },
         {
