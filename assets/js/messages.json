@@ -102,7 +102,7 @@
             "ccom": [{
                 "project": "mc",
                 "name": "Combat Test",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nWe're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/dq2v7o/updated_combat_test_snapshot_number_3_and_a/] or on the [feedback website|https://aka.ms/JavaCombatSnap].\n\nIf you need help or support you might like to follow a link below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nWe're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/dq2v7o/updated_combat_test_snapshot_number_3_and_a/] or on the [Feedback website|https://aka.ms/JavaCombatSnap].\n\nIf you need help or support you might like to follow a link below.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -316,7 +316,7 @@
             "cparity": [{
                 "project": ["mc", "mcpe"],
                 "name": "Parity issue",
-                "message": "Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.",
+                "message": "Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.\nParity issues are not tracked on the bug tracker bug should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].",
                 "fillname": []
             }]
         }, {
