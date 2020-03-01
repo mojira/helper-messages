@@ -3,27 +3,27 @@
         "quick_links": [
             {
                 "project": "mc",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MC/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MC/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mcpe",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCPE/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCPE/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mcl",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCL/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCL/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mcapi",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCAPI/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCAPI/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mce",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]"
             },
             {
                 "project": "bds",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|http://hopper.minecraft.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]"
             }
         ],
         "project_id": [
@@ -155,7 +155,7 @@
             "cforce": [{
                 "project": ["mc", "mcl"],
                 "name": "Force debug crash report",
-                "message": "*Thank you for your report!*\nHowever, this issue has been temporarily closed as {color:#FF5722}*Awaiting Response*{color}.\n\nWe do not have enough information to find the cause of this issue.\nPlease force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}) here.\n\nOnce attached, the report will be reopened automatically.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue has been temporarily closed as {color:#FF5722}*Awaiting Response*{color}.\n\nWe do not have enough information to find the cause of this issue.\nPlease force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}) here.\n\nOnce attached, the report will be reopened automatically.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -190,7 +190,7 @@
             "cinc": [{
                 "project": ["mc", "mcl", "mce"],
                 "name": "Incomplete",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\n\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\nPlease review the guidelines linked below before making further reports.\n\nIn case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}}.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\n\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\nPlease review the guidelines linked below before making further reports.\n\nIn case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.\n\n%quick_links%",
                 "fillname": []
             }, {
                 "project": ["mcpe", "bds"],
@@ -234,7 +234,7 @@
             "cout": [{
                 "project": "mc",
                 "name": "Outdated client",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.\nPlease update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.\nIn case of a game crash, please also attach the [crashlog|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder].\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.\nPlease update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.\nIn case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/].\n\n%quick_links%",
                 "fillname": ["Enter the latest MC version"]
             }]
         }, {
@@ -288,7 +288,7 @@
             "ccrash": [{
                 "project": ["mc", "mcl"],
                 "name": "Attach crash report",
-                "message": "_We do not have enough information to find the cause of this issue._\n\nPlease *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|http://hopper.minecraft.net/help/guides/finding-minecraft-data-folder]}} here.\nIf you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|http://hopper.minecraft.net/help/guides/minecraft-logs/]}}.\n\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\n\n%quick_links%",
+                "message": "_We do not have enough information to find the cause of this issue._\n\nPlease *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}} here.\nIf you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/guides/getting-minecraft-logs/]}}.\n\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
