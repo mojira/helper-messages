@@ -57,7 +57,7 @@
             "c297": [{
                 "project": "mc",
                 "name": "Duplicate of MC-297",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-297*.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *MC-297*, so I resolved and linked this ticket as a duplicate.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -65,7 +65,7 @@
             "cl5638": [{
                 "project": "mcl",
                 "name": "Duplicate of MCL-5638",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MCL-5638*.\n\nThis is known to be an issue involving detection of the Java runtime.\nPlease take a look at the Moderator’s Note on that ticket to see solutions to your issue.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *MCL-5638*, so I resolved and linked this ticket as a duplicate.\n\nThis is known to be an issue involving detection of the Java runtime.\nPlease take a look at the Moderator’s Note on that ticket to see solutions to your issue.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -110,7 +110,7 @@
             "cdup": [{
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Duplicate",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%*.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I resolved and linked this ticket as a duplicate.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }, {
                 "project": "bds",
@@ -123,7 +123,7 @@
             "cdup_fix": [{
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (fixed)",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%*.\n\nThat ticket has already been resolved as Fixed. The fix will arrive in the next version or is already included in the latest development version of the game, you can check the Fix Version/s field in that ticket to learn more.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I resolved and linked this ticket as a duplicate.\n\nThat ticket has already been resolved as Fixed. The fix will arrive in the next version or is already included in the latest development version of the game, you can check the Fix Version/s field in that ticket to learn more.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }]
         },
@@ -131,7 +131,7 @@
             "cdup_p": [{
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (private)",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%* (private).\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%* (private), so I resolved and linked this ticket as a duplicate.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }]
         },
@@ -139,7 +139,7 @@
             "cdup_wai": [{
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (wai)",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *%s%*.\n\nThat ticket has already been resolved, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I resolved and linked this ticket as a duplicate.\n\nThat ticket has already been resolved, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }]
         },
@@ -323,7 +323,7 @@
             "c128302": [{
                 "project": ["mc", "mcl"],
                 "name": "Duplicate of MC-128302",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-128302*.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *MC-128302*, so I resolved and linked this ticket as a duplicate.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
