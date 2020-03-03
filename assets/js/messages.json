@@ -57,7 +57,7 @@
             "c297": [{
                 "project": "mc",
                 "name": "Duplicate of MC-297",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-297*.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.mojang.com/customer/portal/articles/928493-error-bad-video-card-driver]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-297*.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -102,7 +102,7 @@
             "ccom": [{
                 "project": "mc",
                 "name": "Combat Test",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nWe're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/dq2v7o/updated_combat_test_snapshot_number_3_and_a/] or on the [feedback website|https://aka.ms/JavaCombatSnap].\n\nIf you need help or support you might like to follow a link below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nWe're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/epy4hv/experimental_combat_snapshot_version_5/] or on the [feedback website|https://aka.ms/JavaCombatSnap].\n\nIf you need help or support you might like to follow a link below.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -208,7 +208,7 @@
             }, {
                 "project": ["bds"],
                 "name": "Report not in English",
-                "message": "*Thank you for your report!*\n\nUnfortunately we are only able to accept bug reports in English. You are welcome to use an online translator, if that helps. (You can find an example bug ticket [here|https://help.mojang.com/customer/portal/articles/801354-writing-helpful-bug-reports-for-minecraft].)\n\nAlso, we'd recommend making use of the search feature before writing a new bug report, as it's very likely that the issue has been mentioned already, and you can add a vote and any new information to the main ticket.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\n\nUnfortunately we are only able to accept bug reports in English. You are welcome to use an online translator, if that helps. (You can find an example bug ticket [here|https://help.minecraft.net/hc/en-us/articles/360039268071].)\n\nAlso, we'd recommend making use of the search feature before writing a new bug report, as it's very likely that the issue has been mentioned already, and you can add a vote and any new information to the main ticket.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
@@ -241,7 +241,7 @@
             "cpir": [{
                 "project": ["mc", "mcl"],
                 "name": "Pirated Minecraft",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYou are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://minecraft.net/store].\nWe will not provide support for pirated versions of the game, these versions are modified and may contain malware.\n\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYou are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://www.minecraft.net/store/minecraft-java-edition].\nWe will not provide support for pirated versions of the game, these versions are modified and may contain malware.\n\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
@@ -269,12 +269,12 @@
             "ctrans": [{
                 "project": "mc",
                 "name": "Translation issue",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nTranslations are done by the community and take place on the [Crowdin Minecraft Translation Project|http://crowdin.net/project/minecraft].\nPlease use Crowdin for suggesting and adding translations.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nTranslations are done by the community and take place on the [Crowdin Minecraft Translation Project|https://crowdin.net/project/minecraft].\nPlease use Crowdin for suggesting and adding translations.\n\n%quick_links%",
                 "fillname": []
             }, {
                 "project": "mcl",
                 "name": "Translation issue",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nTranslations are done by the community and take place on the [Crowdin Minecraft Launcher Translation Project|http://crowdin.net/project/minecraft-launcher].\nPlease use Crowdin for suggesting and adding translations.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nTranslations are done by the community and take place on the [Crowdin Minecraft Launcher Translation Project|https://crowdin.net/project/minecraft-launcher].\nPlease use Crowdin for suggesting and adding translations.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
@@ -295,7 +295,7 @@
             "cmin": [{
                 "project": ["mc", "mcl"],
                 "name": "Minimum requirements not met",
-                "message": "*Thank you for your report!* \nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour computer does not meet the [minimum system requirements|https://help.mojang.com/customer/en/portal/articles/325948-minecraft-system-requirements] to run Minecraft.\n\n%quick_links%",
+                "message": "*Thank you for your report!* \nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
@@ -323,7 +323,7 @@
             "c128302": [{
                 "project": ["mc", "mcl"],
                 "name": "Duplicate of MC-128302",
-                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-128302*.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.mojang.com/customer/portal/articles/928493-error-bad-video-card-driver]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is a {color:#FF5722}*Duplicate*{color} of *MC-128302*.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please use the *community support* link below.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
