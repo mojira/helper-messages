@@ -81,7 +81,7 @@
             "cauth": [{
                 "project": "mc",
                 "name": "Auth server down",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThe authentication services are offline. Check https://help.minecraft.net/\nThis will be fixed shortly, please hang tight.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThe authentication services are offline.\nThis will be fixed shortly, please hang tight. Check tweets from [@MojangSupport|https://twitter.com/MojangSupport] for the current status.\n\n%quick_links%",
                 "fillname": []
             }]
         },
