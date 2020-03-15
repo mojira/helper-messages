@@ -139,7 +139,7 @@
             "cdup_wai": [{
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (wai)",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I 'veresolved and linked this ticket as a duplicate.\n\nThat ticket has already been resolved, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.\n\nThat ticket has already been resolved, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }]
         },
