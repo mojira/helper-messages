@@ -3,31 +3,31 @@
         "quick_links": [
             {
                 "project": "mc",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MC/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MC/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mcd",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]"
             },
             {
                 "project": "mcpe",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCPE/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCPE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mcl",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCL/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCL/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mcapi",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCAPI/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCAPI/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]"
             },
             {
                 "project": "mce",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]"
             },
             {
                 "project": "bds",
-                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://minecrafthopper.net/help/technical-support-resources/] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]"
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]"
             }
         ],
         "project_id": [
@@ -65,7 +65,7 @@
             "c297": [{
                 "project": "mc",
                 "name": "Duplicate of MC-297",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *MC-297*, so I've resolved and linked this ticket as a duplicate.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please contact the *[Community Support|https://minecrafthopper.net/help/technical-support-resources/]*.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *MC-297*, so I've resolved and linked this ticket as a duplicate.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.\n\n%quick_links%",
                 "fillname": []
             }]
         },
@@ -270,7 +270,7 @@
             "ctech": [{
                 "project": ["mc", "mcl", "bds"],
                 "name": "Technical support issue",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\nPlease contact the *[Community Support|https://minecrafthopper.net/help/technical-support-resources/]*.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\nPlease contact the *[Community Support|https://discord.gg/58Sxm23]*.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
@@ -338,7 +338,7 @@
             "c128302": [{
                 "project": ["mc", "mcl"],
                 "name": "Duplicate of MC-128302",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *MC-128302*, so I've resolved and linked this ticket as a duplicate.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please contact the *[Community Support|https://minecrafthopper.net/help/technical-support-resources/]*.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *MC-128302*, so I've resolved and linked this ticket as a duplicate.\n\nThis is known to be a problem with your computer.\n-- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)\n-- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.\n-- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.\n\n%quick_links%",
                 "fillname": []
             }]
         }, {
