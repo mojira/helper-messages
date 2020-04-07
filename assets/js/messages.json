@@ -331,7 +331,7 @@
             "cparity": [{
                 "project": ["mc", "mcpe"],
                 "name": "Parity issue",
-                "message": "Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.",
+                "message": "Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.\nParity issues are not tracked on the bug tracker but should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].",
                 "fillname": []
             }]
         }, {
