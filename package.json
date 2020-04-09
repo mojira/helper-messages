@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     "copy-bootstrap": "copyfiles -u 4 \"node_modules/bootstrap/dist/css/bootstrap.min.css\" \"assets/css/\"",
-    "build-dev": "npm run-script copy-bootstrap && browserify assets/js/index.js -o bundle.js",
-    "build": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js",
-    "deploy": "npm run-script build && copyfiles index.html bundle.js favicon.ico assets/**/*.* dist && gh-pages -d dist -m \"Auto deploy\""
+    "bundle-dev": "npm run-script copy-bootstrap && browserify assets/js/index.js -o bundle.js",
+    "bundle": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js",
+    "build": "npm run-script bundle && copyfiles index.html bundle.js favicon.ico assets/**/*.* dist"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
   },
   "devDependencies": {
     "copyfiles": "^2.1.1",
-    "gh-pages": "^2.1.1",
     "terser-webpack-plugin": "^1.4.3"
   },
   "dependencies": {
