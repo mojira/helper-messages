@@ -6,6 +6,10 @@ window.Popper = require('popper.js');
 
 // Available projects
 const projects = ["mc", "mcd", "mcl", "mcpe", "mcapi", "mce", "bds"];
+for (const project of projects) {
+  $("#projectDropdownMenu").append($(`<a class="dropdown-item ${project}-dropdown" href="#${project.toUpperCase()}">${project.toUpperCase()}</a>`));
+}
+
 // Timeout for popper copy tooltip
 var clicktimeout;
 // Currently selected project
