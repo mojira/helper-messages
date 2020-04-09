@@ -14,6 +14,8 @@ for (const project of projects) {
 var clicktimeout;
 // Currently selected project
 var project = "mc";
+// Currently selected message code
+var code = "-1";
 
 // map for dropdown values and their corresponding messages
 var dropdownMap = new Map();
@@ -36,7 +38,7 @@ $(document).ready(function () {
   }
 
   // Sort messages by shown name
-  messages = messages.sort((a, b) => a[Object.keys(a)[0]][0].name.localeCompare(b[Object.keys(b)[0]][0].name));
+  messages = messages.sort((a, b) => a[0].name.localeCompare(b[0].name));
 
   // Initialize popper tooltips
   $('[data-toggle="tooltip"]').tooltip({
@@ -110,7 +112,7 @@ $("#copybutton").click(function () {
  */
 $("select").change(function () {
   // Get dropdown value
-  var code = $(this).val();
+  code = $(this).val();
   // No message selected?
   if (code == "-1" || !dropdownMap.has(code)) {
     $(".stdtext").html('<p class="text-muted" id="msginfo">Please select a message.</p>');
@@ -118,7 +120,7 @@ $("select").change(function () {
     return;
   }
 
-  // Does the message have variables?
+  // Does the message require extra filling info?
   const message = dropdownMap.get(code);
   if (message.fillname.length >= 1) {
     $(".stdtext").html('<input class="form-control" type="text" placeholder="' + message.fillname[0] + '" id="fill">');
@@ -147,37 +149,37 @@ function isExpectedProject(expected, current) {
  * Updates messages in the message dropdown according to the currently selected project
  */
 function updateDisplay() {
-  var text = '<option value="-1" selected>Select a message...</option>';
+  var text = '<option value="-1">Select a message...</option>';
+  var selected = false;
   // Clear dropdown map
   dropdownMap = new Map();
-  // Loop through declared projects
-  for (let i in projects) {
-    // Show messages for current project
-    if (projects[i] === project.toLowerCase()) {
-      // Set project dropdown title
-      $("#dropdownMenuButton").text("Project: " + projects[i].toUpperCase());
-      // Loop through message objects
-      for (let j in messages) {
-        // Select object in array
-        var messageObject = messages[j][Object.keys(messages[j])[0]];
-        for (let x in messageObject) {
-          // Only get messages for current project
-          if (isExpectedProject(messageObject[x].project, projects[i])) {
-            text += '<option value="' + j + '">' + messageObject[x].name + '</option>';
-            // Map message to dropdown ID for later recognition
-            dropdownMap.set(j, messageObject[x]);
-          }
+  // Set project dropdown title
+  $("#dropdownMenuButton").text("Project: " + project.toUpperCase());
+  // Loop through message objects
+  for (let i in messages) {
+    // Select array in array
+    var messageArray = messages[i];
+    for (let j in messageArray) {
+      // Only get messages for current project
+      if (isExpectedProject(messageArray[j].project, project)) {
+        if (i == code) {
+          selected = true;
         }
+        text += `<option value="${i}" ${i == code ? 'selected': ''}>` + messageArray[j].name + '</option>';
+        // Map message to dropdown ID for later recognition
+        dropdownMap.set(i, messageArray[j]);
       }
     }
   }
 
-  // Set default panel body
-  $(".stdtext").html('<p class="text-muted" id="msginfo">Please select a message.</p>');
   // Update dropdown HTML
   $(".custom-select").html(text);
-  // Disable copy button (as no message is selected yet)
-  $("#copybutton").attr("disabled", "");
+  if (!selected) {
+    // Set default panel body
+    $(".stdtext").html('<p class="text-muted" id="msginfo">Please select a message.</p>');
+    // Disable copy button (as no message is selected yet)
+    $("#copybutton").attr("disabled", "");
+  }
 }
 
 /**
