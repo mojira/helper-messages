@@ -328,6 +328,14 @@
         ],
         [
             {
+                "project": ["mc"],
+                "name": "Provide seed and coordinates",
+                "message": "*Thank you for your report!*\nHowever, this issue has been temporarily closed as {color:#FF5722}*Awaiting Response*{color}.\n\nTo be able to reproduce this, we need to know some information about the the world you are playing in.\nPlease provide the following information as text, attaching a screenshot showing them is not enough:\n- World Type\n- Seed: Can be obtained by using the {{/seed}} command\n- Coordinates: Can be copied to clipboard by pressing {{F3}} + {{C}}\n\nOnce the requested information has been delivered, the report will be reopened automatically.\n\n%quick_links%",
+                "fillname": []
+            }
+        ],
+        [
+            {
                 "project": ["mc", "mcl"],
                 "name": "Minimum requirements not met",
                 "message": "*Thank you for your report!* \nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.\n\n%quick_links%",
