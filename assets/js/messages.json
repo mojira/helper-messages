@@ -166,7 +166,7 @@
             {
                 "project": ["mc", "mcl"],
                 "name": "Force debug crash report",
-                "message": "*Thank you for your report!*\nHowever, this issue has been temporarily closed as {color:#FF5722}*Awaiting Response*{color}.\n\nWe do not have enough information to find the cause of this issue.\nPlease force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}) here.\n\nOnce attached, the report will be reopened automatically.\n\n%quick_links%",
+                "message": "_We do not have enough information to find the cause of this issue._\n\nPlease force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}) here.\n\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\n\n%quick_links%",
                 "fillname": []
             }
         ],
