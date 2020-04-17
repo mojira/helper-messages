@@ -328,6 +328,14 @@
         ],
         [
             {
+                "project": ["mc"],
+                "name": "Provide seed and coordinates",
+                "message": "_We do not have enough information to reproduce this issue._\n\nPlease provide the following information about the world you are playing in as text. Attaching a screenshot showing them is not enough.\n- World Type:\n-- \"Default\" if you have not chosen one when creating the world.\n-- For \"Superflat\": Additionally provide the generation preset.\n-- For \"Buffet\": Additionally provide the generator type and biome you have selected.\n- Additional generation settings (in case you changed them): E.g. \"Generate Structures\", \"Bonus Chest\", ...\n- Seed: Can be obtained by using the {{/seed}} command and clicking on the message in chat\n- Coordinates: Can be copied to clipboard by pressing {{F3}} + {{C}}\n\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\n\n%quick_links%",
+                "fillname": []
+            }
+        ],
+        [
+            {
                 "project": ["mc", "mcl"],
                 "name": "Minimum requirements not met",
                 "message": "*Thank you for your report!* \nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.\n\n%quick_links%",
