@@ -168,20 +168,20 @@
             {
                 "project": "mc",
                 "name": "Works As Intended",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\n\nThe report you have submitted is working as intended, mechanics of the game may change between updates.\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\n\n[Full Version History|https://minecraft.gamepedia.com/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\n\n%quick_links%",
-                "fillname": []
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\n\nThe report you have submitted is working as intended: %s%.\n\nPlease note, that mechanics of the game may change between updates.\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\n\n[Full Version History|https://minecraft.gamepedia.com/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\n\n%quick_links%",
+                "fillname": ["Enter reason/source"]
             },
             {
                 "project": "mcpe",
                 "name": "Works As Intended",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\n\nThe report you have submitted is working as intended, mechanics of the game may change between updates.\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\n\n[Full Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\n\n%quick_links%",
-                "fillname": []
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\n\nThe report you have submitted is working as intended: %s%.\n\nPlease note, that mechanics of the game may change between updates.\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\n\n[Full Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\n\n%quick_links%",
+                "fillname": ["Enter reason/source"]
             },
             {
                 "project": "mcl",
                 "name": "Works As Intended",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\n\nThe report you have submitted is working as intended, mechanics of the game may change between updates.\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\n\n[Full Version History|https://minecraft.gamepedia.com/Launcher_version_history] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\n\n%quick_links%",
-                "fillname": []
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\n\nThe report you have submitted is working as intended: %s%.\n\nPlease note, that mechanics of the game may change between updates.\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\n\n[Full Version History|https://minecraft.gamepedia.com/Launcher_version_history] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\n\n%quick_links%",
+                "fillname": ["Enter reason/source"]
             }
         ],
         [
