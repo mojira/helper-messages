@@ -61,8 +61,8 @@
             }
         ]
     },
-    "messages": [
-        [
+    "messages": {
+        "duplicate-of-mc-297": [
             {
                 "project": "mc",
                 "name": "Duplicate of MC-297",
@@ -70,7 +70,7 @@
                 "fillname": []
             }
         ],
-        [
+        "duplicate-of-mcl-5638": [
             {
                 "project": "mcl",
                 "name": "Duplicate of MCL-5638",
@@ -78,7 +78,7 @@
                 "fillname": []
             }
         ],
-        [
+        "account-issue": [
             {
                 "project": "mc",
                 "name": "Account issue",
@@ -86,7 +86,7 @@
                 "fillname": []
             }
         ],
-        [
+        "auth-server-down": [
             {
                 "project": "mc",
                 "name": "Auth server down",
@@ -94,7 +94,7 @@
                 "fillname": []
             }
         ],
-        [
+        "wrong-project": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce", "bds"],
                 "name": "Wrong project",
@@ -102,7 +102,7 @@
                 "fillname": []
             }
         ],
-        [
+        "combat-test": [
             {
                 "project": "mc",
                 "name": "Combat Test",
@@ -110,7 +110,7 @@
                 "fillname": []
             }
         ],
-        [
+        "duplicate": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
                 "name": "Duplicate",
@@ -124,7 +124,7 @@
                 "fillname": ["Enter parent issue ID"]
             }
         ],
-        [
+        "duplicate-fixed": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (fixed)",
@@ -132,7 +132,7 @@
                 "fillname": ["Enter parent issue ID"]
             }
         ],
-        [
+        "duplicate-private": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (private)",
@@ -140,7 +140,7 @@
                 "fillname": ["Enter parent issue ID"]
             }
         ],
-        [
+        "duplicate-wai": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (wai)",
@@ -148,7 +148,7 @@
                 "fillname": ["Enter parent issue ID"]
             }
         ],
-        [
+        "feature-request": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce", "bds"],
                 "name": "Feature request",
@@ -156,7 +156,7 @@
                 "fillname": []
             }
         ],
-        [
+        "force-debug-crash-report": [
             {
                 "project": ["mc", "mcl"],
                 "name": "Force debug crash report",
@@ -164,7 +164,7 @@
                 "fillname": []
             }
         ],
-        [
+        "wai": [
             {
                 "project": "mc",
                 "name": "Works As Intended",
@@ -184,7 +184,7 @@
                 "fillname": ["Enter reason/source"]
             }
         ],
-        [
+        "panel-future-version": [
             {
                 "project": ["mc", "mcpe", "mcl", "mce"],
                 "name": "Panel - Future Version",
@@ -192,7 +192,7 @@
                 "fillname": []
             }
         ],
-        [
+        "incomplete": [
             {
                 "project": ["mc", "mcd", "mcl", "mce"],
                 "name": "Incomplete",
@@ -206,7 +206,7 @@
                 "fillname": []
             }
         ],
-        [
+        "report-not-in-english": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Report not in English",
@@ -220,7 +220,7 @@
                 "fillname": []
             }
         ],
-        [
+        "modified-game": [
             {
                 "project": ["mc", "mcl"],
                 "name": "Modified game",
@@ -234,7 +234,7 @@
                 "fillname": []
             }
         ],
-        [
+        "modify-entity-during-lifetime": [
             {
                 "project": "mc",
                 "name": "Modify entity during lifetime",
@@ -242,7 +242,7 @@
                 "fillname": []
             }
         ],
-        [
+        "outdated-client": [
             {
                 "project": "mc",
                 "name": "Outdated client",
@@ -250,7 +250,7 @@
                 "fillname": ["Enter the latest MC version"]
             }
         ],
-        [
+        "pirated-minecraft": [
             {
                 "project": ["mc", "mcl"],
                 "name": "Pirated Minecraft",
@@ -258,7 +258,7 @@
                 "fillname": []
             }
         ],
-        [
+        "panel-private-issue": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Panel - Private issue",
@@ -266,7 +266,7 @@
                 "fillname": []
             }
         ],
-        [
+        "quick-links": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce", "bds"],
                 "name": "Quick links",
@@ -274,7 +274,7 @@
                 "fillname": []
             }
         ],
-        [
+        "technical-support-issue": [
             {
                 "project": ["mc", "mcl", "bds"],
                 "name": "Technical support issue",
@@ -282,7 +282,7 @@
                 "fillname": []
             }
         ],
-        [
+        "translation-issue": [
             {
                 "project": "mc",
                 "name": "Translation issue",
@@ -296,7 +296,7 @@
                 "fillname": []
             }
         ],
-        [
+        "multiple-issues-in-one-report": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce", "bds"],
                 "name": "Multiple issues in one report",
@@ -304,7 +304,7 @@
                 "fillname": []
             }
         ],
-        [
+        "attach-crash-report": [
             {
                 "project": ["mc", "mcl"],
                 "name": "Attach crash report",
@@ -312,7 +312,7 @@
                 "fillname": []
             }
         ],
-        [
+        "attach-world-file": [
             {
                 "project": ["mc", "mcl"],
                 "name": "Attach world file",
@@ -320,7 +320,7 @@
                 "fillname": []
             }
         ],
-        [
+        "provide-seed-and-coordinates": [
             {
                 "project": ["mc"],
                 "name": "Provide seed and coordinates",
@@ -328,7 +328,7 @@
                 "fillname": []
             }
         ],
-        [
+        "minimum-requirements-not-met": [
             {
                 "project": ["mc", "mcl"],
                 "name": "Minimum requirements not met",
@@ -336,7 +336,7 @@
                 "fillname": []
             }
         ],
-        [
+        "crash-logges-automatically": [
             {
                 "project": ["mcpe", "bds"],
                 "name": "Crash logged automatically",
@@ -350,7 +350,7 @@
                 "fillname": []
             }
         ],
-        [
+        "hashtag-issue": [
             {
                 "project": "mcpe",
                 "name": "Hashtag issue",
@@ -358,7 +358,7 @@
                 "fillname": []
             }
         ],
-        [
+        "parity-issue": [
             {
                 "project": ["mc", "mcpe"],
                 "name": "Parity issue",
@@ -366,7 +366,7 @@
                 "fillname": []
             }
         ],
-        [
+        "duplicate-of-mc-128302": [
             {
                 "project": ["mc", "mcl"],
                 "name": "Duplicate of MC-128302",
@@ -374,7 +374,7 @@
                 "fillname": []
             }
         ],
-        [
+        "contact-support": [
             {
                 "project": "mcpe",
                 "name": "Contact Support",
@@ -382,7 +382,7 @@
                 "fillname": []
             }
         ],
-        [
+        "external-server-issue": [
             {
                 "project": ["mcpe", "bds"],
                 "name": "External server issue",
@@ -390,7 +390,7 @@
                 "fillname": []
             }
         ],
-        [
+        "attach-device-information": [
             {
                 "project": "mce",
                 "name": "Attach device information",
@@ -404,7 +404,7 @@
                 "fillname": []
             }
         ],
-        [
+        "device-not-supported": [
             {
                 "project": "mce",
                 "name": "Device not supported",
@@ -412,7 +412,7 @@
                 "fillname": []
             }
         ],
-        [
+        "not-available-countries": [
             {
                 "project": "mce",
                 "name": "Not available countries/regions",
@@ -420,7 +420,7 @@
                 "fillname": []
             }
         ],
-        [
+        "panel-environment-desc": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Panel - Environment Desc.",
@@ -428,7 +428,7 @@
                 "fillname": []
             }
         ],
-        [
+        "panel-mojang-priority": [
             {
                 "project": ["mc", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Panel - Mojang Priority",
@@ -436,7 +436,7 @@
                 "fillname": []
             }
         ],
-        [
+        "panel-note": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Panel - Note",
@@ -444,7 +444,7 @@
                 "fillname": ["Enter note here."]
             }
         ],
-        [
+        "panel-workaround": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Panel - Workaround",
@@ -452,5 +452,5 @@
                 "fillname": ["Enter workaround here."]
             }
         ]
-    ]
+    }
 }
