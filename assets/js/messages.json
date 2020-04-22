@@ -80,6 +80,14 @@
         ],
         [
             {
+                "project": ["mc", "mcl"],
+                "name": "MCL-6550 tech support issue",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\nPlease check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]*.\n\n%quick_links%",
+                "fillname": []
+            }
+        ],
+        [
+            {
                 "project": "mc",
                 "name": "Account issue",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is an account issue. We do not have the tools to help you on this tracker.\nPlease contact the *[Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*.\n\n%quick_links%",
