@@ -93,7 +93,7 @@ $("#copybutton").click(function () {
       wiggle($("#fill"));
       return;
     } else {
-      copyTextToClipboard(messageBody.replace("%s%", $("#fill").val()));
+      copyTextToClipboard(messageBody.replace(/%s%/g, $("#fill").val()));
     }
   } else {
     copyTextToClipboard(messageBody);
