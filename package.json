@@ -8,7 +8,8 @@
     "copy-bootstrap": "copyfiles -u 4 \"node_modules/bootstrap/dist/css/bootstrap.min.css\" \"assets/css/\"",
     "bundle-dev": "npm run-script copy-bootstrap && browserify assets/js/index.js -o bundle.js",
     "bundle": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js",
-    "build": "npm run-script bundle && copyfiles index.html bundle.js favicon.ico assets/css/**/*.* dist"
+    "build": "npm run-script bundle && copyfiles index.html bundle.js favicon.ico assets/css/**/*.* dist",
+    "test": "ajv validate -s messages_schema.json -d assets/js/messages.json"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "url": "https://github.com/mojira/helper-messages/issues"
   },
   "devDependencies": {
+    "ajv-cli": "^3.1.0",
     "copyfiles": "^2.1.1",
     "terser-webpack-plugin": "^1.4.3"
   },
