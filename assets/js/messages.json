@@ -82,7 +82,7 @@
             {
                 "project": ["mc", "mcl"],
                 "name": "MCL-6550 tech support issue",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\nPlease check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *community support*, linked below.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\nPlease check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]*.\n\n%quick_links%",
                 "fillname": []
             }
         ],
