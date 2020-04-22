@@ -78,7 +78,7 @@
                 "fillname": []
             }
         ],
-        "account-issue": [
+        "invalid-mcl-6550": [
             {
                 "project": ["mc", "mcl"],
                 "name": "MCL-6550 tech support issue",
@@ -86,7 +86,7 @@
                 "fillname": []
             }
         ],
-        [
+        "account-issue": [
             {
                 "project": "mc",
                 "name": "Account issue",
@@ -156,7 +156,7 @@
                 "fillname": ["Enter parent issue ID"]
             }
         ],
-        [
+        "duplicate-tech": [
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
                 "name": "Duplicate (tech support)",
