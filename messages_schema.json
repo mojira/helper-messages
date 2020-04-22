@@ -16,7 +16,11 @@
                         "value": {
                             "type": "string"
                         }
-                    }
+                    },
+                    "required": [
+                        "project",
+                        "value"
+                    ]
                 }
             }
         },
@@ -44,11 +48,21 @@
                             "minItems": 0,
                             "maxItems": 1
                         }
-                    }
+                    },
+                    "required": [
+                        "project",
+                        "name",
+                        "message",
+                        "fillname"
+                    ]
                 }
             }
         }
     },
+    "required": [
+        "variables",
+        "messages"
+    ],
     "definitions": {
         "projectFilter": {
             "oneOf": [
