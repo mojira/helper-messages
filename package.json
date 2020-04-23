@@ -9,7 +9,8 @@
     "bundle-dev": "npm run-script copy-bootstrap && browserify assets/js/index.js -o bundle.js",
     "bundle": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js",
     "build": "npm run-script bundle && copyfiles index.html bundle.js favicon.ico assets/css/**/*.* dist",
-    "test": "ajv validate -s messages_schema.json -d assets/js/messages.json"
+    "test": "ajv validate -s messages_schema.json -d assets/js/messages.json",
+    "sort": "node utils/sort"
   },
   "repository": {
     "type": "git",
