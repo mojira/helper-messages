@@ -38,7 +38,9 @@ $(document).ready(function () {
   }
 
   // Sort messages by shown name
-  messages = messages.sort((a, b) => a[0].name.localeCompare(b[0].name));
+  const sorted = {};
+  Object.keys(messages).sort().forEach(key => { sorted[key] = messages[key]; });
+  messages = sorted;
 
   // Initialize popper tooltips
   $('[data-toggle="tooltip"]').tooltip({
