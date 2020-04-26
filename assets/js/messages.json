@@ -29,6 +29,10 @@
                 "project": "bds",
                 "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]"
             }
+            {
+                "project": "realms",
+                "value": "*Quick Links*:\n📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]"
+            }
         ],
         "project_id": [
             {
@@ -58,6 +62,10 @@
             {
                 "project": "bds",
                 "value": "BDS"
+            }
+            {
+                "project": "realms",
+                "value": "REALMS"
             }
         ]
     },
@@ -104,7 +112,7 @@
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce", "bds"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce", "bds", "realms"],
                 "name": "Wrong project",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is related to a different project. Use one of the links below to go to the correct project.\n-- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux\n-- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically\n-- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Windows store), Xbox One, Windows 10 Mobile, Fire TV, Nintendo Switch, and PS4\n-- [Minecraft Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices\n-- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe\n\nPlease don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.\n\n%quick_links%",
                 "fillname": []
@@ -120,9 +128,9 @@
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "realms"],
                 "name": "Duplicate",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.\n\nIf you would like to add a vote and any extra information to the main ticket it would be appreciated.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been reported.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             },
             {
@@ -134,39 +142,39 @@
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "realms"],
                 "name": "Duplicate (fixed)",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.\n\nThat ticket has already been resolved as Fixed. The fix will arrive in the next version or is already included in the latest development version of the game, you can check the Fix Version/s field in that ticket to learn more.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.\n\nThat ticket has already been resolved as Fixed. The fix will arrive in the next version or is already included in an available version of the game, you can check the Fix Version/s field in that ticket to learn more.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "realms"],
                 "name": "Duplicate (private)",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%* (private), so I've resolved and linked this ticket as a duplicate.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue as *%s%* (private), so I've resolved and linked this ticket as a duplicate.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "realms"],
                 "name": "Duplicate (wai)",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.\n\nThat ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.\n\nThat ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mce"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "realms"],
                 "name": "Duplicate (tech support)",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.\n\nThat ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.\nIf you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]*\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.\n\nThat ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.\nIf you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]*\n\nIf you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "bds"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "bds", "realms"],
                 "name": "Feature request",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nYou have posted a feature request or a suggestion. This site is for *bug reports* only.\nFor suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions] or visit the [Feedback website|https://feedback.minecraft.net/hc/en-us].\n\n%quick_links%",
                 "fillname": []
@@ -216,7 +224,7 @@
                 "fillname": []
             },
             {
-                "project": ["mcpe", "bds"],
+                "project": ["mcpe", "bds", "realms"],
                 "name": "Incomplete",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Incomplete*{color}.\n\nYour report does not contain enough information. As such, we're unable to understand or reproduce the problem.\n\nPlease review the guidelines linked below before making further reports.\n\n%quick_links%",
                 "fillname": []
@@ -224,7 +232,7 @@
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce", "realms"],
                 "name": "Report not in English",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nBug reports are only accepted in English, sorry.\nFeel free to create a new report if you can speak English.\n\n%quick_links%",
                 "fillname": []
@@ -284,7 +292,7 @@
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce", "bds"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce", "bds", "realms"],
                 "name": "Quick links",
                 "message": "%quick_links%",
                 "fillname": []
@@ -292,7 +300,7 @@
         ],
         [
             {
-                "project": ["mc", "mcl", "bds"],
+                "project": ["mc", "mcl", "mcpe", "bds", "realms"],
                 "name": "Technical support issue",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nThis is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.\nPlease contact the *[Community Support|https://discord.gg/58Sxm23]*.\n\n%quick_links%",
                 "fillname": []
@@ -314,7 +322,7 @@
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "bds"],
+                "project": ["mc", "mcd", "mcpe", "mcl", "mce", "bds", "realms"],
                 "name": "Multiple issues in one report",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nPlease put only one bug report in each ticket. It is very difficult to keep track of bugs when they are not in their own tickets, and it is easier for you to make multiple tickets than for the mods to separate them.\n\n%quick_links%",
                 "fillname": []
@@ -354,7 +362,7 @@
         ],
         [
             {
-                "project": ["mcpe", "bds"],
+                "project": ["mcpe", "bds", "realms"],
                 "name": "Crash logged automatically",
                 "message": "*Thank you for your report!*\n\nCrashes such as these are now logged automatically, this will therefore be investigated further by the development team internally.\n\n%quick_links%",
                 "fillname": []
@@ -376,7 +384,7 @@
         ],
         [
             {
-                "project": ["mc", "mcpe"],
+                "project": ["mc", "mcpe", "realms"],
                 "name": "Parity issue",
                 "message": "Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.\nParity issues are not tracked on the bug tracker but should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].",
                 "fillname": []
