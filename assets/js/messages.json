@@ -182,6 +182,14 @@
         ],
         [
             {
+                "project": ["mc"],
+                "name": "Request debug profile and report",
+                "message": "_We do not have enough information to find the cause of this issue._\n\nWhile the lag occurs, please run {{/debug start}}, wait a while and then run {{/debug stop}} in order to create a debug profile. Afterwards, run {{/debug report}}.\n\nIf you do not have the permission to run these commands, open your world to LAN and enable cheats. If you're on a server, make sure that you're a server operator in order to execute these commands.\n\nThen, please *attach the profile results* found in {{[minecraft/debug/profile-results-<DATE>.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}}, as well as the *debug report* found in {{[minecraft/debug/debug-report-<DATE>.zip|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}} here.\n\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\n\n%quick_links%",
+                "fillname": []
+            }
+        ],
+        [
+            {
                 "project": "mc",
                 "name": "Works As Intended",
                 "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Working as Intended*{color}.\n\nThe report you have submitted is working as intended: %s%.\n\nPlease note, that mechanics of the game may change between updates.\nThings such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.\n\n[Full Version History|https://minecraft.gamepedia.com/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]\n\n%quick_links%",
