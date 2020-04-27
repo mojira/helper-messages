@@ -224,15 +224,9 @@
         ],
         [
             {
-                "project": ["mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
+                "project": ["bds", "mc", "mcd", "mcpe", "mcl", "mcapi", "mce"],
                 "name": "Report not in English",
-                "message": "*Thank you for your report!*\nHowever, this issue is {color:#FF5722}*Invalid*{color}.\n\nBug reports are only accepted in English, sorry.\nFeel free to create a new report if you can speak English.\n\n%quick_links%",
-                "fillname": []
-            },
-            {
-                "project": ["bds"],
-                "name": "Report not in English",
-                "message": "*Thank you for your report!*\n\nUnfortunately we are only able to accept bug reports in English. You are welcome to use an online translator, if that helps. (You can find an example bug ticket [here|https://help.minecraft.net/hc/en-us/articles/360039268071].)\n\nAlso, we'd recommend making use of the search feature before writing a new bug report, as it's very likely that the issue has been mentioned already, and you can add a vote and any new information to the main ticket.\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nThank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.\n\nYou are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps.\nHowever, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.\nIf you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.\n\nPlease note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please use the *Customer Support* link below.\n\n%quick_links%",
                 "fillname": []
             }
         ],
