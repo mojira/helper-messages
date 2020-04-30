@@ -5,7 +5,7 @@ window.$ = window.jQuery = require('jquery');
 window.Popper = require('popper.js');
 
 // Available projects
-const projects = ["mc", "mcd", "mcl", "mcpe", "mcapi", "mce", "bds"];
+const projects = ["mc", "mcd", "mcl", "mcpe", "mcapi", "mce", "bds", "realms"];
 for (const project of projects) {
   $("#projectDropdownMenu").append($(`<a class="dropdown-item ${project}-dropdown" href="#${project.toUpperCase()}">${project.toUpperCase()}</a>`));
 }
