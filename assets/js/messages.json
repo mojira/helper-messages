@@ -348,6 +348,14 @@
         ],
         [
             {
+                "project": ["mc", "mcl", "mcpe", "mce", "mcd"],
+                "name": "Attach video",
+                "message": "_We do not have enough information to find the cause of this issue._\n\nPlease *record a video of this happening* and attach it to this report.\nIn case you don't know how to record videos, I recommend using the free recording software [OBS|https://obsproject.com/]\nIn case the resulting video file is too large to be uploaded to the tracker directly, please upload it elsewhere (e.g. as unlisted video on youtube) and link to it here.\n\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\n\n%quick_links%",
+                "fillname": []
+            }
+        ],
+        [
+            {
                 "project": ["mc"],
                 "name": "Provide seed and coordinates",
                 "message": "_We do not have enough information to reproduce this issue._\n\nPlease provide the following information about the world you are playing in as text. Attaching a screenshot showing them is not enough.\n- World Type:\n-- \"Default\" if you have not chosen one when creating the world.\n-- For \"Superflat\": Additionally provide the generation preset.\n-- For \"Buffet\": Additionally provide the generator type and biome you have selected.\n- Additional generation settings (in case you changed them): E.g. \"Generate Structures\", \"Bonus Chest\", ...\n- Seed: Can be obtained by using the {{/seed}} command and clicking on the message in chat\n- Coordinates: Can be copied to clipboard by pressing {{F3}} + {{C}}\n\n~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~\n\n%quick_links%",
