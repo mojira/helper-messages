@@ -35,6 +35,11 @@ variables:
         en: |-
           *Quick Links*:
           📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCPE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
+    - project: realms
+      value:
+        en: |-
+          *Quick Links*:
+          📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
   project_id:
     - project: mc
       value: MC
@@ -50,6 +55,8 @@ variables:
       value: MCE
     - project: bds
       value: BDS
+    - project: realms
+      value: REALMS
 messages:
   account-issue:
     - project: mc
@@ -73,6 +80,22 @@ messages:
 
         Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}} here.
         If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/guides/getting-minecraft-logs/]}}.
+
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
+        %quick_links%
+      fillname: []
+  attach-debug-profile-and-report:
+    - project: mc
+      name: Attach debug profile and report
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+
+        While the lag occurs, please run {{/debug start}}, wait a while and then run {{/debug stop}} in order to create a debug profile. Afterwards, run {{/debug report}}.
+
+        If you do not have the permission to run these commands, open your world to LAN and enable cheats. If you're on a server, make sure that you're a server operator in order to execute these commands.
+
+        Then, please *attach the profile results* found in {{[minecraft/debug/profile-results-<DATE>.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}}, as well as the *debug report* found in {{[minecraft/debug/debug-report-<DATE>.zip|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}} here.
 
         ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
@@ -149,6 +172,7 @@ messages:
     - project:
         - bds
         - mcpe
+        - realms
       name: Crash logged automatically
       message: |-
         *Thank you for your report!*
@@ -197,7 +221,7 @@ messages:
       name: Duplicate
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
@@ -210,7 +234,7 @@ messages:
       name: Duplicate
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue at *%s%*.
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
@@ -234,7 +258,7 @@ messages:
       name: Duplicate (fixed)
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as Fixed. The fix will arrive in the next version or is already included in the latest development version of the game, you can check the Fix Version/s field in that ticket to learn more.
 
@@ -300,7 +324,7 @@ messages:
       name: Duplicate (private)
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *%s%* (private), so I've resolved and linked this ticket as a duplicate.
+        We're actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
 
         %quick_links%
       fillname:
@@ -320,7 +344,7 @@ messages:
       name: Duplicate (tech support)
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
         If you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]*
@@ -345,7 +369,7 @@ messages:
       name: Duplicate (wai)
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *%s%*, so I've resolved and linked this ticket as a duplicate.
+        We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
@@ -377,6 +401,7 @@ messages:
         - mce
         - mcl
         - mcpe
+        - realms
       name: Feature request
       message: |-
         *Thank you for your report!*
@@ -470,6 +495,7 @@ messages:
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
+
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
         Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
 
@@ -480,10 +506,13 @@ messages:
         - mc
         - mcl
       name: Minimum requirements not met
-      message:
-        "*Thank you for your report!* \nHowever, this issue is {color:red}*Invalid*{color}.\n\nYour
-        computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-]
-        to run Minecraft.\n\n%quick_links%"
+      message: |-
+        *Thank you for your report!* 
+        However, this issue is {color:red}*Invalid*{color}.
+
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.
+
+        %quick_links%
       fillname: []
   modified-game:
     - project:
@@ -541,6 +570,7 @@ messages:
         - mce
         - mcl
         - mcpe
+        - realms
       name: Multiple issues in one report
       message: |-
         *Thank you for your report!*
@@ -700,6 +730,7 @@ messages:
     - project:
         - mc
         - mcpe
+        - realms
       name: Parity issue
       message: |-
         Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.
@@ -748,36 +779,30 @@ messages:
         - mce
         - mcl
         - mcpe
+        - realms
       name: Quick links
       message: "%quick_links%"
       fillname: []
   report-not-in-english:
     - project:
+        - bds
         - mc
         - mcapi
         - mcd
         - mce
         - mcl
         - mcpe
+        - realms
       name: Report not in English
       message: |-
         *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
+        Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
 
-        Bug reports are only accepted in English, sorry.
-        Feel free to create a new report if you can speak English.
+        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps.
+        However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
+        If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        %quick_links%
-      fillname: []
-    - project:
-        - bds
-      name: Report not in English
-      message: |-
-        *Thank you for your report!*
-
-        Unfortunately we are only able to accept bug reports in English. You are welcome to use an online translator, if that helps. (You can find an example bug ticket [here|https://help.minecraft.net/hc/en-us/articles/360039268071].)
-
-        Also, we'd recommend making use of the search feature before writing a new bug report, as it's very likely that the issue has been mentioned already, and you can add a vote and any new information to the main ticket.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (i.e. Minecraft doesn't start at all), please use the *[Community Support Discord server|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
@@ -877,6 +902,7 @@ messages:
         - mce
         - mcl
         - mcpe
+        - realms
       name: Wrong project
       message: |-
         *Thank you for your report!*
