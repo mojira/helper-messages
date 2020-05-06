@@ -78,12 +78,12 @@ $("#copybutton").click(function () {
   }
 
   const message = dropdownMap.get(id);
-  let messageBody = message.message.replace(/\\n/g, '\n');
+  let messageBody = getStringValue(message.message);
   // Replace predefined variables in the message body
   for (const variable in variables) {
     for (const { project: expected, value } of variables[variable]) {
       if (isExpectedProject(expected, project)) {
-        messageBody = messageBody.replace(new RegExp(`%${variable}%`, 'g'), value);
+        messageBody = messageBody.replace(new RegExp(`%${variable}%`, 'g'), getStringValue(value));
       }
     }
   }
@@ -144,6 +144,18 @@ function isExpectedProject(expected, current) {
     return expected === current;
   } else {
     return expected.includes(current);
+  }
+}
+
+/**
+ * Get a string value from `messages.json`.
+ * @param {string | { en: string, [key: string]: string }} val The value in `messages.json`.
+ */
+function getStringValue(val) {
+  if (typeof val === 'string') {
+    return val
+  } else {
+    return val.en
   }
 }
 

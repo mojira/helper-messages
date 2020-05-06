@@ -13,7 +13,7 @@
                             "$ref": "#/definitions/projectFilter"
                         },
                         "value": {
-                            "type": "string"
+                            "$ref": "#/definitions/stringValue"
                         }
                     },
                     "required": [
@@ -37,7 +37,7 @@
                             "type": "string"
                         },
                         "message": {
-                            "type": "string"
+                            "$ref": "#/definitions/stringValue"
                         },
                         "fillname": {
                             "type": "array",
@@ -73,6 +73,22 @@
                     "items": {
                         "type": "string"
                     }
+                }
+            ]
+        },
+        "stringValue": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "string"
+                    },
+                    "required": [
+                        "en"
+                    ]
                 }
             ]
         }
