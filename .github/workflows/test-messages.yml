@@ -21,7 +21,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: Install
-        run: npm ci
+        run: npm i
 
       - name: Build Messages
         run: npm run build:messages
