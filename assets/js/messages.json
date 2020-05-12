@@ -152,7 +152,7 @@
             {
                 "project": ["mc", "mcd", "mcpe", "mcl", "mce", "realms"],
                 "name": "Duplicate (private)",
-                "message": "*Thank you for your report!*\nWe're actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.\n\nSince the bug describes an exploit, the parent ticket is marked as private and you won't be able to access it\n\n%quick_links%",
+                "message": "*Thank you for your report!*\nWe're actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.\n\nSince the bug describes an exploit, the parent ticket is marked as private and you won't be able to access it.\n\n%quick_links%",
                 "fillname": ["Enter parent issue ID"]
             }
         ],
