@@ -15,8 +15,8 @@
                         "value": {
                             "type": "string"
                         },
-                        "localedValue": {
-                            "$ref": "#/definitions/localedValue"
+                        "localizedValues": {
+                            "$ref": "#/definitions/localizedValues"
                         }
                     },
                     "required": [
@@ -42,8 +42,8 @@
                         "message": {
                             "type": "string"
                         },
-                        "localedMessage": {
-                            "$ref": "#/definitions/localedValue"
+                        "localizedMessages": {
+                            "$ref": "#/definitions/localizedValues"
                         },
                         "fillname": {
                             "type": "array",
@@ -82,7 +82,7 @@
                 }
             ]
         },
-        "localedValue": {
+        "localizedValues": {
             "type": "object",
             "additionalProperties": {
                 "type": "string"
