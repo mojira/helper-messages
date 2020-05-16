@@ -8,7 +8,7 @@
     "build:css": "copyfiles -u 4 \"node_modules/bootstrap/dist/css/bootstrap.min.css\" \"assets/css/\"",
     "build:messages": "node -e \"fs.writeFileSync(path.join(__dirname, 'assets/js/messages.json'), JSON.stringify(require('yaml').parse(fs.readFileSync(path.join(__dirname, 'assets/messages.yml'), 'utf8'))))\"",
     "build:js": "browserify assets/js/index.js | terser > dist/bundle.js",
-    "build": "npm run build:css && npm run build:messages && npm run build:js && copyfiles index.html favicon.ico assets/**/*.* dist",
+    "build": "npm run build:css && npm run build:messages && copyfiles index.html favicon.ico assets/**/*.* dist && npm run build:js",
     "test:messages": "ajv validate -s messages_schema.json -d assets/js/messages.json",
     "test": "npm run test:messages"
   },
