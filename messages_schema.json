@@ -13,7 +13,10 @@
                             "$ref": "#/definitions/projectFilter"
                         },
                         "value": {
-                            "$ref": "#/definitions/stringValue"
+                            "type": "string"
+                        },
+                        "localedValue": {
+                            "$ref": "#/definitions/localedValue"
                         }
                     },
                     "required": [
@@ -37,7 +40,10 @@
                             "type": "string"
                         },
                         "message": {
-                            "$ref": "#/definitions/stringValue"
+                            "type": "string"
+                        },
+                        "localedMessage": {
+                            "$ref": "#/definitions/localedValue"
                         },
                         "fillname": {
                             "type": "array",
@@ -76,21 +82,11 @@
                 }
             ]
         },
-        "stringValue": {
-            "oneOf": [
-                {
-                    "type": "string"
-                },
-                {
-                    "type": "object",
-                    "additionalProperties": {
-                        "type": "string"
-                    },
-                    "required": [
-                        "en"
-                    ]
-                }
-            ]
+        "localedValue": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "string"
+            }
         }
     }
 }
