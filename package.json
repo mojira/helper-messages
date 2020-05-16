@@ -5,10 +5,12 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "copy-bootstrap": "copyfiles -u 4 \"node_modules/bootstrap/dist/css/bootstrap.min.css\" \"assets/css/\"",
-    "bundle-dev": "npm run-script copy-bootstrap && browserify assets/js/index.js -o bundle.js",
-    "bundle": "npm run-script copy-bootstrap && browserify assets/js/index.js | terser > bundle.js",
-    "build": "npm run-script bundle && copyfiles index.html bundle.js favicon.ico assets/css/**/*.* dist"
+    "build:css": "copyfiles -u 4 \"node_modules/bootstrap/dist/css/bootstrap.min.css\" \"assets/css/\"",
+    "build:messages": "node -e \"fs.writeFileSync(path.join(__dirname, 'assets/js/messages.json'), JSON.stringify(require('yaml').parse(fs.readFileSync(path.join(__dirname, 'assets/messages.yml'), 'utf8'))))\"",
+    "build:js": "browserify assets/js/index.js | terser > dist/bundle.js",
+    "build": "npm run build:css && npm run build:messages && npm run build:js && copyfiles index.html favicon.ico assets/**/*.* dist",
+    "test:messages": "ajv validate -s messages_schema.json -d assets/js/messages.json",
+    "test": "npm run test:messages"
   },
   "repository": {
     "type": "git",
@@ -20,13 +22,15 @@
     "url": "https://github.com/mojira/helper-messages/issues"
   },
   "devDependencies": {
+    "ajv-cli": "^3.1.0",
     "copyfiles": "^2.1.1",
-    "terser-webpack-plugin": "^1.4.3"
+    "terser-webpack-plugin": "^1.4.3",
+    "yaml": "^1.9.2",
+    "browserify": "^16.3.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "browserify": "^16.3.0",
-    "jquery": "^3.5.0",
+    "jquery": "^3.5.1",
     "popper.js": "^1.15.0"
   }
 }

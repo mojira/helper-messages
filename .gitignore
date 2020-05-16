@@ -29,3 +29,6 @@ bundle.js
 
 # bootstrap dist
 assets/css/bootstrap.min.css
+
+# messages.json dist
+assets/js/messages.json
