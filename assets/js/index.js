@@ -61,6 +61,13 @@ $(document).ready(function () {
     });
   }
 
+  // Register global enter event
+  $(document).keyup(e => {
+    if (e.keyCode === 13) {
+      $("#copybutton").click();
+    }
+  });
+
   // Update messages in dropdown
   updateDisplay();
 });
