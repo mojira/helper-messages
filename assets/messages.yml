@@ -447,6 +447,7 @@ messages:
     - project:
         - mc
         - mcl
+        - mctest
       name: Incomplete
       message: |-
         *Thank you for your report!*
