@@ -446,13 +446,7 @@ messages:
   incomplete:
     - project:
         - mc
-        - mcapi
-        - mcd
-        - mce
         - mcl
-        - mctest
-        - realms
-        - web
       name: Incomplete
       message: |-
         *Thank you for your report!*
@@ -467,7 +461,12 @@ messages:
       fillname: []
     - project:
         - bds
+        - mcapi
+        - mcd
+        - mce
         - mcpe
+        - realms
+        - web
       name: Incomplete
       message: |-
         *Thank you for your report!*
