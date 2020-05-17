@@ -742,6 +742,30 @@ messages:
 
         %quick_links%
       fillname: []
+  provide-affected-versions:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+      name: Provide affected versions
+      message: |-
+        _We do not have enough information to reproduce this issue._
+
+        Please edit the *Affects Version/s* field and select the specific *Released Version* you were using when you encountered the reported issue.
+
+        If you can't find it in the list, please make sure that:
+        - You are in the *correct project* on the bug tracker.
+        - You were playing the *latest release version* or the *latest development version* of the game. 
+
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
+        %quick_links%
+      fillname: []
   provide-seed-and-coordinates:
     - project:
         - mc
