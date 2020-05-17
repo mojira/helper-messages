@@ -1,0 +1,92 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "properties": {
+        "variables": {
+            "additionalProperties": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "project": {
+                            "$ref": "#/definitions/projectFilter"
+                        },
+                        "value": {
+                            "type": "string"
+                        },
+                        "localizedValues": {
+                            "$ref": "#/definitions/localizedValues"
+                        }
+                    },
+                    "required": [
+                        "project",
+                        "value"
+                    ]
+                }
+            }
+        },
+        "messages": {
+            "additionalProperties": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "project": {
+                            "$ref": "#/definitions/projectFilter"
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "message": {
+                            "type": "string"
+                        },
+                        "localizedMessages": {
+                            "$ref": "#/definitions/localizedValues"
+                        },
+                        "fillname": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "minItems": 0,
+                            "maxItems": 1
+                        }
+                    },
+                    "required": [
+                        "project",
+                        "name",
+                        "message",
+                        "fillname"
+                    ]
+                }
+            }
+        }
+    },
+    "required": [
+        "variables",
+        "messages"
+    ],
+    "definitions": {
+        "projectFilter": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "localizedValues": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "string"
+            }
+        }
+    }
+}
