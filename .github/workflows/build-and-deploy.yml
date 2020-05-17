@@ -13,11 +13,23 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Cache Node Modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+            ${{ runner.os }}-
+
       - name: Install
-        run: npm ci
+        run: npm i
 
       - name: Build
         run: npm run build
+
+      - name: Test
+        run: npm test
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
