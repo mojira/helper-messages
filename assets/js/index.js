@@ -63,7 +63,7 @@ $(document).ready(function () {
 
   // Register global Ctril + C event
   $(document).keyup(e => {
-    if (e.ctrlKey && e.keyCode === 67) {
+    if (e.ctrlKey && e.keyCode === 67 && window.getSelection().toString().length === 0) {
       $("#copybutton").click();
     }
   });
