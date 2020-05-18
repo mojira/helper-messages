@@ -115,7 +115,6 @@ messages:
         - mc
         - mcl
         - mcpe
-        - mce
         - mcd
       name: Attach video (PC)
       message: |-
