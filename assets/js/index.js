@@ -61,9 +61,9 @@ $(document).ready(function () {
     });
   }
 
-  // Register global enter event
+  // Register global Ctril + C event
   $(document).keyup(e => {
-    if (e.keyCode === 13) {
+    if (e.ctrlKey && e.keyCode === 67) {
       $("#copybutton").click();
     }
   });
