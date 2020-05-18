@@ -80,7 +80,8 @@ $("#copybutton").click(function () {
   var id = $("select").val();
   if (id == "-1" || !dropdownMap.has(id)) {
     // impossibru, copy button isn't enabled when there is no message selected
-    alert('you dirty hacker');
+    // but now we can copy the message via hotkey, so this is possible
+    // alert('you dirty hacker');
     return;
   }
 
