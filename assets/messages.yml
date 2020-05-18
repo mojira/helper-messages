@@ -316,9 +316,9 @@ messages:
       name: Duplicate (private)
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
+        We''re actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
 
-        Since the bug describes an exploit, the parent ticket is marked as private and you won't be able to access it.
+        Since the parent ticket is marked as private, you won''t be able to access it.
 
         %quick_links%
       fillname:
