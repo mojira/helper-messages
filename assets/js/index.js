@@ -61,7 +61,7 @@ $(document).ready(function () {
     });
   }
 
-  // Register global Ctril + C event
+  // Register global Ctrl + C event
   $(document).keyup(e => {
     if (e.ctrlKey && e.keyCode === 67 && window.getSelection().toString().length === 0) {
       $("#copybutton").click();
@@ -133,6 +133,12 @@ $("select").change(function () {
   const message = dropdownMap.get(code);
   if (message.fillname.length >= 1) {
     $(".stdtext").html('<input class="form-control" type="text" placeholder="' + message.fillname[0] + '" id="fill">');
+    // Register Enter event
+    $(document).keyup(e => {
+      if (e.keyCode === 13) {
+        $("#copybutton").click();
+      }
+    });
   } else {
     $(".stdtext").html('<p class="text-muted" id="msginfo">This message doesn\'t require any extra info.</p>');
   }
