@@ -3,7 +3,7 @@ variables:
     - project: bds
       value: |-
           *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
+          📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
       localizedValues:
         zh: |-
           *快捷链接*：
@@ -39,7 +39,7 @@ variables:
     - project: mcd
       value: |-
           *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360041345271]
       localizedValues:
         zh: |-
           *快捷链接*：
@@ -47,7 +47,7 @@ variables:
     - project: mce
       value: |-
           *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
+          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
       localizedValues:
         zh: |-
           *快捷链接*：
@@ -83,7 +83,7 @@ variables:
     - project: realms
       value: |-
           *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
+          📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
       localizedValues:
         zh: |-
           *快捷链接*：
@@ -650,7 +650,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         {quote}Minecraft Earth is not available in China, Cuba, Iran, Myanmar/Burma, Sudan, Iraq, and UAE.
-        -- [Minecraft Earth FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]{quote}
+        -- [Minecraft Earth FAQ|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]{quote}
 
         If you need help or have a suggestion you might like to follow a link below.
 
