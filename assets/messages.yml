@@ -758,8 +758,10 @@ messages:
         - realms
       name: Provide affected versions
       message: |-
-        _We do not have enough information to reproduce this issue._
-
+        {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
+        
+        _We have removed it and added the latest released version_
+        
         Please edit the *Affects Version/s* field and select the specific *Released Version* you were using when you encountered the reported issue.
 
         If you can't find it in the list, please make sure that:
