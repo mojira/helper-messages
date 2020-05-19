@@ -888,7 +888,7 @@ messages:
         However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (i.e. Minecraft doesn't start at all), please use the *[Community Support Discord server|https://discord.gg/58Sxm23]*.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please use the *[Community Support Discord server|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
