@@ -758,8 +758,7 @@ messages:
         - realms
       name: Provide affected versions
       message: |-
-        {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_
-        as affected. You don't have access to them yet.{panel}
+        {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
         
         _We have removed it and added the latest released version_
         
