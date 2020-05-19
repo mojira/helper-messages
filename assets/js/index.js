@@ -132,7 +132,7 @@ $("select").change(function () {
   if (message.fillname.length >= 1) {
     $(".stdtext").html('<input class="form-control" type="text" placeholder="' + message.fillname[0] + '" id="fill">');
     // Register Enter event
-    $(document).keyup(e => {
+    $("#fill").keyup(e => {
       if (e.keyCode === 13) {
         $("#copybutton").click();
       }
