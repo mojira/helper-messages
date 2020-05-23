@@ -79,15 +79,30 @@ $("#copybutton").click(function () {
 
   const message = dropdownMap.get(id);
   let messageBody = getStringValue(message.message);
+
   // Replace predefined variables in the message body
-  for (const variable in variables) {
-    for (const { project: expected, value } of variables[variable]) {
-      if (isExpectedProject(expected, project)) {
-        messageBody = messageBody.replace(new RegExp(`%${variable}%`, 'g'), getStringValue(value));
+  function resolveVariables(text, limit) {
+    var varExpanded = false;
+    for (var variable in variables) {
+      if (text.includes(variable)) {
+        for (const { project: expected, value } of variables[variable]) {
+          if (isExpectedProject(expected, project)) {
+            varExpanded = true;
+            text = text.replace(new RegExp(`%${variable}%`, 'g'), getStringValue(value));
+          }
+        }
       }
     }
+
+    if (varExpanded && limit > 0) {
+      return resolveVariables(text, limit - 1);
+    } else {
+      return text;
+    }
   }
-  // TODO: Allow more than one variable
+
+  messageBody = resolveVariables(messageBody, 10);
+
   if (message.fillname.length >= 1) {
     if (!$("#fill").val()) {
       wiggle($("#fill"));

@@ -1,69 +1,109 @@
 variables:
+  awaiting_response:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      value: |-
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
   quick_links:
     - project: bds
       value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
-    - project: mc
+        *Quick Links*:
+        📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
+    - project:
+        - mc
+        - mcapi
+        - mcl
+        - mcpe
+        - mctest
+        - web
       value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MC/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
-    - project: mcapi
-      value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCAPI/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
+        *Quick Links*:
+        📓 [Issue Guidelines|https://bugs.mojang.com/projects/%project_id%/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
     - project: mcd
       value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+        *Quick Links*:
+        📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mce
       value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
-    - project: mcl
-      value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCL/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
-    - project: mcpe
-      value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCPE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
+        *Quick Links*:
+        📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
     - project: realms
       value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
-    - project: web
-      value: |-
-          *Quick Links*:
-          📓 [Issue Guidelines|https://bugs.mojang.com/projects/WEB/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com]
+        *Quick Links*:
+        📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
   project_id:
-    - project: mc
-      value: MC
-    - project: mcd
-      value: MCD
-    - project: mcpe
-      value: MCPE
-    - project: mcl
-      value: MCL
-    - project: mcapi
-      value: MCAPI
-    - project: mce
-      value: MCE
     - project: bds
       value: BDS
+    - project: mc
+      value: MC
+    - project: mcapi
+      value: MCAPI
+    - project: mcd
+      value: MCD
+    - project: mce
+      value: MCE
+    - project: mcl
+      value: MCL
+    - project: mcpe
+      value: MCPE
+    - project: mctest
+      value: MCTEST
     - project: realms
       value: REALMS
+    - project: web
+      value: WEB
+  search_for_dupes:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      value: |-
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] in the future to see if the issue has already been reported.
 messages:
   account-issue:
-    - project: mc
+    - project:
+        - mc
+        - mcl
+        - mcpe
+        - realms
       name: Account issue
       shortcut: acc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        This is an account issue. We do not have the tools to help you on this tracker.
-        Please contact the *[Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*.
+        This is an account issue. Unfortunately, we do not have the tools to help you on this tracker.
+        Please contact *[Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - bds
+        - mcpe
+        - realms
+      name: Contact Support
+      shortcut: support
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        As this is an issue with your account or billing, you will need to contact [Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new] directly.
 
         %quick_links%
       fillname: []
@@ -79,7 +119,7 @@ messages:
         Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}} here.
         If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/guides/getting-minecraft-logs/]}}.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -96,7 +136,7 @@ messages:
 
         Then, please *attach the profile results* found in {{[minecraft/debug/profile-results-<DATE>.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}}, as well as the *debug report* found in {{[minecraft/debug/debug-report-<DATE>.zip|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}} here.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -119,6 +159,43 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-launcher-log:
+    - project:
+        - mc
+        - mcl
+      name: Attach launcher log
+      shortcut: llog
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+
+        Please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+
+        %awaiting_response%
+
+        %quick_links%
+      fillname: []
+  attach-video:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - realms
+      name: Attach video
+      shortcut: vid
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+
+        Can you please attach a short video of the issue happening or provide more detailed steps to reproduce?
+
+        If you have trouble with that, you can check out [this video guide|https://youtu.be/YmMjqGPmgsA] by [~silentwisperer] about how to create good bug reports.
+
+        %awaiting_response%
+
+        %quick_links%
+      fillname: []
   attach-world-file:
     - project:
         - mc
@@ -130,12 +207,14 @@ messages:
 
         Please *attach the affected (zipped) world file*. If the file size is too large, please upload it somewhere else and then link to it here.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %awaiting_response%
 
         %quick_links%
       fillname: []
   auth-server-down:
-    - project: mc
+    - project:
+        - mc
+        - mcl
       name: Auth server down
       shortcut: auth
       message: |-
@@ -144,6 +223,24 @@ messages:
 
         The authentication services are offline.
         This will be fixed shortly, please hang tight. Check tweets from [@MojangSupport|https://twitter.com/MojangSupport] for the current status.
+
+        %quick_links%
+      fillname: []
+  awaiting-response:
+    - project:
+        - bds
+        - mc
+        - mcl
+        - mcd
+        - mce
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Awaiting Response
+      shortcut: ar
+      message: |-
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -157,29 +254,15 @@ messages:
 
         We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/epy4hv/experimental_combat_snapshot_version_5/] or on the [feedback website|https://aka.ms/JavaCombatSnap].
 
-        If you need help or support you might like to follow a link below.
-
         %quick_links%
       fillname: []
-  contact-support:
-    - project: mcpe
-      name: Contact Support
-      shortcut: support
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        As this is an issue with your account or billing, you will need to contact [Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new] directly.
-
-        %quick_links%
-      fillname: []
-  crash-logges-automatically:
+  crash-logged-automatically:
     - project:
         - bds
         - mcpe
         - realms
       name: Crash logged automatically
-      shortcut: autocrash
+      shortcut: crash
       message: |-
         *Thank you for your report!*
 
@@ -189,7 +272,7 @@ messages:
       fillname: []
     - project: mce
       name: Crash logged automatically
-      shortcut: autocrash
+      shortcut: crash
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -197,6 +280,17 @@ messages:
         Crashes such as these are logged automatically, and will be looked into further by the development team.
 
         If you need help or have a suggestion you might like to follow a link below.
+
+        %quick_links%
+      fillname: []
+    - project: mcd
+      name: Crash logged automatically
+      shortcut: crash
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Crashes like this one will be automatically collected and sent to Mojang if you pressed a "Send" button after the crash occurred. There is no need to additionally report them here.
 
         %quick_links%
       fillname: []
@@ -234,21 +328,7 @@ messages:
 
         If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
-
-        %quick_links%
-      fillname:
-        - Enter parent issue ID
-    - project: bds
-      name: Duplicate
-      shortcut: dup
-      message: |-
-        *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
-
-        If you would like to add a vote and any extra information to the main ticket it would be appreciated.
-
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        %search_for_dupes%
 
         %quick_links%
       fillname:
@@ -273,50 +353,50 @@ messages:
 
         That ticket has already been resolved as Fixed. The fix will arrive in the next version or is already included in the latest development version of the game, you can check the Fix Version/s field in that ticket to learn more.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        %search_for_dupes%
 
         %quick_links%
       fillname:
         - Enter parent issue ID
+  duplicate-of-mc-297:
+    - project: mc
+      name: MC-297 / Pixel format not accelerated
+      shortcut: '297'
+      message: |-
+        *Thank you for your report!*
+        We're actually already tracking this issue in *MC-297*, so this ticket is being resolved and linked as a *duplicate*.
+
+        This is known to be a problem with your computer.
+        -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
+        -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.
+        -- If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]*.
+
+        %quick_links%
+      fillname: []
   duplicate-of-mc-128302:
     - project:
         - mc
         - mcl
-      name: Duplicate of MC-128302
+      name: MC-128302 / OpenGL not supported
       shortcut: ogl
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MC-128302*, so I've resolved and linked this ticket as a duplicate.
+        We're actually already tracking this issue in *MC-128302*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.
-        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
-
-        %quick_links%
-      fillname: []
-  duplicate-of-mc-297:
-    - project: mc
-      name: Duplicate of MC-297
-      shortcut: '297'
-      message: |-
-        *Thank you for your report!*
-        We're actually already tracking this issue in *MC-297*, so I've resolved and linked this ticket as a duplicate.
-
-        This is known to be a problem with your computer.
-        -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
-        -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.
-        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        -- If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
   duplicate-of-mcl-5638:
     - project: mcl
-      name: Duplicate of MCL-5638
-      shortcut: jre
+      name: MCL-5638 / Unable to locate Java runtime
+      shortcut: runtime
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MCL-5638*, so I've resolved and linked this ticket as a duplicate.
+        We're actually already tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be an issue involving detection of the Java runtime.
         Please take a look at the Moderator’s Note on that ticket to see solutions to your issue.
@@ -344,6 +424,31 @@ messages:
         %quick_links%
       fillname:
         - Enter parent issue ID
+  duplicate-resolved:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Duplicate (resolved)
+      shortcut: rdup
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved, which means this is not considered a bug. Please take a look at that ticket to learn more.
+
+        %search_for_dupes%
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
   duplicate-tech:
     - project:
         - bds
@@ -363,9 +468,9 @@ messages:
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
-        If you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]*
+        If you need additional help to fix this problem, please contact *[Community Support|https://discord.gg/58Sxm23]*
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        %search_for_dupes%
 
         %quick_links%
       fillname:
@@ -382,7 +487,7 @@ messages:
         - mctest
         - realms
         - web
-      name: Duplicate (wai)
+      name: Duplicate (WAI)
       shortcut: wdup
       message: |-
         *Thank you for your report!*
@@ -390,11 +495,25 @@ messages:
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        %search_for_dupes%
 
         %quick_links%
       fillname:
         - Enter parent issue ID
+  edition:
+    - project:
+        - mc
+        - mcl
+        - mcpe
+      name: Unknown Edition
+      shortcut: edition
+      message: |-
+        Are you playing on Bedrock Edition (title screen just says "Minecraft") or on Java Edition (title screen says "Minecraft: Java Edition")?
+
+        %awaiting_response%
+
+        %quick_links%
+      fillname: []
   external-server-issue:
     - project:
         - bds
@@ -427,7 +546,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         You have posted a feature request or a suggestion. This site is for *bug reports* only.
-        For suggestions, please visit [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions] or visit the [Feedback website|https://feedback.minecraft.net/hc/en-us].
+        For suggestions, please visit the [Minecraft feedback website|https://feedback.minecraft.net/hc/en-us] or [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].
 
         %quick_links%
       fillname: []
@@ -442,7 +561,7 @@ messages:
 
         Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}) here.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -454,23 +573,27 @@ messages:
         For any new or ongoing hashtag issues, please create a new ticket for
         any gamertags still affected and use the label {{[chat-filter|https://bugs.mojang.com/issues/?jql=labels+%3D+chat-filter]}}.
       fillname: []
+  hserr:
+    - project:
+        - mc
+        - mcl
+      name: Attach hserr_pid file
+      shortcut: hserr
+      message: |-
+        Is there a file with a name starting with {{hs_err_pid}} in your {{.minecraft}} folder? If so, can you attach that here?
+
+        %awaiting_response%
+
+        %quick_links%
+      fillname: []
   i-am-a-bot:
     - project:
-        - bds
-        - mc
-        - mcapi
-        - mcd
-        - mce
-        - mcl
-        - mcpe
         - mctest
-        - realms
-        - web
       name: I am a Bot
       shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automagically!
-        Please report any issues in [Discord|https://discordapp.com/invite/rpCyfKV]
+        Please report any issues on [Discord|https://discordapp.com/invite/rpCyfKV]
         or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
       fillname: []
   incomplete:
@@ -487,7 +610,11 @@ messages:
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
         Please review the guidelines linked below before making further reports.
 
+        You can also check out [this video guide|https://youtu.be/YmMjqGPmgsA] by [~silentwisperer] about how to create good bug reports.
+
         In case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+
+        %search_for_dupes%
 
         %quick_links%
       fillname: []
@@ -515,14 +642,14 @@ messages:
     - project:
         - mc
         - mcl
-      name: MCL-6550 tech support issue
+      name: MCL-6550 / not responding
       shortcut: resp
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact *[Community Support|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
@@ -537,6 +664,18 @@ messages:
         However, this issue is {color:red}*Invalid*{color}.
 
         Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcd
+      name: Minimum requirements not met
+      shortcut: min
+      message: |-
+        *Thank you for your report!* 
+        However, this issue is {color:red}*Invalid*{color}.
+
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360038937032-Dungeons-Minimum-Specifications-for-Gameplay] needed to run Minecraft Dungeons.
 
         %quick_links%
       fillname: []
@@ -608,6 +747,22 @@ messages:
 
         Please put only one bug report in each ticket. It is very difficult to keep track of bugs when they are not in their own tickets, and it is easier for you to make multiple tickets than for the mods to separate them.
 
+        %search_for_dupes%
+
+        %quick_links%
+      fillname: []
+  non-api-feature-request:
+    - project:
+        - mcapi
+      name: Non-API feature request
+      shortcut: api
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        You have posted a gameplay feature request or a suggestion. This project is for *API feature requests only* only.
+        For gameplay suggestions, please visit the [Minecraft feedback site|https://feedback.minecraft.net/] or [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].
+
         %quick_links%
       fillname: []
   not-available-countries:
@@ -636,6 +791,8 @@ messages:
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
         In case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/].
+
+        %search_for_dupes%
 
         %quick_links%
       fillname:
@@ -773,8 +930,23 @@ messages:
       name: Parity issue
       shortcut: parity
       message: |-
-        Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.
-        Parity issues are not tracked on the bug tracker but should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        You have posted a parity issue. Minecraft has several different editions, and some features vary from edition to edition.
+        This is especially the case with features that were added a long time ago, because one edition evolved faster than another, and tweaks or balances were made that did not propagate immediately to other editions.
+        These differences between the different versions of the game are called "Parity issues".
+
+        However, we only accept bug reports about a parity issue if it fulfills the following criteria:
+        * The feature affected by the parity issue is present in both Bedrock Edition and Java Edition in the latest release or development version
+        * The feature behaves differently in one edition than in the other
+        * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
+
+        All other parity issues are not tracked on the bug tracker but should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
+
+        For more information about this, please take a look at [this post|https://www.reddit.com/r/Mojira/comments/g9rjfh/from_now_on_well_accept_bug_reports_about_certain/] on our subreddit.
+
+        %quick_links%
       fillname: []
   pirated-minecraft:
     - project:
@@ -806,15 +978,15 @@ messages:
       message: |-
         {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
         
-        _We have removed it and added the latest released version_
+        _We have removed the unreleased version and added the latest released version._
         
-        Please edit the *Affects Version/s* field and select the specific *Released Version* you were using when you encountered the reported issue.
+        Please edit the *Affects Version/s* field and select the correct *Released Version* you were using when you encountered the reported issue.
 
         If you can't find it in the list, please make sure that:
         - You are in the *correct project* on the bug tracker.
         - You were playing the *latest release version* or the *latest development version* of the game. 
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -831,11 +1003,12 @@ messages:
         -- "Default" if you have not chosen one when creating the world.
         -- For "Superflat": Additionally provide the generation preset.
         -- For "Buffet": Additionally provide the generator type and biome you have selected.
+        -- For "Customized": Additionally provide the world generator settings file.
         - Additional generation settings (in case you changed them): E.g. "Generate Structures", "Bonus Chest", ...
         - Seed: Can be obtained by using the {{/seed}} command and clicking on the message in chat
         - Coordinates: Can be copied to clipboard by pressing {{F3}} + {{C}}
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -848,7 +1021,9 @@ messages:
         - mce
         - mcl
         - mcpe
+        - mctest
         - realms
+        - web
       name: Quick links
       shortcut: qul
       message: "%quick_links%"
@@ -863,6 +1038,7 @@ messages:
         - mcl
         - mcpe
         - realms
+        - web
       name: Report not in English
       shortcut: lang
       message: |-
@@ -873,7 +1049,7 @@ messages:
         However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (i.e. Minecraft doesn't start at all), please use the *[Community Support Discord server|https://discord.gg/58Sxm23]*.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (i.e. Minecraft doesn't start at all), please contact *[Community Support|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
@@ -881,7 +1057,12 @@ messages:
     - project:
         - bds
         - mc
+        - mcd
+        - mce
         - mcl
+        - mcpe
+        - realms
+        - web
       name: Technical support issue
       shortcut: tech
       message: |-
@@ -889,7 +1070,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        Please contact *[Community Support|https://discord.gg/58Sxm23]* to get help with your issue.
 
         %quick_links%
       fillname: []
@@ -928,7 +1109,7 @@ messages:
 
         The report you have submitted is working as intended: %s%.
 
-        Please note, that mechanics of the game may change between updates.
+        Please note that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
         [Full Version History|https://minecraft.gamepedia.com/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
@@ -945,7 +1126,7 @@ messages:
 
         The report you have submitted is working as intended: %s%.
 
-        Please note, that mechanics of the game may change between updates.
+        Please note that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
         [Full Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
@@ -988,10 +1169,10 @@ messages:
 
         This is related to a different project. Use one of the links below to go to the correct project.
         -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux
-        -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
         -- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Windows store), Xbox One, Windows 10 Mobile, Fire TV, Nintendo Switch, and PS4
-        -- [Minecraft Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices
         -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
+        -- [Minecraft Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices
+        -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
 
         Please don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.
 
