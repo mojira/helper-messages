@@ -78,6 +78,7 @@ variables:
 messages:
   account-issue:
     - project:
+        - bds
         - mc
         - mcl
         - mcpe
@@ -88,22 +89,8 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        This is an account issue. Unfortunately, we do not have the tools to help you on this tracker.
+        This is an account or billing issue. Unfortunately, we do not have the tools to help you on this tracker.
         Please contact *[Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*.
-
-        %quick_links%
-      fillname: []
-    - project:
-        - bds
-        - mcpe
-        - realms
-      name: Contact Support
-      shortcut: support
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        As this is an issue with your account or billing, you will need to contact [Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new] directly.
 
         %quick_links%
       fillname: []
