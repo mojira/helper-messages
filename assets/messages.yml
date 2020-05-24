@@ -660,23 +660,6 @@ messages:
 
         %quick_links%
       fillname: []
-  not-reopen-ar:
-    - project:
-        - bds
-        - mc
-        - mcapi
-        - mcd
-        - mce
-        - mcl
-        - mcpe
-        - mctest
-        - realms
-        - web
-      name: Not reopen AR ticket
-      message: |-
-        This report is currently missing crucial information. Please take a look at other comments to find out what we are looking for.
-        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff in [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
-      fillname: []
   outdated-client:
     - project: mc
       name: Outdated client
