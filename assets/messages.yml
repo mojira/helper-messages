@@ -592,16 +592,16 @@ messages:
       fillname: []
   not-reopen-ar:
     - project:
-        - MC
-        - MCTEST
-        - MCPE
-        - MCAPI
-        - MCL
-        - MCD
-        - MCE
-        - BDS
-        - REALMS
-        - WEB
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
       name: Not reopen AR ticket
       message: |-
         This report is currently missing crucial information. Please take a look at other comments to find out what we are looking for.
