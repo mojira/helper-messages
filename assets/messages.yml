@@ -163,24 +163,37 @@ messages:
       fillname: []
   attach-video:
     - project:
-        - bds
         - mc
-        - mcd
-        - mce
         - mcl
         - mcpe
-        - realms
-      name: Attach video
+        - mcd
+      name: Attach video (PC)
       shortcut: vid
       message: |-
         _We do not have enough information to find the cause of this issue._
-
-        Can you please attach a short video of the issue happening or provide more detailed steps to reproduce?
-
-        If you have trouble with that, you can check out [this video guide|https://youtu.be/YmMjqGPmgsA] by [~silentwisperer] about how to create good bug reports.
-
-        %awaiting_response%
-
+        
+        Please *record a video of this happening* and attach it to this report.
+        If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in App for recording game footage.
+        In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com/].
+        In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
+        
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        
+        %quick_links%
+      fillname: []
+    - project:
+        - mcpe
+        - mce
+      name: Attach video (Mobile)
+      shortcut: mvid
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+        
+        Please *record a video of this happening* and attach it to this report.
+        In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
+        
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        
         %quick_links%
       fillname: []
   attach-world-file:
