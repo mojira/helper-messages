@@ -5,6 +5,9 @@ variables:
           *Quick Links*:
           📓 [Issue Guidelines|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
       localizedValues:
+        de: |-
+          *Nützliche Links*:
+          📓 [Anleitung zum Melden von Fehlern|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Kundensupport|https://help.minecraft.net/hc/de/requests/new] -- ✍️ [Feedback und Vorschläge|https://feedback.minecraft.net/] -- 📖 [Minecraft Wiki|https://minecraft-de.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
         zh: |-
           *快捷链接*：
           📓 [漏洞报告指南（英文）|https://bugs.mojang.com/projects/BDS/summary] -- 💬 [社区支持（英文）|https://discord.gg/58Sxm23] -- 📧 [客户服务（英文）|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [反馈与建议（英文）|https://feedback.minecraft.net/] -- 📖 [BDS 维基|https://minecraft-zh.gamepedia.com/%E5%9F%BA%E5%B2%A9%E7%89%88%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8] -- 📖 [常见问题（英文）|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
@@ -41,6 +44,9 @@ variables:
           *Quick Links*:
           📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360041345271]
       localizedValues:
+        de: |-
+          *Nützliche Links*:
+          📓 [Anleitung zum Melden von Fehlern|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Kundensupport|https://help.minecraft.net/hc/de/requests/new] -- ✍️ [Feedback und Vorschläge|https://feedback.minecraft.net/] -- 📖 [Minecraft Wiki|https://minecraft-de.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360041345271]
         zh: |-
           *快捷链接*：
           📓 [漏洞报告指南（英文）|https://bugs.mojang.com/projects/MCD/summary] -- 💬 [社区支持（英文）|https://discord.gg/58Sxm23] -- 📧 [客户服务（英文）|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [反馈与建议（英文）|https://feedback.minecraft.net/] -- 📖 [游戏维基|https://minecraft-zh.gamepedia.com] -- 📖 [常见问题（英文）|https://help.minecraft.net/hc/en-us/articles/360041345271]
@@ -49,6 +55,9 @@ variables:
           *Quick Links*:
           📓 [Issue Guidelines|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
       localizedValues:
+        de: |-
+          *Nützliche Links*:
+          📓 [Anleitung zum Melden von Fehlern|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Kundensupport|https://help.minecraft.net/hc/de/requests/new] -- ✍️ [Feedback und Vorschläge|https://feedback.minecraft.net/] -- 📖 [Minecraft Wiki|https://minecraft-de.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
         zh: |-
           *快捷链接*：
           📓 [漏洞报告指南（英文）|https://bugs.mojang.com/projects/MCE/summary] -- 💬 [社区支持（英文）|https://discord.gg/58Sxm23] -- 📧 [客户服务（英文）|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [反馈与建议（英文）|https://feedback.minecraft.net/] -- 📖 [游戏维基|https://minecraft-zh.gamepedia.com] -- 📖 [常见问题（英文）|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
@@ -85,6 +94,9 @@ variables:
           *Quick Links*:
           📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
       localizedValues:
+        de: |-
+          *Nützliche Links*:
+          📓 [Anleitung zum Melden von Fehlern|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Kundensupport|https://help.minecraft.net/hc/de/requests/new] -- ✍️ [Feedback und Vorschläge|https://feedback.minecraft.net/] -- 📖 [Minecraft Wiki|https://minecraft-de.gamepedia.com] -- 📖 [FAQ|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
         zh: |-
           *快捷链接*：
           📓 [漏洞报告指南（英文）|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [社区支持（英文）|https://discord.gg/58Sxm23] -- 📧 [客户服务（英文）|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [反馈与建议（英文）|https://feedback.minecraft.net/] -- 📖 [游戏维基|https://minecraft-zh.gamepedia.com] -- 📖 [常见问题（英文）|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
