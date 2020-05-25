@@ -262,7 +262,7 @@ messages:
         - mcpe
         - realms
       name: Crash logged automatically
-      shortcut: crash
+      shortcut: autocrash
       message: |-
         *Thank you for your report!*
 
@@ -272,7 +272,7 @@ messages:
       fillname: []
     - project: mce
       name: Crash logged automatically
-      shortcut: crash
+      shortcut: autocrash
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -779,6 +779,24 @@ messages:
         If you need help or have a suggestion you might like to follow a link below.
 
         %quick_links%
+      fillname: []
+  not-reopen-ar:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Not reopen AR ticket
+      shortcut: hard-ar
+      message: |-
+        This report is currently missing crucial information. Please take a look at other comments to find out what we are looking for.
+        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff in [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
       fillname: []
   outdated-client:
     - project: mc
