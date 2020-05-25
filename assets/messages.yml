@@ -935,6 +935,7 @@ messages:
         - bds
         - mc
         - mcl
+        - realms
       name: Technical support issue
       shortcut: tech
       message: |-
