@@ -55,7 +55,9 @@ variables:
       value: REALMS
 messages:
   account-issue:
-    - project: mc
+    - project: 
+       - mc
+       - web
       name: Account issue
       shortcut: acc
       message: |-
@@ -936,6 +938,7 @@ messages:
         - mc
         - mcl
         - realms
+        - web
       name: Technical support issue
       shortcut: tech
       message: |-
