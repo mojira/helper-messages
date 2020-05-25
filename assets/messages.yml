@@ -399,7 +399,7 @@ messages:
         We're actually already tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be an issue involving detection of the Java runtime.
-        Please take a look at the Moderator’s Note on that ticket to see solutions to your issue.
+        Please take a look at the Moderator Note on that ticket to see solutions to your issue.
 
         %quick_links%
       fillname: []
@@ -442,7 +442,7 @@ messages:
         *Thank you for your report!*
         We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
-        That ticket has already been resolved. Please take a look at that ticket to learn more.
+        That ticket has already been resolved. Please take a look at it to learn more.
 
         %search_for_dupes%
 
@@ -882,10 +882,10 @@ messages:
         - web
       name: Panel - Private issue
       shortcut: priv
-      message:
-        "{panel:borderColor=orange}(!) Please do not mark issues as _private_,
-        unless your bug report is an exploit or contains information about your username
-        or server.{panel}"
+      message: |-
+        {panel:borderColor=orange}
+        (!) Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.
+        {panel}
       fillname: []
   panel-unmark-private-issue:
     - project:
@@ -901,9 +901,10 @@ messages:
         - web
       name: Panel - Unmark private issue
       shortcut: unpriv
-      message:
-        "{panel:borderColor=orange}(!) Please do not unmark issues from _private_
-        after a moderator had set it that way{panel}"
+      message: |-
+        {panel:borderColor=orange}
+        (!) Please do not unmark issues from _private_ after a moderator had set it that way.
+        {panel}
       fillname: []
   panel-workaround:
     - project:
@@ -979,7 +980,9 @@ messages:
       name: Provide affected versions
       shortcut: fut
       message: |-
-        {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
+        {panel:borderColor=orange}
+        (!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.
+        {panel}
         
         _We have removed the unreleased version and added the latest released version._
         
