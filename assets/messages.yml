@@ -58,6 +58,7 @@ messages:
     - project: 
        - mc
        - web
+       - realms
       name: Account issue
       shortcut: acc
       message: |-
