@@ -442,7 +442,7 @@ messages:
         *Thank you for your report!*
         We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
-        That ticket has already been resolved, which means this is not considered a bug. Please take a look at that ticket to learn more.
+        That ticket has already been resolved. Please take a look at that ticket to learn more.
 
         %search_for_dupes%
 
@@ -546,7 +546,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         You have posted a feature request or a suggestion. This site is for *bug reports* only.
-        For suggestions, please visit the [Minecraft feedback website|https://feedback.minecraft.net/hc/en-us] or [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].
+        For suggestions, please visit the [Minecraft feedback website|https://feedback.minecraft.net/hc/en-us] or [Minecraft Suggestions on Reddit|https://www.reddit.com/r/minecraftsuggestions].
 
         %quick_links%
       fillname: []
@@ -580,7 +580,7 @@ messages:
       name: Attach hserr_pid file
       shortcut: hserr
       message: |-
-        Is there a file with a name starting with {{hs_err_pid}} in your {{.minecraft}} folder? If so, can you attach that here?
+        Is there a file with a name starting with {{hs_err_pid}} in your {{[https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/|.minecraft]}} folder? If so, please attach it here.
 
         %awaiting_response%
 
@@ -612,7 +612,7 @@ messages:
 
         You can also check out [this video guide|https://youtu.be/YmMjqGPmgsA] by [~silentwisperer] about how to create good bug reports.
 
-        In case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+        In case of a game crash, be sure to attach the crash report found at {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
 
         %search_for_dupes%
 
@@ -760,8 +760,8 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        You have posted a gameplay feature request or a suggestion. This project is for *API feature requests only* only.
-        For gameplay suggestions, please visit the [Minecraft feedback site|https://feedback.minecraft.net/] or [Minecraft Suggestions on Reddit|http://www.reddit.com/r/minecraftsuggestions].
+        You have posted a gameplay feature request or a suggestion. This project is for *API feature requests only*.
+        For gameplay suggestions, please visit the [Minecraft feedback site|https://feedback.minecraft.net/] or [Minecraft Suggestions on Reddit|https://www.reddit.com/r/minecraftsuggestions].
 
         %quick_links%
       fillname: []
@@ -790,7 +790,7 @@ messages:
 
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
-        In case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/].
+        In case of a game crash, please also attach the crash report found at {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
 
         %search_for_dupes%
 
@@ -811,9 +811,10 @@ messages:
         - web
       name: Panel - Environment Desc.
       shortcut: env
-      message:
-        "{panel:borderColor=orange}(!) The environment is supposed to only contain
-        PC details.{panel}"
+      message: |-
+        {panel:borderColor=orange}
+        (!) The environment is supposed to only contain PC details.
+        {panel}
       fillname: []
   panel-future-version:
     - project:
@@ -822,10 +823,11 @@ messages:
         - mcl
         - mcpe
       name: Panel - Future Version
-      shortcut: fut-old
-      message:
-        "{panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_
-        as affected. You don't have access to them yet.{panel}"
+      shortcut: fut-panel
+      message: |-
+        {panel:borderColor=orange}
+        (!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.
+        {panel}
       fillname: []
   panel-mojang-priority:
     - project:
@@ -841,9 +843,10 @@ messages:
         - web
       name: Panel - Mojang Priority
       shortcut: prio
-      message:
-        '{panel:borderColor=orange}(!) Don''t try to change "Mojang Priority".
-        It may only be changed by the developers. Consider this a warning.{panel}'
+      message: |-
+        {panel:borderColor=orange}
+        (!) Don't try to change "Mojang Priority". It may only be changed by the developers. Consider this a warning.
+        {panel}
       fillname: []
   panel-note:
     - project:
@@ -937,7 +940,7 @@ messages:
         This is especially the case with features that were added a long time ago, because one edition evolved faster than another, and tweaks or balances were made that did not propagate immediately to other editions.
         These differences between the different versions of the game are called "Parity issues".
 
-        However, we only accept bug reports about a parity issue if it fulfills the following criteria:
+        We only accept bug reports about a parity issue if it fulfills the following criteria:
         * The feature affected by the parity issue is present in both Bedrock Edition and Java Edition in the latest release or development version
         * The feature behaves differently in one edition than in the other
         * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
