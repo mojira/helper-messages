@@ -55,7 +55,13 @@ variables:
       value: REALMS
 messages:
   account-issue:
-    - project: mc
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mcpe
+        - realms
       name: Account issue
       shortcut: acc
       message: |-
