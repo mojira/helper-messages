@@ -62,6 +62,7 @@ messages:
         - mcl
         - mcpe
         - realms
+        - web
       name: Account issue
       shortcut: acc
       message: |-
