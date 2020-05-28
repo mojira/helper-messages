@@ -527,9 +527,9 @@ messages:
         However, this issue is {color:#FF5722}*Incomplete*{color}.
 
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
-        Please review the guidelines linked below before making further reports.
 
-        In case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+        However, please review the [Issue Guidelines|https://bugs.mojang.com/projects/%project_id%/summary] before writing a new bug report.
 
         %quick_links%
       fillname: []
@@ -549,7 +549,8 @@ messages:
 
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
-        Please review the guidelines linked below before making further reports.
+        You are welcome to create a new ticket about your issue with more detailed information.
+        However, please review the [Issue Guidelines|https://bugs.mojang.com/projects/%project_id%/summary] before writing a new bug report.
 
         %quick_links%
       fillname: []
