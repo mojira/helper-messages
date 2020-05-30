@@ -482,7 +482,7 @@ messages:
         - mcl
         - mcpe
         - realms
-      name: Feature request
+      name: Attach new attachment
       shortcut: attachnew
       message: |-
         Your report contained a attachment with a invalid extension so it was removed. 
