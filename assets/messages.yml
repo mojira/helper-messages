@@ -473,6 +473,22 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-new-attachment:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - realms
+      name: Feature request
+      shortcut: attachnew
+      message: |-
+        Your report contained a attachment with a invalid extension so it was removed. 
+        
+        Please remember to only include crashlogs as text files and images as jpg or png instead of using a Word document
+      fillname: []
   force-debug-crash-report:
     - project:
         - mc
