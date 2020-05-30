@@ -91,3 +91,27 @@ div.stdtext {
   width: 200px;
   margin-bottom: 10px;
 }
+
+div.icon {
+  text-align: center;
+  width: 45px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 12px;
+  background-color: #fc9700;
+  color: white;
+  border: 1px solid transparent;
+  border: .25rem;
+}
+
+div.alert {
+  background-color: white;
+  text-align: left;
+  padding-left: 60px;
+}
+
+div.alert-warning {
+  color: #c09853;
+}

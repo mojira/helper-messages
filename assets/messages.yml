@@ -32,6 +32,10 @@ variables:
       value: |-
           *Quick Links*:
           📓 [Issue Guidelines|https://bugs.mojang.com/projects/REALMS/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
+    - project: web
+      value: |-
+          *Quick Links*:
+          📓 [Issue Guidelines|https://bugs.mojang.com/projects/WEB/summary] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Customer Support|https://help.minecraft.net/hc/en-us/requests/new] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com]
   project_id:
     - project: mc
       value: MC
@@ -51,8 +55,16 @@ variables:
       value: REALMS
 messages:
   account-issue:
-    - project: mc
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mcpe
+        - realms
+        - web
       name: Account issue
+      shortcut: acc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -67,6 +79,7 @@ messages:
         - mc
         - mcl
       name: Attach crash report
+      shortcut: crash
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -80,6 +93,7 @@ messages:
   attach-debug-profile-and-report:
     - project: mc
       name: Attach debug profile and report
+      shortcut: debug
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -96,6 +110,7 @@ messages:
   attach-device-information:
     - project: mce
       name: Attach device information
+      shortcut: device
       message: |-
         *Thank you for your report!*
         Could you please include information about your device? Without it we may be unable to reproduce the issue.
@@ -104,10 +119,46 @@ messages:
       fillname: []
     - project: bds
       name: Attach server information
+      shortcut: server
       message: |-
         *Thank you for your report!*
         Could you please include information about your server? Without it we may be unable to reproduce the issue.
 
+        %quick_links%
+      fillname: []
+  attach-video:
+    - project:
+        - mc
+        - mcl
+        - mcpe
+        - mcd
+      name: Attach video (PC)
+      shortcut: vid
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+        
+        Please *record a video of this happening* and attach it to this report.
+        If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in App for recording game footage.
+        In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com/].
+        In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
+        
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        
+        %quick_links%
+      fillname: []
+    - project:
+        - mcpe
+        - mce
+      name: Attach video (Mobile)
+      shortcut: mvid
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+        
+        Please *record a video of this happening* and attach it to this report.
+        In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
+        
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        
         %quick_links%
       fillname: []
   attach-world-file:
@@ -115,6 +166,7 @@ messages:
         - mc
         - mcl
       name: Attach world file
+      shortcut: world
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -127,6 +179,7 @@ messages:
   auth-server-down:
     - project: mc
       name: Auth server down
+      shortcut: auth
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -139,6 +192,7 @@ messages:
   combat-test:
     - project: mc
       name: Combat Test
+      shortcut: combat
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -152,6 +206,7 @@ messages:
   contact-support:
     - project: mcpe
       name: Contact Support
+      shortcut: support
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -166,6 +221,7 @@ messages:
         - mcpe
         - realms
       name: Crash logged automatically
+      shortcut: autocrash
       message: |-
         *Thank you for your report!*
 
@@ -175,6 +231,7 @@ messages:
       fillname: []
     - project: mce
       name: Crash logged automatically
+      shortcut: autocrash
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -188,6 +245,7 @@ messages:
   device-not-supported:
     - project: mce
       name: Device not supported
+      shortcut: devsup
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -211,6 +269,7 @@ messages:
         - realms
         - web
       name: Duplicate
+      shortcut: dup
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -224,6 +283,7 @@ messages:
         - Enter parent issue ID
     - project: bds
       name: Duplicate
+      shortcut: dup
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -248,6 +308,7 @@ messages:
         - realms
         - web
       name: Duplicate (fixed)
+      shortcut: fdup
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -264,6 +325,7 @@ messages:
         - mc
         - mcl
       name: Duplicate of MC-128302
+      shortcut: ogl
       message: |-
         *Thank you for your report!*
         We're actually already tracking this issue in *MC-128302*, so I've resolved and linked this ticket as a duplicate.
@@ -278,6 +340,7 @@ messages:
   duplicate-of-mc-297:
     - project: mc
       name: Duplicate of MC-297
+      shortcut: '297'
       message: |-
         *Thank you for your report!*
         We're actually already tracking this issue in *MC-297*, so I've resolved and linked this ticket as a duplicate.
@@ -292,6 +355,7 @@ messages:
   duplicate-of-mcl-5638:
     - project: mcl
       name: Duplicate of MCL-5638
+      shortcut: jre
       message: |-
         *Thank you for your report!*
         We're actually already tracking this issue in *MCL-5638*, so I've resolved and linked this ticket as a duplicate.
@@ -314,6 +378,7 @@ messages:
         - realms
         - web
       name: Duplicate (private)
+      shortcut: pdup
       message: |-
         *Thank you for your report!*
         We're actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
@@ -336,6 +401,7 @@ messages:
         - realms
         - web
       name: Duplicate (tech support)
+      shortcut: tdup
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -361,6 +427,7 @@ messages:
         - realms
         - web
       name: Duplicate (wai)
+      shortcut: wdup
       message: |-
         *Thank you for your report!*
         We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -377,6 +444,7 @@ messages:
         - bds
         - mcpe
       name: External server issue
+      shortcut: ext
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -397,6 +465,7 @@ messages:
         - mcpe
         - realms
       name: Feature request
+      shortcut: feat
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -411,6 +480,7 @@ messages:
         - mc
         - mcl
       name: Force debug crash report
+      shortcut: force
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -423,6 +493,7 @@ messages:
   hashtag-issue:
     - project: mcpe
       name: Hashtag issue
+      shortcut: hashtag
       message:
         For any new or ongoing hashtag issues, please create a new ticket for
         any gamertags still affected and use the label {{[chat-filter|https://bugs.mojang.com/issues/?jql=labels+%3D+chat-filter]}}.
@@ -440,6 +511,7 @@ messages:
         - realms
         - web
       name: I am a Bot
+      shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automagically!
         Please report any issues in [Discord|https://discordapp.com/invite/rpCyfKV]
@@ -448,36 +520,39 @@ messages:
   incomplete:
     - project:
         - mc
-        - mcapi
-        - mcd
-        - mce
         - mcl
         - mctest
-        - realms
-        - web
       name: Incomplete
+      shortcut: inc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Incomplete*{color}.
 
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
-        Please review the guidelines linked below before making further reports.
 
-        In case of a game crash, be sure to attach the crashlog from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+        However, please review the [Issue Guidelines|https://bugs.mojang.com/projects/%project_id%/summary] before writing a new bug report.
 
         %quick_links%
       fillname: []
     - project:
         - bds
+        - mcapi
+        - mcd
+        - mce
         - mcpe
+        - realms
+        - web
       name: Incomplete
+      shortcut: inc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Incomplete*{color}.
 
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
-        Please review the guidelines linked below before making further reports.
+        You are welcome to create a new ticket about your issue with more detailed information.
+        However, please review the [Issue Guidelines|https://bugs.mojang.com/projects/%project_id%/summary] before writing a new bug report.
 
         %quick_links%
       fillname: []
@@ -486,6 +561,7 @@ messages:
         - mc
         - mcl
       name: MCL-6550 tech support issue
+      shortcut: resp
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -500,6 +576,7 @@ messages:
         - mc
         - mcl
       name: Minimum requirements not met
+      shortcut: min
       message: |-
         *Thank you for your report!* 
         However, this issue is {color:red}*Invalid*{color}.
@@ -514,6 +591,7 @@ messages:
         - mcl
         - mctest
       name: Modified game
+      shortcut: mod
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -531,6 +609,7 @@ messages:
         - bds
         - mcpe
       name: Modified game
+      shortcut: mod
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -547,6 +626,7 @@ messages:
   modify-entity-during-lifetime:
     - project: mc
       name: Modify entity during lifetime
+      shortcut: nbt
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -566,6 +646,7 @@ messages:
         - mcpe
         - realms
       name: Multiple issues in one report
+      shortcut: mult
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -577,6 +658,7 @@ messages:
   not-available-countries:
     - project: mce
       name: Not available countries/regions
+      shortcut: region
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -588,9 +670,28 @@ messages:
 
         %quick_links%
       fillname: []
+  not-reopen-ar:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Not reopen AR ticket
+      shortcut: hard-ar
+      message: |-
+        This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
+        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff in [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
+      fillname: []
   outdated-client:
     - project: mc
       name: Outdated client
+      shortcut: out
       message: |-
         *Thank you for your report!*
         However, this issue is {color:red}*Invalid*{color}.
@@ -615,6 +716,7 @@ messages:
         - realms
         - web
       name: Panel - Environment Desc.
+      shortcut: env
       message:
         "{panel:borderColor=orange}(!) The environment is supposed to only contain
         PC details.{panel}"
@@ -626,6 +728,7 @@ messages:
         - mcl
         - mcpe
       name: Panel - Future Version
+      shortcut: fut-old
       message:
         "{panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_
         as affected. You don't have access to them yet.{panel}"
@@ -643,6 +746,7 @@ messages:
         - realms
         - web
       name: Panel - Mojang Priority
+      shortcut: prio
       message:
         '{panel:borderColor=orange}(!) Don''t try to change "Mojang Priority".
         It may only be changed by the developers. Consider this a warning.{panel}'
@@ -660,6 +764,7 @@ messages:
         - realms
         - web
       name: Panel - Note
+      shortcut: note
       message: |-
         {panel:title=Note|borderStyle=dashed|borderColor=#ccc|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
         %s%
@@ -679,6 +784,7 @@ messages:
         - realms
         - web
       name: Panel - Private issue
+      shortcut: priv
       message:
         "{panel:borderColor=orange}(!) Please do not mark issues as _private_,
         unless your bug report is an exploit or contains information about your username
@@ -697,6 +803,7 @@ messages:
         - realms
         - web
       name: Panel - Unmark private issue
+      shortcut: unpriv
       message:
         "{panel:borderColor=orange}(!) Please do not unmark issues from _private_
         after a moderator had set it that way{panel}"
@@ -714,6 +821,7 @@ messages:
         - realms
         - web
       name: Panel - Workaround
+      shortcut: workaround
       message: |-
         {panel:title=Workaround|borderStyle=dashed|borderColor=#ccc|titleBGColor=#C1F7D6|bgColor=#CEFFFF}
         %s%
@@ -726,6 +834,7 @@ messages:
         - mcpe
         - realms
       name: Parity issue
+      shortcut: parity
       message: |-
         Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.
         Parity issues are not tracked on the bug tracker but should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
@@ -735,6 +844,7 @@ messages:
         - mc
         - mcl
       name: Pirated Minecraft
+      shortcut: pir
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -744,10 +854,38 @@ messages:
 
         %quick_links%
       fillname: []
+  provide-affected-versions:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+      name: Provide affected versions
+      shortcut: fut
+      message: |-
+        {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
+        
+        _We have removed it and added the latest released version_
+        
+        Please edit the *Affects Version/s* field and select the specific *Released Version* you were using when you encountered the reported issue.
+
+        If you can't find it in the list, please make sure that:
+        - You are in the *correct project* on the bug tracker.
+        - You were playing the *latest release version* or the *latest development version* of the game. 
+
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
+        %quick_links%
+      fillname: []
   provide-seed-and-coordinates:
     - project:
         - mc
       name: Provide seed and coordinates
+      shortcut: loc
       message: |-
         _We do not have enough information to reproduce this issue._
 
@@ -775,6 +913,7 @@ messages:
         - mcpe
         - realms
       name: Quick links
+      shortcut: qul
       message: "%quick_links%"
       fillname: []
   report-not-in-english:
@@ -788,6 +927,7 @@ messages:
         - mcpe
         - realms
       name: Report not in English
+      shortcut: lang
       message: |-
         *Thank you for your report!*
         Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
@@ -806,6 +946,7 @@ messages:
         - mc
         - mcl
       name: Technical support issue
+      shortcut: tech
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -818,6 +959,7 @@ messages:
   translation-issue:
     - project: mc
       name: Translation issue
+      shortcut: trans
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -829,6 +971,7 @@ messages:
       fillname: []
     - project: mcl
       name: Translation issue
+      shortcut: trans
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -841,6 +984,7 @@ messages:
   wai:
     - project: mc
       name: Works As Intended
+      shortcut: wai
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Working as Intended*{color}.
@@ -857,6 +1001,7 @@ messages:
         - Enter reason/source
     - project: mcpe
       name: Works As Intended
+      shortcut: wai
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Working as Intended*{color}.
@@ -873,6 +1018,7 @@ messages:
         - Enter reason/source
     - project: mcl
       name: Works As Intended
+      shortcut: wai
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Working as Intended*{color}.
@@ -898,6 +1044,7 @@ messages:
         - mcpe
         - realms
       name: Wrong project
+      shortcut: proj
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
