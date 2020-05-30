@@ -485,7 +485,7 @@ messages:
       name: Attach new attachment
       shortcut: attachnew
       message: |-
-        Your report contained an attachment with an invalid extension so it was removed. 
+        Your report contained an attachment with an invalid extension, so the attachment was removed. 
         
         Please remember to only include crashlogs as text files and images as jpg or png instead of using a Word document
       fillname: []
