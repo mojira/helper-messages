@@ -482,6 +482,8 @@ messages:
         - mcl
         - mcpe
         - realms
+        - mctest
+        - web
       name: Attach new attachment
       shortcut: attachnew
       message: |-
