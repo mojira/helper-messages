@@ -242,6 +242,19 @@ messages:
 
         %quick_links%
       fillname: []
+    - project: mcd
+      name: Crash logged automatically
+      shortcut: autocrash
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Crashes are logged collected automatically and sent to Mojang if you press the "Send" button after the crash occurs.
+
+        If you need help or have a suggestion you might like to follow a link below.
+
+        %quick_links%
+      fillname: []
   device-not-supported:
     - project: mce
       name: Device not supported
