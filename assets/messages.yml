@@ -776,11 +776,11 @@ messages:
         - mctest
         - realms
         - web
-      name: Panel - Maks as private
+      name: Panel - Mark as private
       shortcut: mkpriv
       message:
         "{panel:borderColor=orange}(!) Your bug report has been marked as _private_,
-        as it contains some sensitive privacy information (e.g. an emaill address or session ID).{panel}"
+        as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
       fillname: []
   panel-mojang-priority:
     - project:
