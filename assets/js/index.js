@@ -146,6 +146,14 @@ $("select").change(function () {
 });
 
 /**
+ * Check if the message is hidden or not.
+ * @param {{hidden: boolean | undefined}} message The message to be checked.
+ */
+function isHidden(message) {
+  return message.hidden !== undefined && message.hidden;
+}
+
+/**
  * Check if the current project matches the expected projects.
  * @param {string | string[]} expected The expected projects.
  * @param {string} current The current project.
@@ -186,7 +194,7 @@ function updateDisplay() {
     var messageArray = messages[i];
     for (let j in messageArray) {
       // Only get messages for current project
-      if (isExpectedProject(messageArray[j].project, project)) {
+      if (!isHidden(messageArray[j]) && isExpectedProject(messageArray[j].project, project)) {
         if (i == code) {
           selected = true;
         }
