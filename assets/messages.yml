@@ -500,9 +500,10 @@ messages:
       name: Attach new attachment
       shortcut: attachnew
       message: |-
-        Your report contained an attachment with an invalid extension, so the attachment was removed. 
-        
-        Please remember to only include crashlogs as text files and images as jpg or png instead of using a Word document
+        An attachment with a disallowed file extension has been removed from this ticket.
+
+        Executable files and documents are not allowed as attachments.
+        Please attach crash reports, log files and screenshots as they are instead of pasting them into a document.
       fillname: []
   force-debug-crash-report:
     - project:
