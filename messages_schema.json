@@ -39,6 +39,9 @@
                         "name": {
                             "type": "string"
                         },
+                        "hidden": {
+                            "type": "boolean"
+                        },
                         "message": {
                             "type": "string"
                         },
