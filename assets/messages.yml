@@ -320,6 +320,19 @@ messages:
 
         %quick_links%
       fillname: []
+    - project: mcd
+      name: Crash logged automatically
+      shortcut: autocrash
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Crashes are logged automatically and sent to Mojang if you press the "Send" button after the crash occurs.
+
+        If you need help or have a suggestion you might like to follow a link below.
+
+        %quick_links%
+      fillname: []
   device-not-supported:
     - project: mce
       name: Device not supported
@@ -551,6 +564,25 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-new-attachment:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - realms
+        - mctest
+        - web
+      name: Attach new attachment
+      shortcut: attachnew
+      message: |-
+        An attachment with a disallowed file extension has been removed from this ticket.
+
+        Executable files and documents are not allowed as attachments.
+        Please attach crash reports, log files and screenshots as they are instead of pasting them into a document.
+      fillname: []
   force-debug-crash-report:
     - project:
         - mc
@@ -587,6 +619,7 @@ messages:
         - realms
         - web
       name: I am a Bot
+      hidden: true
       shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
@@ -912,8 +945,17 @@ messages:
       name: Parity issue
       shortcut: parity
       message: |-
-        Minecraft has several different editions, and some features vary from edition to edition. Often this happens when one edition evolves faster than another, and tweaks or balances are made that don't propagate immediately to other editions.
-        Parity issues are not tracked on the bug tracker but should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        You reported a parity issue. We are only tracking parity issues that meet the following criteria on this bug tracker:
+        * The feature affected by the parity issue is present in both Bedrock Edition and Java Edition in the latest release or development version
+        * The feature behaves differently in one edition than in the other
+        * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
+        
+        Any parity issue that does not meet these criteria are not tracked on the bug tracker and should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
+        
+        %quick_links%
       fillname: []
   pirated-minecraft:
     - project:
@@ -1013,6 +1055,34 @@ messages:
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
         Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please use the *[Community Support Discord server|https://discord.gg/58Sxm23]*.
+
+        %quick_links%
+      fillname: []
+  report-not-in-english-bot:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - realms
+        - web
+      name: Report not in English (Bot)
+      hidden: true
+      shortcut: lang-bot
+      message: |-
+        *Thank you for your report!*
+        We appreciate you taking the time to report a bug. Unfortunately we are only able to accept bug reports in English, since it is the common language used by Mojang Studios and on this bug tracker.
+
+        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps. Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently closed.
+        However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
+        If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
+
+        Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Customer Support|https://help.minecraft.net/hc/en-us/requests/new]*.
+
+        _The language of this ticket was detected automatically. As such, closing this ticket may have been incorrect. In that case, please notify us on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/], so that we can reopen it._
 
         %quick_links%
       fillname: []
