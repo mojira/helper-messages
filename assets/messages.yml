@@ -764,6 +764,24 @@ messages:
         "{panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_
         as affected. You don't have access to them yet.{panel}"
       fillname: []
+  panel-mark-private:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Panel - Maks as private
+      shortcut: mkpriv
+      message:
+        "{panel:borderColor=orange}(!) Your bug report has been marked as _private_,
+        as it contains some sensitive privacy information (e.g. an emaill address or session ID).{panel}"
+      fillname: []
   panel-mojang-priority:
     - project:
         - bds
