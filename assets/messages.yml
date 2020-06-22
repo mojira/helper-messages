@@ -462,7 +462,7 @@ messages:
         - mctest
         - realms
         - web
-      name: Duplicate (wf)
+      name: Duplicate (won't fix)
       shortcut: wfdup
       message: |-
         *Thank you for your report!*
