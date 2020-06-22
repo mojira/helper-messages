@@ -468,7 +468,7 @@ messages:
         *Thank you for your report!*
         We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
-        That ticket has already been resolved as Won't Fix, which means this is considered a bug but won't be fixed. Please do not leave a comment on the linked ticket.
+        That ticket has already been resolved as Won't Fix, which means this is considered a bug but won't be fixed. The description of that ticket or the comments might explain the rationale. Please do not leave a comment on the linked ticket.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
