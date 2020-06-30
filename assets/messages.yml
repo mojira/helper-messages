@@ -1041,6 +1041,7 @@ messages:
     - project:
         - bds
         - mc
+        - mcd
         - mcl
       name: Technical support issue
       shortcut: tech
