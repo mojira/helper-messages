@@ -372,20 +372,6 @@ messages:
         %quick_links%
       fillname:
         - Enter parent issue ID
-    - project: bds
-      name: Duplicate
-      shortcut: dup
-      message: |-
-        *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
-
-        If you would like to add a vote and any extra information to the main ticket it would be appreciated.
-
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
-
-        %quick_links%
-      fillname:
-        - Enter parent issue ID
   duplicate-fixed:
     - project:
         - bds
@@ -474,6 +460,8 @@ messages:
         *Thank you for your report!*
         We're actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
 
+        Since the parent ticket is marked as private, you won't be able to access it.
+
         %quick_links%
       fillname:
         - Enter parent issue ID
@@ -522,6 +510,31 @@ messages:
         We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
+
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
+  duplicate-wf:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Duplicate (won't fix)
+      shortcut: wfdup
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved as Won't Fix, which means this is considered a bug but won't be fixed. The description of that ticket or the comments might explain the rationale. Please do not leave a comment on the linked ticket.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -842,6 +855,24 @@ messages:
         "{panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_
         as affected. You don't have access to them yet.{panel}"
       fillname: []
+  panel-mark-private:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Panel - Mark as private
+      shortcut: mkpriv
+      message:
+        "{panel:borderColor=orange}(!) Your bug report has been marked as _private_,
+        as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
+      fillname: []
   panel-mojang-priority:
     - project:
         - bds
@@ -1090,6 +1121,7 @@ messages:
     - project:
         - bds
         - mc
+        - mcd
         - mcl
       name: Technical support issue
       shortcut: tech
