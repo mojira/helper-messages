@@ -1058,7 +1058,6 @@ messages:
       fillname: []
   temporary-outage:
     - project:
-        - bds
         - mc
         - mcd
         - mcl
@@ -1077,7 +1076,8 @@ messages:
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
 
         %quick_links%
-      fillname: []  translation-issue:
+      fillname: []
+  translation-issue:
     - project: mc
       name: Translation issue
       shortcut: trans
