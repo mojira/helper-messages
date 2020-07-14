@@ -225,7 +225,7 @@ messages:
       message: |-
         *Thank you for your report!*
 
-        Crashes such as these are now logged automatically, this will therefore be investigated further by the development team internally.
+        Crashes such as these are logged automatically, this will therefore be investigated further by the development team internally.
 
         %quick_links%
       fillname: []
@@ -1056,7 +1056,28 @@ messages:
 
         %quick_links%
       fillname: []
-  translation-issue:
+  temporary-outage:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mcpe
+        - realms
+      name: Temporary Service Outage
+      shortcut: outage
+      message: |-
+        *Thank you for your report!*
+       
+        Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
+        
+        Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
+        
+        If there is no general outage, you are free to create a new report, after searching for duplicate reports. However, please first try to verify that the problem is not with your local connection or network settings. Visit *[Minecraft Community Support|https://discord.gg/58Sxm23]* for assistance.
+        You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
+
+        %quick_links%
+      fillname: []  translation-issue:
     - project: mc
       name: Translation issue
       shortcut: trans
