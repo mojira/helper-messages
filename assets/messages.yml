@@ -1067,6 +1067,7 @@ messages:
       shortcut: outage
       message: |-
         *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
        
         Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
         
