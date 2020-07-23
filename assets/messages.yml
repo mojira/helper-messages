@@ -225,7 +225,7 @@ messages:
       message: |-
         *Thank you for your report!*
 
-        Crashes such as these are now logged automatically, this will therefore be investigated further by the development team internally.
+        Crashes such as these are logged automatically, this will therefore be investigated further by the development team internally.
 
         %quick_links%
       fillname: []
@@ -1053,6 +1053,30 @@ messages:
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
         Please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+
+        %quick_links%
+      fillname: []
+  temporary-outage:
+    - project:
+        - mc
+        - mcd
+        - mcl
+        - mcpe
+        - realms
+      name: Temporary Service Outage
+      shortcut: outage
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+       
+        Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
+        
+        Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
+        
+        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Visit *[Minecraft Community Support|https://discord.gg/58Sxm23]* for assistance.
+        You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
+        
+        If you are still unable to access a paid service such as a realm or purchased content please contact [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new].
 
         %quick_links%
       fillname: []
