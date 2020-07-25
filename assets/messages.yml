@@ -1045,6 +1045,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mcpe
       name: Technical support issue
       shortcut: tech
       message: |-
