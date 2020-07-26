@@ -224,6 +224,7 @@ messages:
       shortcut: autocrash
       message: |-
         *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
 
         Crashes such as these are logged automatically, this will therefore be investigated further by the development team internally.
 
