@@ -215,7 +215,7 @@ messages:
 
         %quick_links%
       fillname: []
-  crash-logges-automatically:
+  crash-logged-automatically:
     - project:
         - bds
         - mcpe
