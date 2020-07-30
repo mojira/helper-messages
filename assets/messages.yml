@@ -1047,6 +1047,8 @@ messages:
         - mcd
         - mcl
         - mcpe
+        - realms
+        - web
       name: Technical support issue
       shortcut: tech
       message: |-
