@@ -252,6 +252,28 @@ messages:
 
         %quick_links%
       fillname: []
+    - project:
+        - mcpe
+      name: Attach world file
+      shortcut: mworld
+      category: ar
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+
+        Please *attach the affected (zipped) world file*. If the file size is too large, please upload it somewhere else and then link to it here.
+
+        * On Windows you can use the Export world feature.
+        * On Android or iOS you need to use a file explorer to navigate to _Device storage > games > com.mojang > minecraftWorlds_
+        * On Xbox or Switch the only way is to upload it to a Realm, and then download the world on Windows 10 or Android/iOS. _(Please do not purchase a Realms subscription just to provide a world to us - but if you have a Realm already this may be a viable option if you wish to do so.)_
+        * On PlayStation you can follow these steps to copy a world save:
+        ## Make sure your BLANK USB stick has been formatted to FAT32
+        ## On your PlayStation, go to Settings > Application Saved Data Management > Saved Data in System Storage > Copy to USB Storage Device > Select Minecraft > Select Saved World to copy > Copy
+        ## This should then copy the world save to the USB, which you can share to a file sharing site such as OneDrive, and then share the link.
+
+        %awaiting_response%
+
+        %quick_links%
+      fillname: []
   auth-server-down:
     - project: mc
       name: Auth server down
