@@ -204,6 +204,25 @@ messages:
 
         %quick_links%
       fillname: []
+    - project:
+        - mcpe
+      name: Attach world file
+      shortcut: mworld
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+
+        Please *attach the affected (zipped) world file*.
+
+        * On Windows 10 you can use the "Export World" feature.
+        * On Android or iOS you need to use a file explorer or iTunes to navigate to _Device storage > games > com.mojang > minecraftWorlds_
+        * On PlayStation, Switch or Xbox the only way is to upload it to a Realm, and then download the world on Windows 10 or Android/iOS. _(Please do not purchase a Realms subscription just to provide a world to us - but if you have a Realm already this may be a viable option if you wish to do so.)_
+
+        If the file size is too large, please upload it somewhere else and then link to it here.
+
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
+        %quick_links%
+      fillname: []
   auth-server-down:
     - project: mc
       name: Auth server down
