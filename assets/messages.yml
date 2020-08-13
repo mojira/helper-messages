@@ -366,6 +366,7 @@ messages:
         If you would like to learn more about this particular feature, see [this article|https://minecraft.gamepedia.com/Tutorials/Quasi-connectivity] on the Minecraft Wiki.
 
         %quick_links%
+      fillname: []
   duplicate-private:
     - project:
         - bds
