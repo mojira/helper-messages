@@ -93,7 +93,7 @@ messages:
   attach-debug-screen-image:
     - project: mc
       name: Attach F3 debug screenshot
-      shortcut: fscreen
+      shortcut: f3screen
       message: |-
         Please attach a screenshot of this occurring while the F3 debug screen is enabled.
 
