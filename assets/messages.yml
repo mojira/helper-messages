@@ -93,7 +93,7 @@ messages:
   attach-debug-profile-and-report:
     - project: mc
       name: Attach debug profile and report
-      shortcut: stick
+      shortcut: debug
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -247,7 +247,7 @@ messages:
   debug-stick:
     - project: mc
       name: Debug Stick
-      shortcut: debug
+      shortcut: stick
       message: |-
         *Thank you for your report!*
         However, this issue won't be fixed.
