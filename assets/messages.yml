@@ -90,6 +90,17 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-debug-screen-image:
+    - project: mc
+      name: Attach F3 screenshot
+      shortcut: fscreen
+      message: |-
+        Please attach a screenshot of this happening with the F3 debug screen enabled.
+
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
+        %quick_links%
+      fillname: []
   attach-debug-profile-and-report:
     - project: mc
       name: Attach debug profile and report
@@ -241,18 +252,6 @@ messages:
         Crashes are logged automatically and sent to Mojang if you press the "Send" button after the crash occurs.
 
         If you need help or have a suggestion you might like to follow a link below.
-
-        %quick_links%
-      fillname: []
-  debug-stick:
-    - project: mc
-      name: Debug Stick
-      shortcut: debug
-      message: |-
-        *Thank you for your report!*
-        However, this issue won't be fixed.
-
-        Any issues regarding the Debug Stick are not accepted on the bug tracker according to a [reddit post|https://www.reddit.com/r/Minecraft/comments/7es23r/please_mojang_let_us_keep_the_debug_stick_it_has/dq7fjld/] from Mojang.
 
         %quick_links%
       fillname: []
