@@ -90,6 +90,17 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-debug-screen-image:
+    - project: mc
+      name: Attach F3 debug screenshot
+      shortcut: f3screen
+      message: |-
+        Please attach a screenshot of this occurring while the F3 debug screen is enabled.
+
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
+        %quick_links%
+      fillname: []
   attach-debug-profile-and-report:
     - project: mc
       name: Attach debug profile and report
