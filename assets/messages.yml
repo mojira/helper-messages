@@ -353,6 +353,20 @@ messages:
 
         %quick_links%
       fillname: []
+  duplicate-of-mc-108:
+    - project: mc
+      name: Duplicate of MC-108
+      shortcut: quasi
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue as *MC-108*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
+
+        If you would like to learn more about this particular feature, see [this article|https://minecraft.gamepedia.com/Tutorials/Quasi-connectivity] on the Minecraft Wiki.
+
+        %quick_links%
+      fillname: []
   duplicate-private:
     - project:
         - bds
