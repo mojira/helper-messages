@@ -90,6 +90,17 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-debug-screen-image:
+    - project: mc
+      name: Attach F3 debug screenshot
+      shortcut: f3screen
+      message: |-
+        Please attach a screenshot of this occurring while the F3 debug screen is enabled.
+
+        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
+        %quick_links%
+      fillname: []
   attach-debug-profile-and-report:
     - project: mc
       name: Attach debug profile and report
@@ -350,6 +361,20 @@ messages:
 
         This is known to be an issue involving detection of the Java runtime.
         Please take a look at the Moderator’s Note on that ticket to see solutions to your issue.
+
+        %quick_links%
+      fillname: []
+  duplicate-of-mc-108:
+    - project: mc
+      name: Duplicate of MC-108
+      shortcut: quasi
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue as *MC-108*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
+
+        If you would like to learn more about this particular feature, see [this article|https://minecraft.gamepedia.com/Tutorials/Quasi-connectivity] on the Minecraft Wiki.
 
         %quick_links%
       fillname: []
@@ -1080,7 +1105,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Translations are done by the community and take place on the [Crowdin Minecraft Translation Project|https://crowdin.net/project/minecraft].
+        Translations for languages other than "English (US)" are done by the community and take place on the [Crowdin Minecraft Translation Project|https://crowdin.net/project/minecraft].
         Please use Crowdin for suggesting and adding translations.
 
         %quick_links%
