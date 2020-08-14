@@ -86,7 +86,7 @@ messages:
         Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}} here.
         If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/guides/getting-minecraft-logs/]}}.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -103,7 +103,7 @@ messages:
 
         Then, please *attach the profile results* found in {{[minecraft/debug/profile-results-<DATE>.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}}, as well as the *debug report* found in {{[minecraft/debug/debug-report-<DATE>.zip|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}} here.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -142,7 +142,7 @@ messages:
         In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com/].
         In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
         
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
         
         %quick_links%
       fillname: []
@@ -157,7 +157,7 @@ messages:
         Please *record a video of this happening* and attach it to this report.
         In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
         
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
         
         %quick_links%
       fillname: []
@@ -172,7 +172,7 @@ messages:
 
         Please *attach the affected (zipped) world file*. If the file size is too large, please upload it somewhere else and then link to it here.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -316,7 +316,7 @@ messages:
       shortcut: ogl
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MC-128302*, so I've resolved and linked this ticket as a duplicate.
+        We're actually already tracking this issue in *MC-128302*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
@@ -331,7 +331,7 @@ messages:
       shortcut: '297'
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MC-297*, so I've resolved and linked this ticket as a duplicate.
+        We're actually already tracking this issue in *MC-297*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
@@ -346,7 +346,7 @@ messages:
       shortcut: jre
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MCL-5638*, so I've resolved and linked this ticket as a duplicate.
+        We're actually already tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be an issue involving detection of the Java runtime.
         Please take a look at the Moderator’s Note on that ticket to see solutions to your issue.
@@ -518,7 +518,7 @@ messages:
 
         Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}) here.
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -937,7 +937,7 @@ messages:
         - You are in the *correct project* on the bug tracker.
         - You were playing the *latest release version* or the *latest development version* of the game. 
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -958,7 +958,7 @@ messages:
         - Seed: Can be obtained by using the {{/seed}} command and clicking on the message in chat
         - Coordinates: Can be copied to clipboard by pressing {{F3}} + {{C}}
 
-        ~This issue has been temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
