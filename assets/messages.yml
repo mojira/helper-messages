@@ -1080,7 +1080,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Translations are done by the community and take place on the [Crowdin Minecraft Translation Project|https://crowdin.net/project/minecraft].
+        Translations for languages other than "English (US)" are done by the community and take place on the [Crowdin Minecraft Translation Project|https://crowdin.net/project/minecraft].
         Please use Crowdin for suggesting and adding translations.
 
         %quick_links%
