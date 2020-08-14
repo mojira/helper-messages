@@ -358,7 +358,7 @@ messages:
       name: Duplicate of MC-108
       shortcut: quasi
       message: |-
-       *Thank you for your report!*
+        *Thank you for your report!*
         We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
