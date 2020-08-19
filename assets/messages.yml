@@ -331,7 +331,7 @@ messages:
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
-        -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.
+        -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
         -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
 
         %quick_links%
@@ -346,7 +346,7 @@ messages:
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
-        -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 512MB.
+        -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
         -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
 
         %quick_links%
