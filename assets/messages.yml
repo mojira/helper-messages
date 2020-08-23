@@ -997,6 +997,7 @@ messages:
         - mcl
         - mcpe
         - realms
+        - web
       name: Quick links
       shortcut: qul
       message: "%quick_links%"
@@ -1011,6 +1012,7 @@ messages:
         - mcl
         - mcpe
         - realms
+        - web
       name: Report not in English
       shortcut: lang
       message: |-
