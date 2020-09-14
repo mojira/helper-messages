@@ -366,7 +366,7 @@ messages:
       fillname: []
   duplicate-of-mcl-14369:
     - project: mcl
-      name: Duplicate of MCL-5638
+      name: Duplicate of MCL-14369
       shortcut: '14369'
       message: |-
         *Thank you for your report!*
