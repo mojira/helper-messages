@@ -10,7 +10,7 @@ We use GitHub pages to dynamically deploy the web app after something was change
 
 ## Contribute
 
-Issues and pull requests are always very much appreciated. Please make sure to give reason for changing helper messages in `messages.json` in your PR. If you are a Mojira helper / moderator and have access to this repository, you don't have to create a PR, but you can. 
+Issues and pull requests are always very much appreciated. Please make sure to give reason for changing helper messages in `messages.yml` in your PR. If you are a Mojira helper / moderator and have access to this repository, you don't have to create a PR, but you can. 
 
 Changes in the `master` branch will be auto deployed to GitHub pages; there's no need to manually update.
 
