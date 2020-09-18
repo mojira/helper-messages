@@ -83,7 +83,7 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}} here.
+        Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}} here.
         If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/guides/getting-minecraft-logs/]}}.
 
         ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
@@ -112,7 +112,7 @@ messages:
 
         If you do not have the permission to run these commands, open your world to LAN and enable cheats. If you're on a server, make sure that you're a server operator in order to execute these commands.
 
-        Then, please *attach the profile results* found in {{[minecraft/debug/profile-results-<DATE>.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}}, as well as the *debug report* found in {{[minecraft/debug/debug-report-<DATE>.zip|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder]}} here.
+        Then, please *attach the profile results* found in {{[minecraft/debug/profile-results-<DATE>.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}, as well as the *debug report* found in {{[minecraft/debug/debug-report-<DATE>.zip|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}} here.
 
         ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
@@ -208,7 +208,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/i5cvlh/combat_test_version_6/] or on the [feedback website|https://aka.ms/JavaCombatSnap].
+        We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/idvujw/here_we_go_again_combat_test_snapshot_8b/] or on the [feedback website|https://aka.ms/JavaCombatSnap].
 
         If you need help or support you might like to follow a link below.
 
@@ -541,7 +541,7 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}) here.
+        Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}) here.
 
         ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
@@ -588,7 +588,7 @@ messages:
 
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
-        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/]}}.
+        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
         However, please review the [Issue Guidelines|https://bugs.mojang.com/projects/%project_id%/summary] before writing a new bug report.
 
         %quick_links%
@@ -756,7 +756,7 @@ messages:
 
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
-        In case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/guides/finding-minecraft-data-folder/].
+        In case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
 
         %quick_links%
       fillname:
