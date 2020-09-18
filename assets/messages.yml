@@ -360,7 +360,7 @@ messages:
         We're actually already tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be an issue involving detection of the Java runtime.
-        Please take a look at the Moderator’s Note on that ticket to see solutions to your issue.
+        Please take a look at the Moderator Note on that ticket to see solutions to your issue.
 
         %quick_links%
       fillname: []
