@@ -360,7 +360,20 @@ messages:
         We're tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be an issue involving detection of the Java runtime.
-        Please take a look at the Moderator’s Note on that ticket to see solutions to your issue.
+        Please take a look at the Moderator Note on that ticket to see solutions to your issue.
+
+        %quick_links%
+      fillname: []
+  duplicate-of-mcl-14369:
+    - project: mcl
+      name: Duplicate of MCL-14369
+      shortcut: mvc
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue in *MCL-14369*, so this ticket is being resolved and linked as a *duplicate*.
+
+        Please take a look at the Moderator Note on that ticket to see a possible solution to your issue.
+        If that did not help, please join the *[Community Support Discord|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
