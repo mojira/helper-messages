@@ -210,7 +210,7 @@ messages:
 
         We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/idvujw/here_we_go_again_combat_test_snapshot_8b/] or on the [feedback website|https://aka.ms/JavaCombatSnap].
 
-        If you need help or support you might like to follow a link below.
+        If you need help or support, you might like to follow a link below.
 
         %quick_links%
       fillname: []
@@ -238,7 +238,7 @@ messages:
 
         Crashes such as these are logged automatically, and will be looked into further by the development team.
 
-        If you need help or have a suggestion you might like to follow a link below.
+        If you need help or have a suggestion, you might like to follow a link below.
 
         %quick_links%
       fillname: []
@@ -251,7 +251,7 @@ messages:
 
         Crashes are logged automatically and sent to Mojang if you press the "Send" button after the crash occurs.
 
-        If you need help or have a suggestion you might like to follow a link below.
+        If you need help or have a suggestion, you might like to follow a link below.
 
         %quick_links%
       fillname: []
@@ -265,7 +265,7 @@ messages:
 
         Devices must be ARCore / ARKit compatible to run Minecraft Earth.
         Also, some devices may not be supported due to performance issues - more information about devices can be found [here|https://help.minecraft.net/hc/en-us/articles/360035810292-Minecraft-Earth-Compatible-Devices].
-        If you need help or have a suggestion you might like to follow a link below.
+        If you need help or have a suggestion, you might like to follow a link below.
 
         %quick_links%
       fillname: []
@@ -312,7 +312,7 @@ messages:
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
-        That ticket has already been resolved as Fixed. The fix will arrive in the next version or is already included in the latest development version of the game, you can check the Fix Version/s field in that ticket to learn more.
+        That ticket has already been resolved as Fixed. The fix will arrive in a future version or is already included in the latest development version of the game; you can check the Fix Version/s field in that ticket to learn more.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -327,7 +327,7 @@ messages:
       shortcut: ogl
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MC-128302*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *MC-128302*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
@@ -342,7 +342,7 @@ messages:
       shortcut: '297'
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MC-297*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *MC-297*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
@@ -357,7 +357,7 @@ messages:
       shortcut: jre
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be an issue involving detection of the Java runtime.
         Please take a look at the Moderator’s Note on that ticket to see solutions to your issue.
@@ -370,7 +370,7 @@ messages:
       shortcut: quasi
       message: |-
         *Thank you for your report!*
-        We're tracking this issue as *MC-108*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *MC-108*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
@@ -394,7 +394,7 @@ messages:
       shortcut: pdup
       message: |-
         *Thank you for your report!*
-        We're actually already tracking this issue as *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
 
         Since the parent ticket is marked as private, you won't be able to access it.
 
@@ -443,7 +443,7 @@ messages:
       shortcut: wdup
       message: |-
         *Thank you for your report!*
-        We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
@@ -724,7 +724,7 @@ messages:
         {quote}Minecraft Earth is not available in China, Cuba, Iran, Myanmar/Burma, Sudan, Iraq, and UAE.
         -- [Minecraft Earth FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]{quote}
 
-        If you need help or have a suggestion you might like to follow a link below.
+        If you need help or have a suggestion, you might like to follow a link below.
 
         %quick_links%
       fillname: []
@@ -882,7 +882,7 @@ messages:
       shortcut: unpriv
       message:
         "{panel:borderColor=orange}(!) Please do not unmark issues from _private_
-        after a moderator had set it that way{panel}"
+        after a moderator had set it that way.{panel}"
       fillname: []
   panel-workaround:
     - project:
@@ -935,7 +935,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         You are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://www.minecraft.net/store/minecraft-java-edition].
-        We will not provide support for pirated versions of the game, these versions are modified and may contain malware.
+        We will not provide support for pirated versions of the game; these versions are modified and may contain malware.
 
         %quick_links%
       fillname: []
@@ -1095,7 +1095,7 @@ messages:
         If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Visit *[Minecraft Community Support|https://discord.gg/58Sxm23]* for assistance.
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
         
-        If you are still unable to access a paid service such as a realm or purchased content please contact [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new].
+        If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new].
 
         %quick_links%
       fillname: []
