@@ -255,6 +255,18 @@ messages:
 
         %quick_links%
       fillname: []
+  debug-stick:
+    - project: mc
+      name: Debug Stick
+      shortcut: stick
+      message: |-
+        *Thank you for your report!*
+        However, this issue won't be fixed.
+
+        Any issues regarding block states being created or changed by using the Debug Stick are not accepted on the bug tracker according to this [reddit post|https://www.reddit.com/r/Minecraft/comments/7es23r/please_mojang_let_us_keep_the_debug_stick_it_has/dq7fjld/] from Mojang.
+
+        %quick_links%
+      fillname: []
   device-not-supported:
     - project: mce
       name: Device not supported
