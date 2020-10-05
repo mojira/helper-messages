@@ -3,47 +3,47 @@ variables:
     - project: bds
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
     - project: mc
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
     - project: mcapi
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCAPI/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
     - project: mcd
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mce
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
     - project: mcl
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
     - project: mcpe
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
     - project: realms
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
           *Quick Links*:
-          📓 [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com]
   project_id:
     - project: mc
@@ -644,7 +644,7 @@ messages:
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
         You are welcome to create a new ticket about your issue with more detailed information.
-        However, please review the [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] and be search to search for existing issues before writing a new bug report.
+        However, please review the [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] and be sure to search for existing issues before writing a new bug report.
 
         %quick_links%
       fillname: []
