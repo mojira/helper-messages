@@ -62,6 +62,8 @@ variables:
       value: BDS
     - project: realms
       value: REALMS
+    - project: web
+      value: WEB
 messages:
   account-issue:
     - project:
