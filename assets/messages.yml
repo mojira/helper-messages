@@ -513,6 +513,29 @@ messages:
         %quick_links%
       fillname:
         - Enter parent issue ID
+  duplicate-forward:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Duplicate (forward)
+      shortcut: fodup
+      message: |-
+        *Thank you for your report!*
+        We're resolving and linking this issue forward as a *duplicate* of *%s%*, as that ticket contains more detailed information and/or has already been triaged by Mojang.
+
+        If you would like to add a vote and any extra information to the main ticket it would be appreciated.
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
   external-server-issue:
     - project:
         - bds
