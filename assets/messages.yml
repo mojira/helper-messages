@@ -529,7 +529,7 @@ messages:
       shortcut: fodup
       message: |-
         *Thank you for your report!*
-        We're resolving and linking this issue forward as a *duplicate* of *%s%*, as that ticket contains more detailed information and/or has already been triaged by Mojang.
+        We're resolving and linking this ticket forward as a *duplicate* of *%s%*, as that ticket contains more detailed information and/or has already been triaged by Mojang.
 
         If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
