@@ -456,7 +456,7 @@ messages:
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
-        If you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]*
+        If you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -661,7 +661,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -1108,7 +1108,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please contact *[Community Support|https://discord.gg/58Sxm23]* for assistance.
+        Please contact *[Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
