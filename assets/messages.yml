@@ -355,7 +355,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -370,7 +370,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -396,7 +396,7 @@ messages:
         We're tracking this issue in *MCL-14369*, so this ticket is being resolved and linked as a *duplicate*.
 
         Please take a look at the Moderator Note on that ticket to see a possible solution to your issue.
-        If that did not help, please join the *[Community Support Discord|https://discord.gg/58Sxm23]*.
+        If that did not help, please join the *[Community Support Discord|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -1129,7 +1129,7 @@ messages:
         
         Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
         
-        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Visit *[Minecraft Community Support|https://discord.gg/58Sxm23]* for assistance.
+        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards visit *[Minecraft Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
         
         If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new].
