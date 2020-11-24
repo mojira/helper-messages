@@ -1039,6 +1039,18 @@ messages:
       shortcut: qul
       message: "%quick_links%"
       fillname: []
+  removed-version:
+    - project:
+        - mc
+        - mce
+        - mcl
+        - mcpe
+      name: Panel - Removed Extra Version
+      shortcut: remver
+      message:
+        "{panel:borderColor=orange}(!) Please do not add Affected Versions
+        to resolved reports.{panel}"
+      fillname: []
   report-not-in-english:
     - project:
         - bds
