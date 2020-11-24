@@ -1041,10 +1041,13 @@ messages:
       fillname: []
   removed-version:
     - project:
+        - bds
         - mc
+        - mcd
         - mce
         - mcl
         - mcpe
+        - realms
       name: Panel - Removed Extra Version
       shortcut: remver
       message:
