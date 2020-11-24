@@ -915,9 +915,11 @@ messages:
       name: Panel - Remove affected version from resolved ticket
       shortcut: remver
       message: |-
-        "{panel:borderColor=orange}(!) Please do not add Affected Versions
-        to resolved reports. Have a look at the Resolution and the comments to see why this ticket has been resolved.
-        If you think this ticket has been resolved erroneously you can contact the Mojira staff on *[Discord|https://discord.com/invite/rpCyfKV]* or *[Reddit|https://www.reddit.com/r/Mojira/]*.{panel}"
+        {panel:borderColor=orange}
+        (!) Please do not add Affected Versions to resolved reports.
+        
+        Have a look at the Resolution and the comments to see why this ticket has been resolved. If you think this ticket has been resolved erroneously you can contact the Mojira staff on *[Discord|https://discord.com/invite/rpCyfKV]* or *[Reddit|https://www.reddit.com/r/Mojira/]*.
+        {panel}
       fillname: []
   panel-unmark-private-issue:
     - project:
