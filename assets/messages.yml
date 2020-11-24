@@ -719,7 +719,7 @@ messages:
       fillname: []
   modify-entity-during-lifetime:
     - project: mc
-      name: Modify entity during lifetime
+      name: Modifying entity during lifetime
       shortcut: nbt
       message: |-
         *Thank you for your report!*
