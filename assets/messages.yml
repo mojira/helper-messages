@@ -912,7 +912,7 @@ messages:
         - mcl
         - mcpe
         - realms
-      name: Panel - Remove affected version from resolved ticket
+      name: Panel - Removed affected version from resolved ticket
       shortcut: remver
       message: |-
         {panel:borderColor=orange}
