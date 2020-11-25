@@ -608,7 +608,7 @@ messages:
       shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
-        Please report any issues in [Discord|https://discordapp.com/invite/rpCyfKV]
+        Please report any issues on [Discord|https://discordapp.com/invite/rpCyfKV]
         or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
       fillname: []
   incomplete:
@@ -781,7 +781,7 @@ messages:
       shortcut: hard-ar
       message: |-
         This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
-        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff in [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
+        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
       fillname: []
   outdated-client:
     - project: mc
