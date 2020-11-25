@@ -903,6 +903,24 @@ messages:
         unless your bug report is an exploit or contains information about your username
         or server.{panel}"
       fillname: []
+  panel-removed-version:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - realms
+      name: Panel - Removed affected version from resolved ticket
+      shortcut: remver
+      message: |-
+        {panel:borderColor=orange}
+        (!) Please do not add Affected Versions to resolved reports.
+        
+        Have a look at the Resolution and the comments to see why this ticket has been resolved. If you think this ticket has been resolved erroneously you can contact the Mojira staff on *[Discord|https://discord.com/invite/rpCyfKV]* or *[Reddit|https://www.reddit.com/r/Mojira/]*.
+        {panel}
+      fillname: []
   panel-unmark-private-issue:
     - project:
         - bds
