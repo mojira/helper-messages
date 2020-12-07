@@ -211,6 +211,23 @@ messages:
 
         %quick_links%
       fillname: []
+  banned:
+    - project:
+        - mcd
+        - mcpe
+        - realms
+        - web
+      name: Banned
+      shortcut: ban
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
+        Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/360052618531-Why-have-I-been-banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
+        
+        %quick_links%
+      fillname: []
   combat-test:
     - project: mc
       name: Combat Test
