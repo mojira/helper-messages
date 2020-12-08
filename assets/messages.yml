@@ -810,7 +810,7 @@ messages:
 
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
-        In case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        In case of a game crash, please also attach the crash report found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
 
         %quick_links%
       fillname:
