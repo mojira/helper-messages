@@ -211,6 +211,23 @@ messages:
 
         %quick_links%
       fillname: []
+  banned:
+    - project:
+        - mcd
+        - mcpe
+        - realms
+        - web
+      name: Banned
+      shortcut: ban
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
+        Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/360052618531-Why-have-I-been-banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
+        
+        %quick_links%
+      fillname: []
   combat-test:
     - project: mc
       name: Combat Test
@@ -608,7 +625,7 @@ messages:
       shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
-        Please report any issues in [Discord|https://discordapp.com/invite/rpCyfKV]
+        Please report any issues on [Discord|https://discordapp.com/invite/rpCyfKV]
         or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
       fillname: []
   incomplete:
@@ -781,7 +798,7 @@ messages:
       shortcut: hard-ar
       message: |-
         This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
-        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff in [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
+        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
       fillname: []
   outdated-client:
     - project: mc
@@ -793,7 +810,7 @@ messages:
 
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
-        In case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        In case of a game crash, please also attach the crash report found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
 
         %quick_links%
       fillname:
@@ -902,6 +919,24 @@ messages:
         "{panel:borderColor=orange}(!) Please do not mark issues as _private_,
         unless your bug report is an exploit or contains information about your username
         or server.{panel}"
+      fillname: []
+  panel-removed-version:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - realms
+      name: Panel - Removed affected version from resolved ticket
+      shortcut: remver
+      message: |-
+        {panel:borderColor=orange}
+        (!) Please do not add Affected Versions to resolved reports.
+        
+        Have a look at the Resolution and the comments to see why this ticket has been resolved. If you think this ticket has been resolved erroneously you can contact the Mojira staff on *[Discord|https://discord.com/invite/rpCyfKV]* or *[Reddit|https://www.reddit.com/r/Mojira/]*.
+        {panel}
       fillname: []
   panel-unmark-private-issue:
     - project:
