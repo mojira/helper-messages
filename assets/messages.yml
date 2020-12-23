@@ -295,6 +295,22 @@ messages:
 
         %quick_links%
       fillname: []
+  demo-account:
+    - project:
+        - mc
+        - mcl
+        - web
+      name: Demo account
+      shortcut: demo
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
+        Please read the help article "[Can only play Minecraft demo (Java Edition)](https://help.minecraft.net/hc/en-us/articles/360029643892-Can-only-play-Minecraft-demo-Java-Edition-)" and if that does not solve your issue, contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*.
+
+        %quick_links%
+      fillname: []
   device-not-supported:
     - project: mce
       name: Device not supported
