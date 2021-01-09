@@ -1265,10 +1265,9 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is related to a different project. Use one of the links below to go to the correct project.
-        -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux
+        -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
-        -- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Microsoft store), Xbox One, Windows 10 Mobile, Fire TV, Nintendo Switch, and PS4
-        -- [Minecraft Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices
+        -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- iOS, Android, iOS, Windows 10 (from the Microsoft Store), Xbox, Nintendo Switch, Playstation, Fire OS, and Gear VR
         -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
 
         Please don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.
