@@ -160,7 +160,8 @@ messages:
         _We do not have enough information to find the cause of this issue._
         
         Please *record a video of this happening* and attach it to this report.
-        If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in App for recording game footage.
+        If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in app for recording game footage.
+        If you are on Mac (Mojave or later), you can use {{Shift}}\+{{Command}}\+{{5}} to open a [built-in app|https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac] for recording your screen.
         In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com/].
         In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
         
@@ -209,6 +210,23 @@ messages:
         The authentication services are offline.
         This will be fixed shortly, please hang tight. Check tweets from [@MojangSupport|https://twitter.com/MojangSupport] for the current status.
 
+        %quick_links%
+      fillname: []
+  banned:
+    - project:
+        - mcd
+        - mcpe
+        - realms
+        - web
+      name: Banned
+      shortcut: ban
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
+        Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/360052618531-Why-have-I-been-banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
+        
         %quick_links%
       fillname: []
   combat-test:
@@ -335,7 +353,7 @@ messages:
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
-        That ticket has already been resolved as Fixed. The fix will arrive in a future version or is already included in the latest development version of the game; you can check the Fix Version/s field in that ticket to learn more.
+        That ticket has already been resolved as Fixed. Please check the Fix Version/s field in that ticket to see in which version this behavior was or will be fixed.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -355,7 +373,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -370,7 +388,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        -- If that did not help, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -396,7 +414,7 @@ messages:
         We're tracking this issue in *MCL-14369*, so this ticket is being resolved and linked as a *duplicate*.
 
         Please take a look at the Moderator Note on that ticket to see a possible solution to your issue.
-        If that did not help, please join the *[Community Support Discord|https://discord.gg/58Sxm23]*.
+        If that did not help, please join the *[Community Support Discord|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -456,7 +474,7 @@ messages:
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
-        If you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]*
+        If you need additional help to fix this problem, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -631,7 +649,7 @@ messages:
       shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
-        Please report any issues in [Discord|https://discordapp.com/invite/rpCyfKV]
+        Please report any issues on [Discord|https://discordapp.com/invite/rpCyfKV]
         or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
       fillname: []
   incomplete:
@@ -684,7 +702,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]*.
+        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact the *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -804,7 +822,7 @@ messages:
       shortcut: hard-ar
       message: |-
         This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
-        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff in [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
+        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
       fillname: []
   outdated-client:
     - project: mc
@@ -816,7 +834,7 @@ messages:
 
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
-        In case of a game crash, please also attach the [crashlog|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        In case of a game crash, please also attach the crash report found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
 
         %quick_links%
       fillname:
@@ -925,6 +943,24 @@ messages:
         "{panel:borderColor=orange}(!) Please do not mark issues as _private_,
         unless your bug report is an exploit or contains information about your username
         or server.{panel}"
+      fillname: []
+  panel-removed-version:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - realms
+      name: Panel - Removed affected version from resolved ticket
+      shortcut: remver
+      message: |-
+        {panel:borderColor=orange}
+        (!) Please do not add Affected Versions to resolved reports.
+        
+        Have a look at the Resolution and the comments to see why this ticket has been resolved. If you think this ticket has been resolved erroneously you can contact the Mojira staff on *[Discord|https://discord.com/invite/rpCyfKV]* or *[Reddit|https://www.reddit.com/r/Mojira/]*.
+        {panel}
       fillname: []
   panel-unmark-private-issue:
     - project:
@@ -1083,7 +1119,7 @@ messages:
         However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (i.e. Minecraft doesn't start at all), please use the *[Community Support Discord server|https://discord.gg/58Sxm23]*.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please use the *[Community Support Discord server|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
@@ -1131,7 +1167,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please contact *[Community Support|https://discord.gg/58Sxm23]* for assistance.
+        Please contact *[Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
 
         %quick_links%
       fillname: []
@@ -1152,7 +1188,7 @@ messages:
         
         Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
         
-        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Visit *[Minecraft Community Support|https://discord.gg/58Sxm23]* for assistance.
+        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards visit *[Minecraft Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
         
         If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new].
@@ -1253,10 +1289,9 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is related to a different project. Use one of the links below to go to the correct project.
-        -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, Mac, and Linux
+        -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
-        -- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Gear VR, iOS, Android, Windows 10 (from the Windows store), Xbox One, Windows 10 Mobile, Fire TV, Nintendo Switch, and PS4
-        -- [Minecraft Earth|https://bugs.mojang.com/browse/MCE] --- AR Compatible Devices
+        -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10 (from the Microsoft Store), Xbox, Nintendo Switch, PlayStation, Fire OS, and Gear VR
         -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
 
         Please don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.
