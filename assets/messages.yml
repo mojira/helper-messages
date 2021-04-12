@@ -649,8 +649,8 @@ messages:
       shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
-        Please report any issues on [Discord|https://discordapp.com/invite/rpCyfKV]
-        or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
+        If you think it was incorrect, please notify us
+        on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
       fillname: []
   incomplete:
     - project:
