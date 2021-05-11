@@ -1141,7 +1141,7 @@ messages:
         *Thank you for your report!*
         We appreciate you taking the time to report a bug. Unfortunately we are only able to accept bug reports in English, since it is the common language used by Mojang Studios and on this bug tracker.
 
-        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps. Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently closed.
+        You are welcome to *create a new ticket* about your issue in English. You can use an online translator, if it helps. *Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently closed.*
         However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
