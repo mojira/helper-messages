@@ -10,21 +10,11 @@ variables:
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
-    - project: mcapi
-      value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCAPI/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcd
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
-    - project: mce
-      value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]
     - project: mcl
       value: |-
           *Quick Links*:
@@ -54,10 +44,6 @@ variables:
       value: MCPE
     - project: mcl
       value: MCL
-    - project: mcapi
-      value: MCAPI
-    - project: mce
-      value: MCE
     - project: bds
       value: BDS
     - project: realms
@@ -141,15 +127,6 @@ messages:
         %quick_links%
       fillname: []
   attach-device-information:
-    - project: mce
-      name: Attach device information
-      shortcut: device
-      message: |-
-        *Thank you for your report!*
-        Could you please include information about your device? Without it we may be unable to reproduce the issue.
-
-        %quick_links%
-      fillname: []
     - project: bds
       name: Attach server information
       shortcut: server
@@ -182,7 +159,6 @@ messages:
       fillname: []
     - project:
         - mcpe
-        - mce
       name: Attach video (Mobile)
       shortcut: mvid
       message: |-
@@ -269,19 +245,6 @@ messages:
 
         %quick_links%
       fillname: []
-    - project: mce
-      name: Crash logged automatically
-      shortcut: autocrash
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        Crashes such as these are logged automatically, and will be looked into further by the development team.
-
-        If you need help or have a suggestion, you might like to follow a link below.
-
-        %quick_links%
-      fillname: []
     - project: mcd
       name: Crash logged automatically
       shortcut: autocrash
@@ -307,27 +270,11 @@ messages:
 
         %quick_links%
       fillname: []
-  device-not-supported:
-    - project: mce
-      name: Device not supported
-      shortcut: devsup
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        Devices must be ARCore / ARKit compatible to run Minecraft Earth.
-        Also, some devices may not be supported due to performance issues - more information about devices can be found [here|https://help.minecraft.net/hc/en-us/articles/360035810292-Minecraft-Earth-Compatible-Devices].
-        If you need help or have a suggestion, you might like to follow a link below.
-
-        %quick_links%
-      fillname: []
   duplicate:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -350,9 +297,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -447,9 +392,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -470,9 +413,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -496,9 +437,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -521,9 +460,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -586,7 +523,6 @@ messages:
         - bds
         - mc
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
@@ -606,7 +542,6 @@ messages:
         - bds
         - mc
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
@@ -647,9 +582,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -683,9 +616,7 @@ messages:
       fillname: []
     - project:
         - bds
-        - mcapi
         - mcd
-        - mce
         - mcpe
         - realms
         - web
@@ -787,7 +718,6 @@ messages:
         - bds
         - mc
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
@@ -802,28 +732,11 @@ messages:
 
         %quick_links%
       fillname: []
-  not-available-countries:
-    - project: mce
-      name: Not available countries/regions
-      shortcut: region
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        {quote}Minecraft Earth is not available in China, Cuba, Iran, Myanmar/Burma, Sudan, Iraq, and UAE.
-        -- [Minecraft Earth FAQs|https://help.minecraft.net/hc/en-us/articles/360033744412-Minecraft-Earth-FAQs]{quote}
-
-        If you need help or have a suggestion, you might like to follow a link below.
-
-        %quick_links%
-      fillname: []
   not-reopen-ar:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -854,9 +767,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -871,7 +782,6 @@ messages:
   panel-future-version:
     - project:
         - mc
-        - mce
         - mcl
         - mcpe
       name: Panel - Future Version
@@ -884,9 +794,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -902,9 +810,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -920,9 +826,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -940,9 +844,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -960,7 +862,6 @@ messages:
         - bds
         - mc
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
@@ -977,9 +878,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -995,9 +894,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -1051,7 +948,6 @@ messages:
         - bds
         - mc
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
@@ -1098,9 +994,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
@@ -1113,9 +1007,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
@@ -1138,9 +1030,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
@@ -1287,9 +1177,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - realms
