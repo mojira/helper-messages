@@ -129,6 +129,17 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-rendering-profile-report:
+    - project: mc
+      name: Attach rendering profile report
+      shortcut: render
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+        While the lag occurs, please press {{F3}} + {{L}} once, then wait a short moment or press {{F3}} + {{L}} again in order to create a rendering debug profile.
+        Afterwards, please *attach the generated {{.zip}} file* containing the profile results here. The file path is shown in chat; the file can be found in {{[minecraft/debug/profiling/<DATE>.zip|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %quick_links%
+      fillname: []
   attach-device-information:
     - project: mce
       name: Attach device information
