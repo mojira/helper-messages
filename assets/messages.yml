@@ -4,37 +4,37 @@ variables:
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.gamepedia.com/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
+          📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
     - project: mc
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
+          📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcd
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+          📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
+          📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcpe
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com/Minecraft_Wiki]
+          📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: realms
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
+          📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
-          📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.gamepedia.com]
+          📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com]
   project_id:
     - project: mc
       value: MC
@@ -115,6 +115,17 @@ messages:
 
         %quick_links%
       fillname: []
+  attach-rendering-profile-report:
+    - project: mc
+      name: Attach rendering profile report
+      shortcut: render
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+        While the lag occurs, please press {{F3}} + {{L}} once, then wait a short moment or press {{F3}} + {{L}} again in order to create a rendering debug profile.
+        Afterwards, please *attach the generated {{.zip}} file* containing the profile results here. The file path is shown in chat; the file can be found in {{[minecraft/debug/profiling/<DATE>.zip|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        %quick_links%
+      fillname: []
   attach-device-information:
     - project: bds
       name: Attach server information
@@ -137,7 +148,8 @@ messages:
         _We do not have enough information to find the cause of this issue._
         
         Please *record a video of this happening* and attach it to this report.
-        If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in App for recording game footage.
+        If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in app for recording game footage.
+        If you are on Mac (Mojave or later), you can use {{Shift}}\+{{Command}}\+{{5}} to open a [built-in app|https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac] for recording your screen.
         In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com/].
         In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
         
@@ -372,7 +384,7 @@ messages:
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
-        If you would like to learn more about this particular feature, see [this article|https://minecraft.gamepedia.com/Tutorials/Quasi-connectivity] on the Minecraft Wiki.
+        If you would like to learn more about this particular feature, see [this article|https://minecraft.fandom.com/wiki/Tutorials/Quasi-connectivity] on the Minecraft Wiki.
 
         %quick_links%
       fillname: []
@@ -463,6 +475,29 @@ messages:
         That ticket has already been resolved as Won't Fix, which means this is considered a bug but won't be fixed. The description of that ticket or the comments might explain the rationale. Please do not leave a comment on the linked ticket.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
+  duplicate-forward:
+    - project:
+        - bds
+        - mc
+        - mcapi
+        - mcd
+        - mce
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Duplicate (forward)
+      shortcut: fodup
+      message: |-
+        *Thank you for your report!*
+        We're resolving and linking this ticket forward as a *duplicate* of *%s%*, as that ticket contains more detailed information and/or has already been triaged by Mojang.
+
+        If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
         %quick_links%
       fillname:
@@ -558,8 +593,8 @@ messages:
       shortcut: bot
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
-        Please report any issues on [Discord|https://discordapp.com/invite/rpCyfKV]
-        or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
+        If you think it was incorrect, please notify us
+        on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
       fillname: []
   incomplete:
     - project:
@@ -1007,7 +1042,7 @@ messages:
         *Thank you for your report!*
         We appreciate you taking the time to report a bug. Unfortunately we are only able to accept bug reports in English, since it is the common language used by Mojang Studios and on this bug tracker.
 
-        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps. Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently closed.
+        You are welcome to *create a new ticket* about your issue in English. You can use an online translator, if it helps. *Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently closed.*
         However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
@@ -1099,7 +1134,7 @@ messages:
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.gamepedia.com/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
+        [Full Version History|https://minecraft.fandom.com/wiki/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.fandom.com/wiki/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
 
         %quick_links%
       fillname:
@@ -1116,7 +1151,7 @@ messages:
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.gamepedia.com/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
+        [Full Version History|https://minecraft.fandom.com/wiki/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.fandom.com/wiki/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
 
         %quick_links%
       fillname:
@@ -1133,7 +1168,7 @@ messages:
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.gamepedia.com/Launcher_version_history] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
+        [Full Version History|https://minecraft.fandom.com/wiki/Launcher_version_history] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
 
         %quick_links%
       fillname:
