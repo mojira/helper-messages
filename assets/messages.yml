@@ -751,7 +751,7 @@ messages:
   outdated-client:
     - project: mc
       name: Outdated client
-      shortcut: out
+      shortcut: old
       message: |-
         *Thank you for your report!*
         However, this issue is {color:red}*Invalid*{color}.
