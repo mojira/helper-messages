@@ -1049,6 +1049,7 @@ messages:
         Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*.
 
         _The language of this ticket was detected automatically. As such, closing this ticket may have been incorrect. In that case, please notify us on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/], so that we can reopen it._
+        _Language detection is [powered by Dandelion API](https://dandelion.eu/)._
 
         %quick_links%
       fillname: []
