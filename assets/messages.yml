@@ -743,6 +743,7 @@ messages:
         - realms
         - web
       name: Not reopen AR ticket
+      hidden: true
       shortcut: hard-ar
       message: |-
         This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
