@@ -674,9 +674,21 @@ messages:
       shortcut: min
       message: |-
         *Thank you for your report!* 
-        However, this issue is {color:red}*Invalid*{color}.
+        However, this issue is {color:#FF5722}*Invalid*{color}.
 
         Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcd
+      name: Minimum requirements not met
+      shortcut: min
+      message: |-
+        *Thank you for your report!* 
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360038937032-Dungeons-Minimum-Specifications-for-Gameplay] to run Minecraft Dungeons.
 
         %quick_links%
       fillname: []
@@ -773,7 +785,7 @@ messages:
       shortcut: old
       message: |-
         *Thank you for your report!*
-        However, this issue is {color:red}*Invalid*{color}.
+        However, this issue is {color:#FF5722}*Invalid*{color}.
 
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
