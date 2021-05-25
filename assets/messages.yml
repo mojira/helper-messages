@@ -767,7 +767,7 @@ messages:
       shortcut: out
       message: |-
         *Thank you for your report!*
-        However, this issue is {color:red}*Invalid*{color}.
+        However, this issue is {color:#FF5722}*Invalid*{color}.
 
         Your Minecraft version is *outdated*. We currently take issues for version *%s%* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
