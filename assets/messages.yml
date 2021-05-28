@@ -282,7 +282,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please read the help article "[Can only play Minecraft demo (Java Edition)](https://help.minecraft.net/hc/en-us/articles/360029643892-Can-only-play-Minecraft-demo-Java-Edition-)" and if that does not solve your issue, contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*.
+        Please have a look at the Moderator Note on MCL-16570, it describes what you have to do to solve this issue and contains links to resources with further information.
 
         %quick_links%
       fillname: []
