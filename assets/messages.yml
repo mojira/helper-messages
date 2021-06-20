@@ -748,7 +748,7 @@ messages:
       fillname: []
   modify-entity-during-lifetime:
     - project: mc
-      name: Modify entity during lifetime
+      name: Modifying entity during lifetime
       shortcut: nbt
       message: |-
         *Thank you for your report!*
@@ -847,7 +847,7 @@ messages:
         - mctest
         - realms
         - web
-      name: Panel - Mark as private
+      name: Panel - Sensitive information
       shortcut: mkpriv
       message:
         "{panel:borderColor=orange}(!) Your bug report has been marked as _private_,
@@ -912,7 +912,7 @@ messages:
         - mcl
         - mcpe
         - realms
-      name: Panel - Removed affected version from resolved ticket
+      name: Panel - Added affected version to resolved ticket
       shortcut: remver
       message: |-
         {panel:borderColor=orange}
@@ -931,7 +931,7 @@ messages:
         - mctest
         - realms
         - web
-      name: Panel - Unmark private issue
+      name: Panel - Unmarked private issue
       shortcut: unpriv
       message:
         "{panel:borderColor=orange}(!) Please do not unmark issues from _private_
