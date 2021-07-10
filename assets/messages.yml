@@ -640,7 +640,7 @@ messages:
         - mctest
         - realms
         - web
-      name: I am a Bot
+      name: I am a Bot duplicate message
       hidden: true
       shortcut: bot-dup
       message:
