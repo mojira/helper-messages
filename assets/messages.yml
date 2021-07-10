@@ -630,6 +630,25 @@ messages:
         If you think it was incorrect, please notify us
         on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
       fillname: []
+  i-am-a-bot-dupe:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: I am a Bot
+      hidden: true
+      shortcut: bot-dup
+      message:
+        "~{color:#888}-- I am a bot. This action was performed automatically!
+        The ticket was resolved by one of our moderators, and I left this message to give more information to you.
+        If you think it was incorrect, please notify us
+        on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
+      fillname: []
   incomplete:
     - project:
         - mc
