@@ -645,7 +645,7 @@ messages:
       shortcut: bot-dup
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
-        The ticket was resolved by one of our moderators, and I left this message to give more information to you.
+        The ticket was resolved by one of our moderators, and I left this message to give more information to you."
       fillname: []
   incomplete:
     - project:
