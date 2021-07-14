@@ -546,6 +546,8 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         We're currently not taking bug reports for the 1.18 experiment; it is for testing the new world generation only. Please leave any new world generation-related feedback on the [feedback website|https://aka.ms/CCWorldGenFeedback].
+        
+        If you need help or support, you might like to follow a link below.
 
         %quick_links%
       fillname: []
