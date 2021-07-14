@@ -536,6 +536,19 @@ messages:
         %quick_links%
       fillname:
         - Enter parent issue ID
+  experimental-snapshot:
+    - project:
+        - mc
+      name: Experimental snapshot
+      shortcut: exp
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        We're currently not taking bug reports for the 1.18 experiment; it is for testing the new world generation only. Please leave any new world generation-related feedback on the [feedback website|https://aka.ms/CCWorldGenFeedback].
+
+        %quick_links%
+      fillname: []
   external-server-issue:
     - project:
         - bds
