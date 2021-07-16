@@ -1044,7 +1044,7 @@ messages:
         - You are in the *correct project* on the bug tracker.
         - You were playing the *latest release version* or the *latest development version* of the game. 
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue has been closed as {color:#d04437}*Invalid*{color}. Please create a new bug report if you believe this is still a bug~
 
         %quick_links%
       fillname: []
