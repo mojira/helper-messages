@@ -1038,13 +1038,13 @@ messages:
         
         _We have removed it and added the latest released version_
         
-        Please edit the *Affects Version/s* field and select the specific *Released Version* you were using when you encountered the reported issue.
+        Please create a new report and select the specific *Released Version* you were using when you encountered the reported issue.
 
         If you can't find it in the list, please make sure that:
         - You are in the *correct project* on the bug tracker.
         - You were playing the *latest release version* or the *latest development version* of the game. 
 
-        ~This issue has been closed as {color:#d04437}*Invalid*{color}. Please create a new bug report if you believe this is still a bug~
+        ~This issue has been closed as {color:#d04437}*Invalid*{color} and adding further affected versions will have no affect on your report. Please create a new bug report if you believe this is still a bug.~
 
         %quick_links%
       fillname: []
