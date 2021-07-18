@@ -1044,7 +1044,7 @@ messages:
         - You are in the *correct project* on the bug tracker.
         - You were playing the *latest release version* or the *latest development version* of the game. 
 
-        ~This issue is being closed as {color:#d04437}*Invalid*{color} and adding further affected versions will have no affect on your report. Please create a new bug report if you believe this is still a bug.~
+        ~This issue is being closed as {color:#d04437}*Invalid*{color} and adding further affected versions will have no effect on your report. Please create a new bug report if you believe this is still a bug.~
 
         %quick_links%
       fillname: []
