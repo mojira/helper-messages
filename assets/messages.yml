@@ -360,7 +360,7 @@ messages:
         - mctest
         - realms
         - web
-      name: Duplicate (tech support)
+      name: Duplicate (invalid)
       shortcut: idup
       message: |-
         *Thank you for your report!*
