@@ -728,6 +728,19 @@ messages:
 
         %quick_links%
       fillname: []
+  marketplace-content:
+    - project: mcpe
+      name: Marketplace content bug
+      shortcut: market
+      message: |-
+        *Thank you for your report!* 
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Unfortunately we don't accept issues related to third party Marketplace content here on the bug tracker, but you may wish to contact the content creators directly. Marketplace partners have their own support channels for resolving issues affecting their content. Please visit the [Marketplace FAQ|https://feedback.minecraft.net/hc/en-us/articles/360004166751-Marketplace-FAQ] section "I have a problem with the Minecraft world I purchased" for more information, including contact links for some of the Marketplace partners.
+        "Minecraft"-branded content should be reported here on the bug tracker.
+
+        %quick_links%
+      fillname: []
   minimum-requirements-not-met:
     - project:
         - mc
