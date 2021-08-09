@@ -738,6 +738,19 @@ messages:
 
         %quick_links%
       fillname: []
+  legacy-launcher-version:
+    - project: mcl
+      name: Legacy launcher version
+      shortcut: leg
+      message: |-
+        You have selected the version "1.6.93 (legacy)" as affected version for your report. Nowadays most users are using the new native launcher.
+        If the launcher you are using has a big green "PLAY" button for starting the game, then you are using the new launcher. To find out the version you are using, please click on "Settings" in the lower left corner, then open the "About" tab. Right below "Launcher" it shows the version of the launcher.
+        Please update the affected versions of your report by removing "1.6.93 (legacy)" and choosing the correct version.
+
+        In case you are actually using the legacy launcher, consider switching to the new native launcher. It can be downloaded [here|https://www.minecraft.net/download/alternative].
+
+        %quick_links%
+      fillname: []
   minimum-requirements-not-met:
     - project:
         - mc
