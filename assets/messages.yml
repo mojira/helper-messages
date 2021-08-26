@@ -796,7 +796,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        The server you are playing on is modified.
+        Your game or server is modified.
         If you can reproduce the issue in a vanilla environment, please recreate the issue.
 
         * Any non-standard client/server build needs to be taken up with the appropriate team, not Mojang.
@@ -1038,13 +1038,14 @@ messages:
     - project:
         - mc
         - mcl
+        - mcpe
       name: Pirated Minecraft
       shortcut: pir
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        You are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://www.minecraft.net/store/minecraft-java-edition].
+        You are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://www.minecraft.net/en-us/get-minecraft].
         We will not provide support for pirated versions of the game; these versions are modified and may contain malware.
 
         %quick_links%
