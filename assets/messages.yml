@@ -796,7 +796,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        The server you are playing on is modified.
+        Your game or server is modified.
         If you can reproduce the issue in a vanilla environment, please recreate the issue.
 
         * Any non-standard client/server build needs to be taken up with the appropriate team, not Mojang.
