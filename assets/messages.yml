@@ -1210,6 +1210,7 @@ messages:
     - project:
         - mc
         - mcl
+        - mcpe
       name: Pirated Minecraft
       shortcut: pir
       category: invalid
@@ -1217,7 +1218,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        You are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://www.minecraft.net/store/minecraft-java-edition].
+        You are currently using a *non-authorized* version of Minecraft. If you wish to purchase the full game, please visit the [Minecraft Store|https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc].
         We will not provide support for pirated versions of the game; these versions are modified and may contain malware.
 
         %quick_links%
