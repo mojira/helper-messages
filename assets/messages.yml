@@ -352,6 +352,29 @@ messages:
         %quick_links%
       fillname:
         - Enter parent issue ID
+  duplicate-invalid:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Duplicate (invalid)
+      shortcut: idup
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved as invalid. Please take a look at the parent ticket (%s%) and see if an explanation is provided there in the description of the ticket or in the comments for why this issue is invalid.
+
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
   duplicate-of-mc-128302:
     - project:
         - mc
