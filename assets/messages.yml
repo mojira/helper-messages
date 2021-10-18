@@ -740,6 +740,35 @@ messages:
 
         %quick_links%
       fillname: []
+  invalid-unspecific-lag:
+    - project:
+        - mc
+      name: Invalid unspecific lag
+      shortcut: lag
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Performance drops are expected to happen between versions, especially in snapshots. Simply stating that "My game is laggier" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
+
+        Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues. To learn more about this, head [here|https://www.minecraft.net/en-us/article/minecraft-snapshot-21w38a] (section "Telemetry") for more information.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcpe
+      name: Invalid unspecific lag
+      shortcut: lag
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Performance drops are expected to happen between versions, especially in betas. Simply stating that "My game is laggier" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
+
+        Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues.
+
+        %quick_links%
+      fillname: []
   legacy-launcher-version:
     - project: mcl
       name: Legacy launcher version
