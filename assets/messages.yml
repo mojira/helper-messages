@@ -3,37 +3,37 @@ variables:
     - project: bds
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
     - project: mc
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcd
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcpe
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: realms
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
           📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com]
   project_id:
     - project: mc
@@ -64,7 +64,7 @@ messages:
       shortcut: acc
       message: |-
         *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
+        However, this issue is {color:#FF5722}*Invalid*{color} for the bug tracker.
 
         This is an account or billing issue. We do not have the tools to help you with this issue on this bug tracker.
         Please contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*.
@@ -243,9 +243,11 @@ messages:
       shortcut: autocrash
       message: |-
         *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
+        However, this issue is {color:#FF5722}*Invalid*{color} for the bug tracker.
 
-        Crashes such as these are logged automatically, this will therefore be investigated further by the development team internally.
+        Crashes such as these are logged automatically by the game or server and investigated further by the development team internally, so they are not generally kept on the bug tracker.
+        
+        If you can provide a list of steps that someone else can follow to consistently reproduce a crash then feel free to create a new report. Please be sure to always search for duplicates before creating any new report. Please see the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] for more information.
 
         %quick_links%
       fillname: []
@@ -330,6 +332,29 @@ messages:
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as Fixed. Please check the Fix Version/s field in that ticket to see in which version this behavior was or will be fixed.
+
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
+  duplicate-invalid:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Duplicate (invalid)
+      shortcut: idup
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved as invalid. Please take a look at the parent ticket (%s%) and see if an explanation is provided there in the description of the ticket or in the comments for why this issue is invalid.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -531,7 +556,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for the 1.18 experiment; it is for testing the new world generation only. Please leave any new world generation-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/ojio1q/minecraft_118_experimental_snapshot_is_out/] or on the [feedback website|https://aka.ms/CCWorldGenFeedback].
+        We're currently not taking bug reports for the 1.18 experiment; it is for testing the new world generation only. Please leave any new world generation-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/p1pc9d/minecraft_118_experimental_snapshot_3_is_out/] or on the [feedback website|https://aka.ms/CCWorldGenFeedback].
         If you experience this issue in the latest 1.17 release please search for existing reports. If you did not find one, create a new report with 1.17 as the affected version.
 
         If you need help or support, you might like to follow a link below.
@@ -663,7 +688,7 @@ messages:
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
         You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
-        However, please review the [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] before creating new reports. Be sure to search for an existing issue as it is likely to have already been reported.
+        However, please review the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] before creating new reports. Be sure to search for an existing issue as it is likely to have already been reported.
 
         %quick_links%
       fillname: []
@@ -682,7 +707,7 @@ messages:
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
         You are welcome to create a new ticket about your issue with more detailed information.
-        However, please review the [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] and be sure to search for existing issues before writing a new bug report.
+        However, please review the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] and be sure to search for existing issues before writing a new bug report.
 
         %quick_links%
       fillname: []
@@ -698,6 +723,61 @@ messages:
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
         Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+
+        %quick_links%
+      fillname: []
+  invalid-unspecific-lag:
+    - project:
+        - mc
+      name: Invalid unspecific lag
+      shortcut: lag
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Performance drops are expected to happen between versions, especially in snapshots. Simply stating that "My game is laggier" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
+
+        Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues. To learn more about this, head [here|https://www.minecraft.net/en-us/article/minecraft-snapshot-21w38a] (section "Telemetry") for more information.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcpe
+      name: Invalid unspecific lag
+      shortcut: lag
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Performance drops are expected to happen between versions, especially in betas. Simply stating that "My game is laggier" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
+
+        Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues.
+
+        %quick_links%
+      fillname: []
+  legacy-launcher-version:
+    - project: mcl
+      name: Legacy launcher version
+      shortcut: leg
+      message: |-
+        You have selected the version "1.6.93 (legacy)" as affected version for your report. Nowadays most users are using the new native launcher.
+        If the launcher you are using has a big green "PLAY" button for starting the game, then you are using the new launcher. To find out the version you are using, please click on "Settings" in the lower left corner, then open the "About" tab. Right below "Launcher" it shows the version of the launcher.
+        Please update the affected versions of your report by removing "1.6.93 (legacy)" and choosing the correct version.
+
+        In case you are actually using the legacy launcher, consider switching to the new native launcher. It can be downloaded [here|https://www.minecraft.net/download/alternative].
+
+        %quick_links%
+      fillname: []
+  marketplace-content:
+    - project: mcpe
+      name: Marketplace content bug
+      shortcut: market
+      message: |-
+        *Thank you for your report!* 
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Unfortunately we don't accept issues related to third party Marketplace content here on the bug tracker, but you may wish to contact the content creators directly. Marketplace partners have their own support channels for resolving issues affecting their content. Please visit the [Marketplace FAQ|https://feedback.minecraft.net/hc/en-us/articles/360004166751-Marketplace-FAQ] section "I have a problem with the Minecraft world I purchased" for more information, including contact links for some of the Marketplace partners.
+        "Minecraft"-branded content should be reported here on the bug tracker.
 
         %quick_links%
       fillname: []
@@ -793,7 +873,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         Please put only one bug report in each ticket. It is very difficult to keep track of bugs when they are not in their own tickets.
-        However, please review the [*Bug Tracker Guidelines*|https://help.minecraft.net/hc/en-us/articles/360049840492-Mojang-Bug-Tracker-Guidelines] before creating new reports. Be sure to search for an existing issue as it is likely to have already been reported.
+        However, please review the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] before creating new reports. Be sure to search for an existing issue as it is likely to have already been reported.
 
         %quick_links%
       fillname: []
