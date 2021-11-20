@@ -894,6 +894,7 @@ messages:
         If you can reproduce the issue in a vanilla environment, please recreate the issue.
 
         * Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.
+        * A world which had previously been opened with a modified client might be corrupted. Please try reproducing the issue in a newly generated world.
         * Any plugin issues need to be addressed to the creator of the plugin or resource pack.
         * If you have problems on large servers like Hypixel, please contact them first as they run modified server software.
 
