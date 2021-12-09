@@ -98,32 +98,18 @@ messages:
 
         %quick_links%
       fillname: []
-  attach-debug-profile-and-report:
+  attach-profiling-report:
     - project: mc
-      name: Attach debug profile and report
-      shortcut: debug
+      name: Attach profiling report
+      shortcut: prof
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        While the lag occurs, please run {{/debug start}}, wait a while and then run {{/debug stop}} in order to create a debug profile. Afterwards, run {{/debug report}}.
+        While the lag occurs, please press {{F3}} + {{L}} once, then wait a short moment until profiling has finished.
+        Afterwards, please *attach the generated {{.zip}} file* containing the profiling results here. The file path is shown in chat; the file can be found in {{[minecraft/debug/profiling/<DATE>.zip|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
 
-        If you do not have the permission to run these commands, open your world to LAN and enable cheats. If you're on a server, make sure that you're a server operator in order to execute these commands.
-
-        Then, please *attach the profile results* found in {{[minecraft/debug/profile-results-<DATE>.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}, as well as the *debug report* found in {{[minecraft/debug/debug-report-<DATE>.zip|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}} here.
-
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
-
-        %quick_links%
-      fillname: []
-  attach-rendering-profile-report:
-    - project: mc
-      name: Attach rendering profile report
-      shortcut: render
-      message: |-
-        _We do not have enough information to find the cause of this issue._
-
-        While the lag occurs, please press {{F3}} + {{L}} once, then wait a short moment or press {{F3}} + {{L}} again in order to create a rendering debug profile.
-        Afterwards, please *attach the generated {{.zip}} file* containing the profile results here. The file path is shown in chat; the file can be found in {{[minecraft/debug/profiling/<DATE>.zip|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        If you are playing on a server please additionally run the command {{/perf start}} to create a profiling report for the server. In case you do not have the permission to run this command, make sure that you're a server operator.
+        Once profiling has finished, please *attach the generated {{.zip}} file* from {{debug/profiling/<DATE>.zip}} of the server folder.
 
         ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
