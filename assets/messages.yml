@@ -1122,21 +1122,19 @@ messages:
       shortcut: loc
       message: |-
         _We do not have enough information to reproduce this issue._
-        Please provide the following information about the world you are playing in as text. Attaching a screenshot showing them is not enough.
-        World Type:     
-        "Default" if you have not chosen one when creating the world.
-        For "Superflat": Provide the generation preset.
-        For "Amplified" or "Large Biomes": Specify if the world is Amplified or a Large Biome world type
-        For "Single Biome": Specify which biome was chosen
-        Additional generation settings (in case you changed them): E.g. "Generate Structures", "Bonus Chest", ...
-        Seed: Can be obtained by using the /seed command and clicking on the message in chat
-        Coordinates: Can be copied to clipboard by pressing F3 + C
         
-        ~This issue is being temporarily closed as Awaiting Response. Once the requested information has been delivered, the report will be reopened automatically.~
-        Quick Links:
-        📓 Bug Tracker Guidelines – 💬 Community Support – 📧 Mojang Support
-        📓 Project Summary – ✍️ Feedback and Suggestions – 📖 Game Wiki
-
+        Please provide the following information about the world you are playing in as text. Attaching a screenshot showing them is not enough.
+        - World Type:     
+        -- "Default" if you have not chosen one when creating the world
+        -- For "Superflat": Provide the generation preset
+        -- For "Amplified" or "Large Biomes": Specify if the world is Amplified or a Large Biome world type
+        -- For "Single Biome": Specify which biome was chosen
+        - Additional generation settings (in case you changed them): E.g. "Generate Structures", "Bonus Chest", ...
+        - Seed: Can be obtained by using the {{/seed}} command and clicking on the message in chat
+        - Coordinates: Can be copied to clipboard by pressing {{F3 + C}}
+        
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        
         %quick_links%
       fillname: []
   quick-links:
