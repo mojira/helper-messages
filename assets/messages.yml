@@ -1070,7 +1070,7 @@ messages:
         * The feature behaves differently in one edition than in the other
         * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
         
-        Any parity issue that does not meet these criteria are not tracked on the bug tracker and should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
+        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
         
         %quick_links%
       fillname: []
