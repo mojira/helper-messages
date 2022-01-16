@@ -791,7 +791,7 @@ messages:
         *Thank you for your report!* 
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/4409225939853-Minecraft-Java-Edition-Installation-Issues-FAQ#h_01FFJMSQWJH31CH16H63GX4YKE] to run Minecraft.
 
         %quick_links%
       fillname: []
