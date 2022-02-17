@@ -556,8 +556,8 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for the 1.18 experiment; it is for testing the new world generation only. Please leave any new world generation-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/p1pc9d/minecraft_118_experimental_snapshot_3_is_out/] or on the [feedback website|https://aka.ms/CCWorldGenFeedback].
-        If you experience this issue in the latest 1.17 release please search for existing reports. If you did not find one, create a new report with 1.17 as the affected version.
+        We're currently not taking bug reports for experimental snapshots; they are for testing and feedback only. Please leave any feedback on the [feedback website|https://feedback.minecraft.net/hc/en-us].
+        If you experience this issue in the latest release, please search for existing reports. If you did not find one, create a new report with the latest release as the affected version.
 
         If you need help or support, you might like to follow a link below.
 
