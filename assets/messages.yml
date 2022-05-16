@@ -813,7 +813,7 @@ messages:
         - mcl
         - mctest
       name: Modified game
-      shortcut: mod
+      shortcut: modded
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
