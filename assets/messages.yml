@@ -288,7 +288,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please have a look at the Moderator Note on MCL-16570, it describes what you have to do to solve this issue and contains links to resources with further information.
+        Please have a look at the Moderator Note on MCL-16570: it describes what you have to do to solve this issue and contains links to resources with further information.
 
         %quick_links%
       fillname: []
@@ -374,7 +374,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+        -- If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -389,7 +389,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+        -- If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -415,7 +415,7 @@ messages:
         We're tracking this issue in *MCL-14369*, so this ticket is being resolved and linked as a *duplicate*.
 
         Please take a look at the Moderator Note on that ticket to see a possible solution to your issue.
-        If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+        If that did not help, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -471,7 +471,7 @@ messages:
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
-        If you need additional help to fix this problem, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+        If you need additional help to fix this problem, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket by providing a link.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -556,8 +556,8 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for the 1.18 experiment; it is for testing the new world generation only. Please leave any new world generation-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/p1pc9d/minecraft_118_experimental_snapshot_3_is_out/] or on the [feedback website|https://aka.ms/CCWorldGenFeedback].
-        If you experience this issue in the latest 1.17 release please search for existing reports. If you did not find one, create a new report with 1.17 as the affected version.
+        We're currently not taking bug reports for experimental snapshots; they are for testing and feedback only. Please leave any feedback on the [feedback website|https://feedback.minecraft.net/hc/en-us].
+        If you experience this issue in the latest release, please search for existing reports. If you did not find one, create a new report with the latest release as the affected version.
 
         If you need help or support, you might like to follow a link below.
 
@@ -722,7 +722,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact *[Community Support|https://discord.gg/58Sxm23]* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -791,7 +791,7 @@ messages:
         *Thank you for your report!* 
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360035131371-Minecraft-Java-Edition-system-requirements-] to run Minecraft.
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/4409225939853-Minecraft-Java-Edition-Installation-Issues-FAQ#h_01FFJMSQWJH31CH16H63GX4YKE] to run Minecraft.
 
         %quick_links%
       fillname: []
@@ -1085,7 +1085,7 @@ messages:
         * The feature behaves differently in one edition than in the other
         * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
         
-        Any parity issue that does not meet these criteria are not tracked on the bug tracker and should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
+        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Feedback website|https://feedback.minecraft.net/hc/en-us/community/topics/360001191251-Parity].
         
         %quick_links%
       fillname: []
@@ -1139,13 +1139,15 @@ messages:
         _We do not have enough information to reproduce this issue._
 
         Please provide the following information about the world you are playing in as text. Attaching a screenshot showing them is not enough.
-        - World Type:
-        -- "Default" if you have not chosen one when creating the world.
-        -- For "Superflat": Additionally provide the generation preset.
-        -- For "Buffet": Additionally provide the generator type and biome you have selected.
+        - World Type:     
+        -- "Default" if you have not chosen one when creating the world
+        -- For "Superflat": Provide the generation preset
+        -- For "Amplified" or "Large Biomes": Specify if the world is Amplified or a Large Biome world type
+        -- For "Single Biome": Specify which biome was chosen
         - Additional generation settings (in case you changed them): E.g. "Generate Structures", "Bonus Chest", ...
         - Seed: Can be obtained by using the {{/seed}} command and clicking on the message in chat
-        - Coordinates: Can be copied to clipboard by pressing {{F3}} + {{C}}
+        - Coordinates: Can be copied to clipboard by pressing {{F3 + C}}
+        - Data Packs: If you use any world generation data packs, please attach or provide a download link to the used data pack(s)
 
         ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
@@ -1230,7 +1232,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please contact *[Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+        Please contact *[Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -1251,7 +1253,7 @@ messages:
         
         Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
         
-        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket (e.g. "I have reported this issue on Mojira as %project_id%-_{color:gray}XYZ{color}_.").
+        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket by providing a link.
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
         
         If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new].
