@@ -3,37 +3,37 @@ variables:
     - project: bds
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
     - project: mc
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcd
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcpe
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: realms
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com]
   project_id:
     - project: mc
@@ -67,7 +67,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color} for the bug tracker.
 
         This is an account or billing issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*.
+        Please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*.
 
         %quick_links%
       fillname: []
@@ -1185,7 +1185,7 @@ messages:
         However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.gg/58Sxm23]*.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.gg/58Sxm23]*.
 
         %quick_links%
       fillname: []
@@ -1209,7 +1209,7 @@ messages:
         However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://help.minecraft.net/hc/en-us/requests/new]*.
+        Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*.
 
         _The language of this ticket was detected automatically. As such, closing this ticket may have been incorrect. In that case, please notify us on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/], so that we can reopen it._
         _Language detection is [powered by Dandelion API|https://dandelion.eu/]._
@@ -1256,7 +1256,7 @@ messages:
         If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.gg/58Sxm23]* for assistance and refer to this ticket by providing a link.
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
         
-        If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://help.minecraft.net/hc/en-us/requests/new].
+        If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://aka.ms/Minecraft-Support].
 
         %quick_links%
       fillname: []
