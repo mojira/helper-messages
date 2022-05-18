@@ -864,7 +864,7 @@ messages:
         - mcl
         - mctest
       name: Modified world crash
-      shortcut: worldmod
+      shortcut: mworld
       message: |-
         The attached crash report indicates that you had opened your world with a 'modded' game in the past.
         We only accept reports about the unmodified ('vanilla') game here on the bug tracker. To rule out that the modified game is responsible for the crash,
