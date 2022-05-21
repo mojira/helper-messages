@@ -858,6 +858,21 @@ messages:
 
         %quick_links%
       fillname: []
+  modified-world-crash:
+    - project:
+        - mc
+        - mcl
+        - mctest
+      name: Modified world crash
+      shortcut: mworld
+      message: |-
+        The attached crash report indicates that you had opened your world with a 'modded' game in the past.
+        We only accept reports about the unmodified ('vanilla') game here on the bug tracker. To rule out that the modified game is responsible for the crash,
+        please try reproducing this issue with a newly created world or a world that has not been opened with a modified game in the past. If you experience
+        the crash there as well, please attach that crash report too. Otherwise, please report this issue to the author of the modification instead.
+
+        %quick_links%
+      fillname: []
   multiple-issues-in-one-report:
     - project:
         - bds
