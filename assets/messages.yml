@@ -1374,7 +1374,7 @@ messages:
       message: |-
         *Thank you for your report!*
         
-        However, you have created the report for the wrong project, therefore it is being moved to the correct project. That project might require different or additional information, please check whether the report is correct and complete, *revise incorrect information and add missing information*.
+        However, you have created the report for the wrong project, therefore it is being moved to the correct project. As a result of the move, some information might have become lost or incorrect. *Please check whether the report is still correct and complete, and if necessary, edit it accordingly.*
 
         These are the projects where bugs for the respective game version are tracked:
         -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
