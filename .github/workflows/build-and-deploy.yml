@@ -32,9 +32,8 @@ jobs:
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
-          GIT_CONFIG_NAME: actions-user
-          GIT_CONFIG_EMAIL: action@github.com
-          COMMIT_MESSAGE: Auto deploy
+          branch: gh-pages
+          folder: dist
+          git-config-name: actions-user
+          git-config-email: action@github.com
+          commit-message: Auto deploy
