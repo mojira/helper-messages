@@ -205,7 +205,6 @@ messages:
       fillname: []
   banned:
     - project:
-        - mc
         - mcd
         - mcpe
         - realms
@@ -219,6 +218,20 @@ messages:
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
         Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/4408964729869-Why-Have-I-Been-Banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
         To request a case review of a ban, please contact Mojang Support through [this page|https://help.minecraft.net/hc/en-us/requests/new?ticket_form_id=360003469452].
+        
+        %quick_links%
+      fillname: []
+    - project:
+        - mc
+      name: Banned
+      shortcut: ban
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+        
+        This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
+        Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/4408964729869-Why-Have-I-Been-Banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
+        To learn more about player reporting, potential causes for a ban, and instructions regarding how to request a case review of a ban, please visit the [Minecraft: Java Edition Player Reporting FAQ page|https://aka.ms/chatreportingfaq].
         
         %quick_links%
       fillname: []
