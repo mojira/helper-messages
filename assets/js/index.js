@@ -17,6 +17,9 @@ var project = "mc";
 // Currently selected message code
 var code = "-1";
 
+// map for messages sorted by their categories
+var categoryMap = new Map();
+
 // map for dropdown values and their corresponding messages
 var dropdownMap = new Map();
 
@@ -184,6 +187,8 @@ function getStringValue(val) {
 function updateDisplay() {
   var text = '<option value="-1">Select a message...</option>';
   var selected = false;
+  // Clear category map
+  categoryMap = new Map();
   // Clear dropdown map
   dropdownMap = new Map();
   // Set project dropdown title
@@ -198,10 +203,21 @@ function updateDisplay() {
         if (i == code) {
           selected = true;
         }
-        text += `<option value="${i}" ${i == code ? 'selected': ''}>` + messageArray[j].name + '</option>';
+        var catText = categoryMap.get(messageArray[j].category);
+        var option = `<option value="${i}"${i == code ? ' selected': ''}>` + messageArray[j].name + '</option>';
+        // Append option to category
+        catText = !catText ? option : catText + option;
+        categoryMap.set(messageArray[j].category, catText);
         // Map message to dropdown ID for later recognition
         dropdownMap.set(i, messageArray[j]);
       }
+    }
+  }
+
+  // Format dropdown menu labels
+  for (const category of variables.categories) {
+    if (categoryMap.get(category.category)) {
+      text += `<optgroup label="${category.value}">${categoryMap.get(category.category)}</optgroup>`
     }
   }
 
