@@ -89,6 +89,9 @@ $("#copybutton").click(function () {
   let messageBody = getStringValue(message.message);
   // Replace predefined variables in the message body
   for (const variable in variables) {
+    if (!variables[variable][0]?.project) {
+      continue;
+    }
     for (const { project: expected, value } of variables[variable]) {
       if (isExpectedProject(expected, project)) {
         messageBody = messageBody.replace(new RegExp(`%${variable}%`, 'g'), getStringValue(value));

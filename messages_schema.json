@@ -12,6 +12,9 @@
                         "project": {
                             "$ref": "#/definitions/projectFilter"
                         },
+                        "category": {
+                            "$ref": "#/definitions/categoryFilter"
+                        },
                         "value": {
                             "type": "string"
                         },
@@ -19,8 +22,19 @@
                             "$ref": "#/definitions/localizedValues"
                         }
                     },
+                    "oneOf": [
+                        {
+                            "required": [
+                                "project"
+                            ]
+                        },
+                        {
+                            "required": [
+                                "category"
+                            ]
+                        }
+                    ],
                     "required": [
-                        "project",
                         "value"
                     ]
                 }
@@ -41,6 +55,9 @@
                         },
                         "hidden": {
                             "type": "boolean"
+                        },
+                        "category": {
+                            "type": "string"
                         },
                         "message": {
                             "type": "string"
@@ -64,6 +81,7 @@
                         "project",
                         "name",
                         "shortcut",
+                        "category",
                         "message",
                         "fillname"
                     ]
@@ -88,6 +106,9 @@
                     }
                 }
             ]
+        },
+        "categoryFilter": {
+            "type": "string"
         },
         "localizedValues": {
             "type": "object",

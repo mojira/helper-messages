@@ -698,6 +698,7 @@ messages:
       name: I am a Bot
       hidden: true
       shortcut: bot
+      category: misc
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
         If you think it was incorrect, please notify us
@@ -716,6 +717,7 @@ messages:
       name: I am a Bot duplicate message
       hidden: true
       shortcut: bot-dup
+      category: misc
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
         The ticket was resolved by one of our moderators, and I left this message to give more information to you.{color}~"
@@ -965,6 +967,7 @@ messages:
       name: Not reopen AR ticket
       hidden: true
       shortcut: hard-ar
+      category: notice
       message: |-
         This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
         If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
@@ -1277,6 +1280,7 @@ messages:
       name: Report not in English (Bot)
       hidden: true
       shortcut: lang-bot
+      category: invalid
       message: |-
         *Thank you for your report!*
         We appreciate you taking the time to report a bug. Unfortunately we are only able to accept bug reports in English, since it is the common language used by Mojang Studios and on this bug tracker.
