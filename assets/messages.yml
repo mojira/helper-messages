@@ -1,3 +1,14 @@
+categories:
+  - category: duplicate
+    value: Duplicate
+  - category: invalid
+    value: Invalid
+  - category: ar
+    value: Awaiting Response
+  - category: notice
+    value: Panels / Notices
+  - category: misc
+    value: Miscellaneous
 variables:
   quick_links:
     - project: bds
@@ -50,17 +61,6 @@ variables:
       value: REALMS
     - project: web
       value: WEB
-  categories:
-    - category: duplicate
-      value: Duplicate
-    - category: invalid
-      value: Invalid
-    - category: ar
-      value: Awaiting Response
-    - category: notice
-      value: Panels / Notices
-    - category: misc
-      value: Miscellaneous
 messages:
   account-issue:
     - project:

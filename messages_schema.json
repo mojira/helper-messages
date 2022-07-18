@@ -2,6 +2,27 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "type": "object",
     "properties": {
+        "categories": {
+            "additionalProperties": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "category": {
+                            "type": "string"
+                        },
+                        "value": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "category",
+                        "value"
+                    ]
+                }
+            }
+        },
         "variables": {
             "additionalProperties": {
                 "type": "array",
@@ -12,9 +33,6 @@
                         "project": {
                             "$ref": "#/definitions/projectFilter"
                         },
-                        "category": {
-                            "$ref": "#/definitions/categoryFilter"
-                        },
                         "value": {
                             "type": "string"
                         },
@@ -22,19 +40,8 @@
                             "$ref": "#/definitions/localizedValues"
                         }
                     },
-                    "oneOf": [
-                        {
-                            "required": [
-                                "project"
-                            ]
-                        },
-                        {
-                            "required": [
-                                "category"
-                            ]
-                        }
-                    ],
                     "required": [
+                        "project",
                         "value"
                     ]
                 }
@@ -106,9 +113,6 @@
                     }
                 }
             ]
-        },
-        "categoryFilter": {
-            "type": "string"
         },
         "localizedValues": {
             "type": "object",

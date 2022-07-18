@@ -1,5 +1,5 @@
 // ES6 imports
-let { messages, variables } = require('./messages.json');
+let { messages, variables, categories } = require('./messages.json');
 window.bootstrap = require('bootstrap');
 window.$ = window.jQuery = require('jquery');
 window.Popper = require('popper.js');
@@ -218,9 +218,9 @@ function updateDisplay() {
   }
 
   // Format dropdown menu labels
-  for (const category of variables.categories) {
-    if (categoryMap.get(category.category)) {
-      text += `<optgroup label="${category.value}">${categoryMap.get(category.category)}</optgroup>`
+  for (const {category, value} of categories) {
+    if (categoryMap.has(category)) {
+      text += `<optgroup label="${value}">${categoryMap.get(category)}</optgroup>`
     }
   }
 
