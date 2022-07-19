@@ -2,6 +2,27 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "type": "object",
     "properties": {
+        "categories": {
+            "additionalProperties": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "category": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "category",
+                        "name"
+                    ]
+                }
+            }
+        },
         "variables": {
             "additionalProperties": {
                 "type": "array",
@@ -42,6 +63,9 @@
                         "hidden": {
                             "type": "boolean"
                         },
+                        "category": {
+                            "type": "string"
+                        },
                         "message": {
                             "type": "string"
                         },
@@ -64,6 +88,7 @@
                         "project",
                         "name",
                         "shortcut",
+                        "category",
                         "message",
                         "fillname"
                     ]
