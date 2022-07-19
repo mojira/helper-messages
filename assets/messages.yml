@@ -1,14 +1,14 @@
 categories:
   - category: duplicate
-    value: Duplicate
+    name: Duplicate
   - category: invalid
-    value: Invalid
+    name: Invalid
   - category: ar
-    value: Awaiting Response
+    name: Awaiting Response
   - category: notice
-    value: Panels / Notices
+    name: Panels / Notices
   - category: misc
-    value: Miscellaneous
+    name: Miscellaneous
 variables:
   quick_links:
     - project: bds

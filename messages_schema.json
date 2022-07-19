@@ -12,13 +12,13 @@
                         "category": {
                             "type": "string"
                         },
-                        "value": {
+                        "name": {
                             "type": "string"
                         }
                     },
                     "required": [
                         "category",
-                        "value"
+                        "name"
                     ]
                 }
             }
