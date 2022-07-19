@@ -81,7 +81,8 @@ messages:
         _We do not have enough information to find the cause of this issue._
 
         Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}} here.
-        If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}} and *the full game log* found in {{logs/latest.log}}. By default this {{logs}} folder is also in the [{{minecraft}} data folder|https://minecrafthopper.net/help/finding-minecraft-data-folder/], unless you have specified a custom game directory in the launcher.
+        If the issue occurred a few days ago please attach the corresponding {{.log.gz}} archive, for example {{2022-07-01-1.log.gz}}.
 
         ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
@@ -122,6 +123,22 @@ messages:
       message: |-
         *Thank you for your report!*
         Could you please include information about your server? Without it we may be unable to reproduce the issue.
+
+        %quick_links%
+      fillname: []
+  attach-game-log:
+    - project:
+        - mc
+        - mcl
+      name: Attach game log
+      shortcut: glog
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+
+        Please *attach the full game log* found in {{logs/latest.log}}. By default this {{logs}} folder is in the [{{minecraft}} data folder|https://minecrafthopper.net/help/finding-minecraft-data-folder/], unless you have specified a custom game directory in the launcher.
+        If the issue occurred a few days ago please attach the corresponding {{.log.gz}} archive, for example {{2022-07-01-1.log.gz}}.
+
+        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
