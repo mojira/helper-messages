@@ -36,6 +36,9 @@
                         "value": {
                             "type": "string"
                         },
+                        "renderedValue": {
+                            "type": "string"
+                        },
                         "localizedValues": {
                             "$ref": "#/definitions/localizedValues"
                         }
@@ -69,6 +72,9 @@
                         "message": {
                             "type": "string"
                         },
+                        "renderedMessage": {
+                            "type": "string"
+                        },
                         "shortcut": {
                             "type": "string"
                         },
@@ -90,6 +96,7 @@
                         "shortcut",
                         "category",
                         "message",
+                        "renderedMessage",
                         "fillname"
                     ]
                 }

@@ -115,3 +115,10 @@ div.alert {
 div.alert-warning {
   color: #c09853;
 }
+
+iframe.message-preview {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+}

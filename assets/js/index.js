@@ -1,5 +1,5 @@
 // ES6 imports
-let { messages, variables, categories } = require('./messages.json');
+let { messages, variables, categories, mojiraCssUrls } = require('./messages.json');
 window.bootstrap = require('bootstrap');
 window.$ = window.jQuery = require('jquery');
 window.Popper = require('popper.js');
@@ -26,6 +26,11 @@ var categoryMap = new Map();
 for (const {category, name} of categories) {
   categoryMap.set(category, name);
 }
+
+const mojiraCssLinks = mojiraCssUrls.map(url => {
+  url = url.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+  return `<link type="text/css" rel="stylesheet" href="${url}">`
+}).join("\n");
 
 /**
  * Main app entry point
@@ -125,6 +130,8 @@ $("#copybutton").click(function () {
  * Fired whenever the selected message is changed
  */
 $("select").change(function () {
+  updatePreview();
+
   // Get dropdown value
   code = $(this).val();
   // No message selected?
@@ -234,6 +241,42 @@ function updateDisplay() {
     // Disable copy button (as no message is selected yet)
     $("#copybutton").attr("disabled", "");
   }
+
+  updatePreview();
+}
+
+function updatePreview() {
+  const previewIframe = $(".message-preview");
+
+  // get selected message id
+  var id = $("select").val();
+  if (id == "-1" || !dropdownMap.has(id)) {
+    previewIframe.attr("srcdoc", "");
+    return;
+  }
+
+  const message = dropdownMap.get(id);
+  let renderedMessage = message.renderedMessage;
+  // Replace quick links in body
+  for (const quickLink of variables["quick_links"]) {
+    if (isExpectedProject(quickLink.project, project)) {
+      renderedMessage = renderedMessage.replace(/%quick_links%/g, quickLink.renderedValue);
+      break;
+    }
+  }
+
+  // `min-width` below is to overwrite Jira CSS value
+  const previewHtml = `
+    <html>
+      <head>
+        ${mojiraCssLinks}
+      </head>
+      <body style="min-width: 0px; height: auto; padding: 10px; overflow: auto;">
+        ${renderedMessage}
+      </body>
+    </html>
+  `;
+  previewIframe.attr("srcdoc", previewHtml);
 }
 
 /**
