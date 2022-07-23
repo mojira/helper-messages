@@ -14,8 +14,8 @@ for (const project of projects) {
 var clicktimeout;
 // Currently selected project
 var project = "mc";
-// Currently selected message code
-var code = "-1";
+// Currently selected message ID
+var currentMessageId = "";
 
 // map for dropdown values and their corresponding messages
 var dropdownMap = new Map();
@@ -36,7 +36,7 @@ $(document).ready(function () {
   if (!url.includes('#')) {
     window.location.replace(url + '#MC');
   } else {
-    var id = url.substring(url.lastIndexOf('#') + 1).toLowerCase();
+    const id = url.substring(url.lastIndexOf('#') + 1).toLowerCase();
     if (projects.includes(id)) {
       project = id;
     } else {
@@ -84,8 +84,8 @@ $(document).ready(function () {
  */
 $("#copybutton").click(function () {
   // get selected message id
-  var id = $("select").val();
-  if (id == "-1" || !dropdownMap.has(id)) {
+  const id = $("select").val();
+  if (id == "" || !dropdownMap.has(id)) {
     return;
   }
 
@@ -126,16 +126,27 @@ $("#copybutton").click(function () {
  */
 $("select").change(function () {
   // Get dropdown value
-  code = $(this).val();
+  currentMessageId = $(this).val();
   // No message selected?
-  if (code == "-1" || !dropdownMap.has(code)) {
+  if (currentMessageId == "" || !dropdownMap.has(currentMessageId)) {
+    updateDisplayedMessage(undefined);
+  } else {
+    updateDisplayedMessage(dropdownMap.get(currentMessageId));
+  }
+});
+
+/**
+ * Updates information for the currently displayed message. Message may be `undefined`
+ * if no message is currently selected.
+ */
+function updateDisplayedMessage(message) {
+  if (!message) {
     $(".stdtext").html('<p class="text-muted" id="msginfo">Please select a message.</p>');
     $("#copybutton").attr("disabled", "");
     return;
   }
 
   // Does the message require extra filling info?
-  const message = dropdownMap.get(code);
   if (message.fillname.length >= 1) {
     $(".stdtext").html('<input class="form-control" type="text" placeholder="' + message.fillname[0] + '" id="fill">');
     // Register Enter event
@@ -150,7 +161,7 @@ $("select").change(function () {
 
   // Enable copy button
   $("#copybutton").removeAttr("disabled");
-});
+}
 
 /**
  * Check if the message is hidden or not.
@@ -189,31 +200,31 @@ function getStringValue(val) {
  * Updates messages in the message dropdown according to the currently selected project
  */
 function updateDisplay() {
-  var text = '<option value="-1">Select a message...</option>';
-  var selected = false;
+  let text = '<option value="">Select a message...</option>';
+  let selectedMessage = undefined;
   // Create a map for categorized messages
-  var messageMap = new Map();
+  let messageMap = new Map();
   // Clear dropdown map
   dropdownMap = new Map();
   // Set project dropdown title
   $("#dropdownMenuButton").text("Project: " + project.toUpperCase());
   // Loop through message objects
-  for (let i in messages) {
+  for (const messageId in messages) {
     // Select array in array
-    var messageArray = messages[i];
-    for (let j in messageArray) {
+    const messageArray = messages[messageId];
+    for (const message of messageArray) {
       // Only get messages for current project
-      if (!isHidden(messageArray[j]) && isExpectedProject(messageArray[j].project, project)) {
-        if (i == code) {
-          selected = true;
+      if (!isHidden(message) && isExpectedProject(message.project, project)) {
+        if (messageId == currentMessageId) {
+          selectedMessage = message;
         }
-        var catText = messageMap.get(messageArray[j].category);
-        var option = `<option value="${i}"${i == code ? ' selected': ''}>` + messageArray[j].name + '</option>';
+        let catText = messageMap.get(message.category);
+        const option = `<option value="${messageId}"${messageId == currentMessageId ? ' selected': ''}>` + message.name + '</option>';
         // Append option to category
         catText = !catText ? option : catText + option;
-        messageMap.set(messageArray[j].category, catText);
+        messageMap.set(message.category, catText);
         // Map message to dropdown ID for later recognition
-        dropdownMap.set(i, messageArray[j]);
+        dropdownMap.set(messageId, message);
       }
     }
   }
@@ -228,19 +239,15 @@ function updateDisplay() {
 
   // Update dropdown HTML
   $(".custom-select").html(text);
-  if (!selected) {
-    // Set default panel body
-    $(".stdtext").html('<p class="text-muted" id="msginfo">Please select a message.</p>');
-    // Disable copy button (as no message is selected yet)
-    $("#copybutton").attr("disabled", "");
-  }
+
+  updateDisplayedMessage(selectedMessage);
 }
 
 /**
  * Calculate margin for vertical center
  */
 function getMargin() {
-  var height = $(".main").css("height");
+  const height = $(".main").css("height");
   return (height.substring(0, height.length - 2) / 2) * -1;
 }
 
@@ -261,7 +268,7 @@ function wiggle(htmlobj) {
  * @param {string} text 
  */
 function copyTextToClipboard(text) {
-  var textArea = document.createElement("textarea");
+  const textArea = document.createElement("textarea");
   textArea.style.position = 'fixed';
   textArea.style.top = 0;
   textArea.style.left = 0;
@@ -277,7 +284,7 @@ function copyTextToClipboard(text) {
   textArea.select();
 
   try {
-    var s = document.execCommand('copy');
+    const s = document.execCommand('copy');
     document.body.removeChild(textArea);
     return s;
   } catch (err) {
