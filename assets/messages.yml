@@ -583,9 +583,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcapi
         - mcd
-        - mce
         - mcl
         - mcpe
         - mctest
