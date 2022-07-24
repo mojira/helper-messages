@@ -395,7 +395,7 @@ messages:
     - project:
         - mc
         - mcl
-      name: Duplicate of MC-128302
+      name: Duplicate of MC-128302 (Driver doesn't support OpenGL)
       shortcut: ogl
       category: duplicate
       message: |-
@@ -411,7 +411,7 @@ messages:
       fillname: []
   duplicate-of-mc-297:
     - project: mc
-      name: Duplicate of MC-297
+      name: Duplicate of MC-297 (Bad video card drivers)
       shortcut: '297'
       category: duplicate
       message: |-
@@ -427,7 +427,7 @@ messages:
       fillname: []
   duplicate-of-mcl-5638:
     - project: mcl
-      name: Duplicate of MCL-5638
+      name: Duplicate of MCL-5638 (Unable to locate Java runtime)
       shortcut: jre
       category: duplicate
       message: |-
@@ -441,7 +441,7 @@ messages:
       fillname: []
   duplicate-of-mcl-14369:
     - project: mcl
-      name: Duplicate of MCL-14369
+      name: Duplicate of MCL-14369 (All versions missing in launcher)
       shortcut: mvc
       category: duplicate
       message: |-
@@ -455,7 +455,7 @@ messages:
       fillname: []
   duplicate-of-mc-108:
     - project: mc
-      name: Duplicate of MC-108
+      name: Duplicate of MC-108 (Redstone quasi-connectivity)
       shortcut: quasi
       category: duplicate
       message: |-
