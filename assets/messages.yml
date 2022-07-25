@@ -1470,6 +1470,7 @@ messages:
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
         -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10 (from the Microsoft Store), Xbox, Nintendo Switch, PlayStation, Fire OS, and Gear VR
         -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
+        -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs related to or caused by Realms and not an issue with Minecraft itself
 
         %quick_links%
       fillname: []
