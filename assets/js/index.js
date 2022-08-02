@@ -1,5 +1,5 @@
 // ES6 imports
-let { messages, variables } = require('./messages.json');
+let { messages, variables, categories } = require('./messages.json');
 window.bootstrap = require('bootstrap');
 window.$ = window.jQuery = require('jquery');
 window.Popper = require('popper.js');
@@ -19,6 +19,13 @@ var code = "-1";
 
 // map for dropdown values and their corresponding messages
 var dropdownMap = new Map();
+
+// map for category keys and their corresponding names
+var categoryMap = new Map();
+
+for (const {category, name} of categories) {
+  categoryMap.set(category, name);
+}
 
 /**
  * Main app entry point
@@ -184,6 +191,8 @@ function getStringValue(val) {
 function updateDisplay() {
   var text = '<option value="-1">Select a message...</option>';
   var selected = false;
+  // Create a map for categorized messages
+  var messageMap = new Map();
   // Clear dropdown map
   dropdownMap = new Map();
   // Set project dropdown title
@@ -198,11 +207,23 @@ function updateDisplay() {
         if (i == code) {
           selected = true;
         }
-        text += `<option value="${i}" ${i == code ? 'selected': ''}>` + messageArray[j].name + '</option>';
+        var catText = messageMap.get(messageArray[j].category);
+        var option = `<option value="${i}"${i == code ? ' selected': ''}>` + messageArray[j].name + '</option>';
+        // Append option to category
+        catText = !catText ? option : catText + option;
+        messageMap.set(messageArray[j].category, catText);
         // Map message to dropdown ID for later recognition
         dropdownMap.set(i, messageArray[j]);
       }
     }
+  }
+
+  // Sort categorized messages alphabetically
+  messageMap = new Map([...messageMap].sort());
+
+  // Format dropdown menu labels
+  for (const [category, options] of messageMap.entries()) {
+    text += `<optgroup label="${categoryMap.get(category) || category}">${options}</optgroup>`
   }
 
   // Update dropdown HTML

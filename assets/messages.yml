@@ -1,3 +1,14 @@
+categories:
+  - category: duplicate
+    name: Duplicate
+  - category: invalid
+    name: Invalid
+  - category: ar
+    name: Awaiting Response
+  - category: notice
+    name: Panels / Notices
+  - category: misc
+    name: Miscellaneous
 variables:
   quick_links:
     - project: bds
@@ -62,6 +73,7 @@ messages:
         - web
       name: Account/billing issue
       shortcut: acc
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color} for the bug tracker.
@@ -77,6 +89,7 @@ messages:
         - mcl
       name: Attach crash report
       shortcut: crash
+      category: ar
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -91,6 +104,7 @@ messages:
     - project: mc
       name: Attach F3 debug screenshot
       shortcut: f3screen
+      category: ar
       message: |-
         Please attach a screenshot of this occurring while the F3 debug screen is enabled.
 
@@ -102,6 +116,7 @@ messages:
     - project: mc
       name: Attach profiling report
       shortcut: prof
+      category: ar
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -119,6 +134,7 @@ messages:
     - project: bds
       name: Attach server information
       shortcut: server
+      category: ar
       message: |-
         *Thank you for your report!*
         Could you please include information about your server? Without it we may be unable to reproduce the issue.
@@ -131,6 +147,7 @@ messages:
         - mcl
       name: Attach launcher log
       shortcut: llog
+      category: ar
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -148,6 +165,7 @@ messages:
         - mcd
       name: Attach video (PC)
       shortcut: vid
+      category: ar
       message: |-
         _We do not have enough information to find the cause of this issue._
         
@@ -165,6 +183,7 @@ messages:
         - mcpe
       name: Attach video (Mobile)
       shortcut: mvid
+      category: ar
       message: |-
         _We do not have enough information to find the cause of this issue._
         
@@ -181,6 +200,7 @@ messages:
         - mcl
       name: Attach world file
       shortcut: world
+      category: ar
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -194,6 +214,7 @@ messages:
     - project: mc
       name: Auth server down
       shortcut: auth
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -211,6 +232,7 @@ messages:
         - web
       name: Banned
       shortcut: ban
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -239,6 +261,7 @@ messages:
     - project: mc
       name: Combat Test
       shortcut: combat
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -256,6 +279,7 @@ messages:
         - realms
       name: Crash logged automatically
       shortcut: autocrash
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color} for the bug tracker.
@@ -269,6 +293,7 @@ messages:
     - project: mcd
       name: Crash logged automatically
       shortcut: autocrash
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -283,6 +308,7 @@ messages:
     - project: mc
       name: Debug Stick
       shortcut: stick
+      category: misc
       message: |-
         *Thank you for your report!*
         However, this issue won't be fixed.
@@ -298,6 +324,7 @@ messages:
         - web
       name: Demo account
       shortcut: demo
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -319,6 +346,7 @@ messages:
         - web
       name: Duplicate
       shortcut: dup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -342,6 +370,7 @@ messages:
         - web
       name: Duplicate (fixed)
       shortcut: fdup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -365,6 +394,7 @@ messages:
         - web
       name: Duplicate (invalid)
       shortcut: idup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -380,8 +410,9 @@ messages:
     - project:
         - mc
         - mcl
-      name: Duplicate of MC-128302
+      name: Duplicate of MC-128302 (Driver doesn't support OpenGL)
       shortcut: ogl
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *MC-128302*, so this ticket is being resolved and linked as a *duplicate*.
@@ -395,8 +426,9 @@ messages:
       fillname: []
   duplicate-of-mc-297:
     - project: mc
-      name: Duplicate of MC-297
+      name: Duplicate of MC-297 (Bad video card drivers)
       shortcut: '297'
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *MC-297*, so this ticket is being resolved and linked as a *duplicate*.
@@ -410,8 +442,9 @@ messages:
       fillname: []
   duplicate-of-mcl-5638:
     - project: mcl
-      name: Duplicate of MCL-5638
+      name: Duplicate of MCL-5638 (Unable to locate Java runtime)
       shortcut: jre
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
@@ -423,8 +456,9 @@ messages:
       fillname: []
   duplicate-of-mcl-14369:
     - project: mcl
-      name: Duplicate of MCL-14369
+      name: Duplicate of MCL-14369 (All versions missing in launcher)
       shortcut: mvc
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *MCL-14369*, so this ticket is being resolved and linked as a *duplicate*.
@@ -436,8 +470,9 @@ messages:
       fillname: []
   duplicate-of-mc-108:
     - project: mc
-      name: Duplicate of MC-108
+      name: Duplicate of MC-108 (Redstone quasi-connectivity)
       shortcut: quasi
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *MC-108*, so this ticket is being resolved and linked as a *duplicate*.
@@ -460,6 +495,7 @@ messages:
         - web
       name: Duplicate (private)
       shortcut: pdup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%* (private), so this ticket is being resolved and linked as a *duplicate*.
@@ -481,6 +517,7 @@ messages:
         - web
       name: Duplicate (tech support)
       shortcut: tdup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -505,6 +542,7 @@ messages:
         - web
       name: Duplicate (wai)
       shortcut: wdup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -528,6 +566,7 @@ messages:
         - web
       name: Duplicate (won't fix)
       shortcut: wfdup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
@@ -553,6 +592,7 @@ messages:
         - web
       name: Duplicate (forward)
       shortcut: fodup
+      category: duplicate
       message: |-
         *Thank you for your report!*
         We're resolving and linking this ticket forward as a *duplicate* of *%s%*, as that ticket contains more detailed information and/or has already been triaged by Mojang.
@@ -567,6 +607,7 @@ messages:
         - mc
       name: Experimental snapshot
       shortcut: exp
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -584,6 +625,7 @@ messages:
         - mcpe
       name: External server issue
       shortcut: ext
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -604,6 +646,7 @@ messages:
         - realms
       name: Feature request
       shortcut: feat
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -625,6 +668,7 @@ messages:
         - web
       name: Attach new attachment
       shortcut: attachnew
+      category: misc
       message: |-
         An attachment with a disallowed file extension has been removed from this ticket.
 
@@ -637,6 +681,7 @@ messages:
         - mcl
       name: Force debug crash report
       shortcut: force
+      category: ar
       message: |-
         _We do not have enough information to find the cause of this issue._
 
@@ -650,6 +695,7 @@ messages:
     - project: mcpe
       name: Hashtag issue
       shortcut: hashtag
+      category: misc
       message:
         For any new or ongoing hashtag issues, please create a new ticket for
         any gamertags still affected and use the label {{[chat-filter|https://bugs.mojang.com/issues/?jql=labels+%3D+chat-filter]}}.
@@ -667,6 +713,7 @@ messages:
       name: I am a Bot
       hidden: true
       shortcut: bot
+      category: misc
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
         If you think it was incorrect, please notify us
@@ -685,6 +732,7 @@ messages:
       name: I am a Bot duplicate message
       hidden: true
       shortcut: bot-dup
+      category: misc
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
         The ticket was resolved by one of our moderators, and I left this message to give more information to you.{color}~"
@@ -696,6 +744,7 @@ messages:
         - mctest
       name: Incomplete
       shortcut: inc
+      category: misc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Incomplete*{color}.
@@ -715,6 +764,7 @@ messages:
         - web
       name: Incomplete
       shortcut: inc
+      category: misc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Incomplete*{color}.
@@ -732,6 +782,7 @@ messages:
         - mcl
       name: MCL-6550 tech support issue
       shortcut: resp
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -746,11 +797,12 @@ messages:
         - mc
       name: Invalid unspecific lag
       shortcut: lag
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Performance drops are expected to happen between versions, especially in snapshots. Simply stating that "My game is laggier" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
+        Simply stating that "My game is laggy" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
 
         Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues. To learn more about this, head [here|https://www.minecraft.net/en-us/article/minecraft-snapshot-21w38a] (section "Telemetry") for more information.
 
@@ -760,11 +812,12 @@ messages:
         - mcpe
       name: Invalid unspecific lag
       shortcut: lag
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Performance drops are expected to happen between versions, especially in betas. Simply stating that "My game is laggier" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
+        Simply stating that "My game is laggy" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.gg/58Sxm23]* as they might be able to help with your issue.
 
         Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues.
 
@@ -774,6 +827,7 @@ messages:
     - project: mcl
       name: Legacy launcher version
       shortcut: leg
+      category: notice
       message: |-
         You have selected the version "1.6.93 (legacy)" as affected version for your report. Nowadays most users are using the new native launcher.
         If the launcher you are using has a big green "PLAY" button for starting the game, then you are using the new launcher. To find out the version you are using, please click on "Settings" in the lower left corner, then open the "About" tab. Right below "Launcher" it shows the version of the launcher.
@@ -787,6 +841,7 @@ messages:
     - project: mcpe
       name: Marketplace content bug
       shortcut: market
+      category: invalid
       message: |-
         *Thank you for your report!* 
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -802,6 +857,7 @@ messages:
         - mcl
       name: Minimum requirements not met
       shortcut: min
+      category: invalid
       message: |-
         *Thank you for your report!* 
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -814,6 +870,7 @@ messages:
         - mcd
       name: Minimum requirements not met
       shortcut: min
+      category: invalid
       message: |-
         *Thank you for your report!* 
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -829,6 +886,7 @@ messages:
         - mctest
       name: Modified game
       shortcut: mod
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -847,6 +905,7 @@ messages:
         - mcpe
       name: Modified game
       shortcut: mod
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -864,6 +923,7 @@ messages:
     - project: mc
       name: Modifying entity during lifetime
       shortcut: nbt
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -880,6 +940,7 @@ messages:
         - mctest
       name: Modified world crash
       shortcut: mworld
+      category: ar
       message: |-
         The attached crash report indicates that you had opened your world with a 'modded' game in the past.
         We only accept reports about the unmodified ('vanilla') game here on the bug tracker. To rule out that the modified game is responsible for the crash,
@@ -898,6 +959,7 @@ messages:
         - realms
       name: Multiple issues in one report
       shortcut: mult
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -920,6 +982,7 @@ messages:
       name: Not reopen AR ticket
       hidden: true
       shortcut: hard-ar
+      category: notice
       message: |-
         This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
         If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
@@ -928,6 +991,7 @@ messages:
     - project: mc
       name: Outdated client
       shortcut: old
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -951,6 +1015,7 @@ messages:
         - web
       name: Panel - Environment Desc.
       shortcut: env
+      category: notice
       message:
         "{panel:borderColor=orange}(!) The environment is supposed to only contain
         PC details.{panel}"
@@ -962,6 +1027,7 @@ messages:
         - mcpe
       name: Panel - Future Version
       shortcut: fut-old
+      category: notice
       message:
         "{panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_
         as affected. You don't have access to them yet.{panel}"
@@ -978,6 +1044,7 @@ messages:
         - web
       name: Panel - Sensitive information
       shortcut: mkpriv
+      category: notice
       message:
         "{panel:borderColor=orange}(!) Your bug report has been marked as _private_,
         as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
@@ -994,6 +1061,7 @@ messages:
         - web
       name: Panel - Mojang Priority
       shortcut: prio
+      category: notice
       message:
         '{panel:borderColor=orange}(!) Don''t try to change "Mojang Priority".
         It may only be changed by the developers. Consider this a warning.{panel}'
@@ -1010,6 +1078,7 @@ messages:
         - web
       name: Panel - Note
       shortcut: note
+      category: notice
       message: |-
         {panel:title=Note|borderStyle=dashed|borderColor=#ccc|titleBGColor=#F7D6C1|bgColor=#FFFFCE}
         %s%
@@ -1028,6 +1097,7 @@ messages:
         - web
       name: Panel - Private issue
       shortcut: priv
+      category: notice
       message:
         "{panel:borderColor=orange}(!) Please do not mark issues as _private_,
         unless your bug report is an exploit or contains information about your username
@@ -1043,6 +1113,7 @@ messages:
         - realms
       name: Panel - Added affected version to resolved ticket
       shortcut: remver
+      category: notice
       message: |-
         {panel:borderColor=orange}
         (!) Please do not add Affected Versions to resolved reports.
@@ -1062,6 +1133,7 @@ messages:
         - web
       name: Panel - Unmarked private issue
       shortcut: unpriv
+      category: notice
       message:
         "{panel:borderColor=orange}(!) Please do not unmark issues from _private_
         after a moderator had set it that way.{panel}"
@@ -1078,6 +1150,7 @@ messages:
         - web
       name: Panel - Workaround
       shortcut: workaround
+      category: notice
       message: |-
         {panel:title=Workaround|borderStyle=dashed|borderColor=#ccc|titleBGColor=#C1F7D6|bgColor=#CEFFFF}
         %s%
@@ -1091,6 +1164,7 @@ messages:
         - realms
       name: Parity issue
       shortcut: parity
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -1110,6 +1184,7 @@ messages:
         - mcl
       name: Pirated Minecraft
       shortcut: pir
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -1130,6 +1205,7 @@ messages:
         - realms
       name: Provide affected versions
       shortcut: fut
+      category: ar
       message: |-
         {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
         
@@ -1150,6 +1226,7 @@ messages:
         - mc
       name: Provide seed and coordinates
       shortcut: loc
+      category: ar
       message: |-
         _We do not have enough information to reproduce this issue._
 
@@ -1179,6 +1256,7 @@ messages:
         - web
       name: Quick links
       shortcut: qul
+      category: misc
       message: "%quick_links%"
       fillname: []
   report-not-in-english:
@@ -1192,6 +1270,7 @@ messages:
         - web
       name: Report not in English
       shortcut: lang
+      category: invalid
       message: |-
         *Thank you for your report!*
         Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
@@ -1216,6 +1295,7 @@ messages:
       name: Report not in English (Bot)
       hidden: true
       shortcut: lang-bot
+      category: invalid
       message: |-
         *Thank you for your report!*
         We appreciate you taking the time to report a bug. Unfortunately we are only able to accept bug reports in English, since it is the common language used by Mojang Studios and on this bug tracker.
@@ -1242,6 +1322,7 @@ messages:
         - web
       name: Technical support issue
       shortcut: tech
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -1260,6 +1341,7 @@ messages:
         - realms
       name: Temporary Service Outage
       shortcut: outage
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -1279,6 +1361,7 @@ messages:
     - project: mc
       name: Translation issue
       shortcut: trans
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -1291,6 +1374,7 @@ messages:
     - project: mcl
       name: Translation issue
       shortcut: trans
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -1304,6 +1388,7 @@ messages:
     - project: mc
       name: Works As Intended
       shortcut: wai
+      category: misc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Working as Intended*{color}.
@@ -1321,6 +1406,7 @@ messages:
     - project: mcpe
       name: Works As Intended
       shortcut: wai
+      category: misc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Working as Intended*{color}.
@@ -1338,6 +1424,7 @@ messages:
     - project: mcl
       name: Works As Intended
       shortcut: wai
+      category: misc
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Working as Intended*{color}.
@@ -1362,6 +1449,7 @@ messages:
         - realms
       name: Wrong project
       shortcut: proj
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
@@ -1386,6 +1474,7 @@ messages:
         - realms
       name: Wrong project (Moved)
       shortcut: mov
+      category: notice
       message: |-
         *Thank you for your report!*
         
