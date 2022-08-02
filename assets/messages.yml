@@ -247,6 +247,7 @@ messages:
         - mc
       name: Banned
       shortcut: ban
+      category: invalid
       message: |-
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
