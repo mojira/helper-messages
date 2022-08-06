@@ -1444,6 +1444,7 @@ messages:
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
         -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10 (from the Microsoft Store), Xbox, Nintendo Switch, PlayStation, Fire OS, and Gear VR
         -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
+        -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
 
         Please don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.
 
@@ -1470,7 +1471,7 @@ messages:
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
         -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10 (from the Microsoft Store), Xbox, Nintendo Switch, PlayStation, Fire OS, and Gear VR
         -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
-        -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs related to or caused by Realms and not an issue with Minecraft itself
+        -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
 
         %quick_links%
       fillname: []
