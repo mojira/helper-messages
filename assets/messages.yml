@@ -897,7 +897,7 @@ messages:
 
         * Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.
         * Any plugin issues need to be addressed to the creator of the plugin or resource pack.
-        * If you have problems on large servers, such as The Hive and Hypixel, please contact them first as they run modified server software.
+        * If you have problems on large servers like Hypixel, please contact them first as they run modified server software.
 
         %quick_links%
       fillname: []
