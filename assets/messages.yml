@@ -238,7 +238,23 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/360052618531-Why-have-I-been-banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
+        Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/4408964729869-Why-Have-I-Been-Banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
+        To request a case review of a ban, please contact Mojang Support through [this page|https://aka.ms/Case-Review-Minecraft].
+        
+        %quick_links%
+      fillname: []
+    - project:
+        - mc
+      name: Banned
+      shortcut: ban
+      category: invalid
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+        
+        This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
+        Please have a look at the [Community Standards|https://www.minecraft.net/en-us/community-standards] for guidelines that players are expected to follow.
+        To learn more about player reporting, potential causes for a ban, and instructions regarding how to request a case review of a ban, please visit the [Minecraft: Java Edition Player Reporting FAQ page|https://aka.ms/chatreportingfaq].
         
         %quick_links%
       fillname: []
@@ -881,7 +897,7 @@ messages:
 
         * Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.
         * Any plugin issues need to be addressed to the creator of the plugin or resource pack.
-        * If you have problems on large servers, such as The Hive and Hypixel, please contact them first as they run modified server software.
+        * If you have problems on large servers like Hypixel, please contact them first as they run modified server software.
 
         %quick_links%
       fillname: []
