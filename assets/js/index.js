@@ -7,7 +7,7 @@ window.Popper = require('@popperjs/core');
 // Available projects
 const projects = ["mc", "mcpe", "mcd", "mcl", "bds", "realms", "web"];
 for (const project of projects) {
-  $("#projectDropdownMenu").append($(`<a class="dropdown-item ${project}-dropdown" href="#${project.toUpperCase()}">${project.toUpperCase()}</a>`));
+  $("#projectDropdownMenu").append($(`<li><a class="dropdown-item ${project}-dropdown" href="#${project.toUpperCase()}">${project.toUpperCase()}</a></li>`));
 }
 
 // Timeout for popper copy tooltip
@@ -60,7 +60,7 @@ $(document).ready(function () {
 
   // Declare dropdown onClick events for each project in the dropdown list
   for (let i in projects) {
-    $("." + projects[i] + "-dropdown").click(function () {
+    $("." + projects[i] + "-dropdown").on("click", function () {
       if (project != projects[i]) {
         project = projects[i];
         updateDisplay();
@@ -69,9 +69,9 @@ $(document).ready(function () {
   }
 
   // Register global Ctrl + C event
-  $(document).keyup(e => {
-    if (e.ctrlKey && e.keyCode === 67 && window.getSelection().toString().length === 0) {
-      $("#copybutton").click();
+  $(document).on("keyup", e => {
+    if (e.ctrlKey && e.code === "KeyC" && window.getSelection().toString().length === 0) {
+      $("#copybutton").trigger("click");
     }
   });
 
@@ -82,7 +82,7 @@ $(document).ready(function () {
 /**
  * Fired whenever the copy button is pressed
  */
-$("#copybutton").click(function () {
+$("#copybutton").on("click", function () {
   // get selected message id
   const id = $("select").val();
   if (id == "" || !dropdownMap.has(id)) {
@@ -124,7 +124,7 @@ $("#copybutton").click(function () {
 /**
  * Fired whenever the selected message is changed
  */
-$("select").change(function () {
+$("select").on("change", function () {
   // Get dropdown value
   currentMessageId = $(this).val();
   // No message selected?
@@ -150,8 +150,8 @@ function updateDisplayedMessage(message) {
   if (message.fillname.length >= 1) {
     $(".stdtext").html('<input class="form-control" type="text" placeholder="' + message.fillname[0] + '" id="fill">');
     // Register Enter event
-    $("#fill").keyup(e => {
-      if (e.keyCode === 13) {
+    $("#fill").on("keyup", e => {
+      if (e.code === "Enter") {
         $("#copybutton").click();
       }
     });
@@ -238,7 +238,7 @@ function updateDisplay() {
   }
 
   // Update dropdown HTML
-  $(".custom-select").html(text);
+  $(".form-select").html(text);
 
   updateDisplayedMessage(selectedMessage);
 }
@@ -263,32 +263,11 @@ function wiggle(htmlobj) {
 }
 
 /**
- * Copies text to the keyboard of a user; s/o to Dean Taylor!
- * https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
- * @param {string} text 
+ * Copies text to the user's clipboard.
+ * https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard
+ * Note: This is an asynchronous call, which can fail without notifying the caller of the failure.
+ * @param {string} text
  */
 function copyTextToClipboard(text) {
-  const textArea = document.createElement("textarea");
-  textArea.style.position = 'fixed';
-  textArea.style.top = 0;
-  textArea.style.left = 0;
-  textArea.style.width = '2em';
-  textArea.style.height = '2em';
-  textArea.style.padding = 0;
-  textArea.style.border = 'none';
-  textArea.style.outline = 'none';
-  textArea.style.boxShadow = 'none';
-  textArea.style.background = 'transparent';
-  textArea.value = text;
-  document.body.appendChild(textArea);
-  textArea.select();
-
-  try {
-    const s = document.execCommand('copy');
-    document.body.removeChild(textArea);
-    return s;
-  } catch (err) {
-    document.body.removeChild(textArea);
-    return false;
-  }
+  navigator.clipboard.writeText(text);
 }
