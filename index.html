@@ -16,34 +16,34 @@
         <div class="main">
             <h2 class="display-4">Mojira Helper Message Web Application</h2>
             <div class="alert alert-warning">
-                <button type="button" data-dismiss="alert" aria-hidden="true" class="close">×</button>
+                <button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-hidden="true"></button>
                 <div class="icon">
                     <i class="fas fa-exclamation-triangle"></i>
                 </div>
                 Please note that these messages may only be used by Mojira helpers and moderators.
             </div>
             <div class="selector">
-                <select class="custom-select mr-sm-2">
+                <select class="form-select me-sm-2">
                     <option value="0" selected>Select a message</option>
                 </select>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle align-baseline" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Project: MC
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="projectDropdownMenu">
-                    </div>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="projectDropdownMenu">
+                    </ul>
                 </div>
             </div>
             <div class="inputarea">
                 <div class="stdtext">
-                    <p class="text-muted" id="msginfo">Please select a message.</p>
+                    <p class="text-body-secondary" id="msginfo">Please select a message.</p>
                 </div>
             </div>
             <button type="button" class="btn btn-outline-secondary" id="copybutton" data-toggle="tooltip"
                 data-placement="top" title="Copied!" disabled>Copy</button>
             <div class="footer">
-                <small class="text-muted">Made by <a href="https://bugs.mojang.com/secure/ViewProfile.jspa?name=Bemoty"
+                <small class="text-body-secondary">Made by <a href="https://bugs.mojang.com/secure/ViewProfile.jspa?name=Bemoty"
                         target="_blank">Bemoty</a></small>
             </div>
         </div>
