@@ -2,7 +2,7 @@
 let { messages, variables, categories } = require('./messages.json');
 window.bootstrap = require('bootstrap');
 window.$ = window.jQuery = require('jquery');
-window.Popper = require('popper.js');
+window.Popper = require('@popperjs/core');
 
 // Available projects
 const projects = ["mc", "mcpe", "mcd", "mcl", "bds", "realms", "web"];
