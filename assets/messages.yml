@@ -118,7 +118,7 @@ messages:
         Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}} here.
         If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -130,7 +130,7 @@ messages:
       message: |-
         Please attach a screenshot of this occurring while the F3 debug screen is enabled.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -148,7 +148,7 @@ messages:
         If you are playing on a server please additionally run the command {{/perf start}} to create a profiling report for the server. In case you do not have the permission to run this command, make sure that you're a server operator.
         Once profiling has finished, please *attach the generated {{.zip}} file* from {{debug/profiling/<DATE>.zip}} of the server folder.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -175,7 +175,7 @@ messages:
 
         Please *attach the full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -198,7 +198,7 @@ messages:
         In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com/].
         In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -213,7 +213,7 @@ messages:
         Please *record a video of this happening* and attach it to this report.
         In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -229,7 +229,7 @@ messages:
 
         Please *attach the affected (zipped) world file*. If the file size is too large, please upload it somewhere else and then link to it here.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -721,7 +721,7 @@ messages:
 
         Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}) here.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -1279,7 +1279,7 @@ messages:
         - You are in the *correct project* on the bug tracker.
         - You were playing the *latest release version* or the *latest development version* of the game.
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -1303,7 +1303,7 @@ messages:
         - Coordinates: Can be copied to clipboard by pressing {{F3 + C}}
         - Data Packs: If you use any world generation data packs, please attach or provide a download link to the used data pack(s)
 
-        ~This issue is being temporarily closed as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+        ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
         %quick_links%
       fillname: []
@@ -1365,7 +1365,7 @@ messages:
         *Thank you for your report!*
         We appreciate you taking the time to report a bug. Unfortunately we are only able to accept bug reports in English, since it is the common language used by Mojang Studios and on this bug tracker.
 
-        You are welcome to *create a new ticket* about your issue in English. You can use an online translator, if it helps. *Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently closed.*
+        You are welcome to *create a new ticket* about your issue in English. You can use an online translator, if it helps. *Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently resolved.*
         However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
