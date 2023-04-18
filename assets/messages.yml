@@ -31,6 +31,11 @@ variables:
           *Quick Links*:
           📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
+    - project: mclg
+      value: |-
+          *Quick Links*:
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.gg/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcpe
       value: |-
           *Quick Links*:
@@ -55,6 +60,8 @@ variables:
       value: MCPE
     - project: mcl
       value: MCL
+    - project: mclg
+      value: MCLG
     - project: bds
       value: BDS
     - project: realms
@@ -68,6 +75,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
         - web
@@ -163,6 +171,7 @@ messages:
         - mcl
         - mcpe
         - mcd
+        - mclg
       name: Attach video (PC)
       shortcut: vid
       category: ar
@@ -227,6 +236,7 @@ messages:
   banned:
     - project:
         - mcd
+        - mclg
         - mcpe
         - realms
         - web
@@ -291,7 +301,9 @@ messages:
 
         %quick_links%
       fillname: []
-    - project: mcd
+    - project:
+        - mcd
+        - mclg
       name: Crash logged automatically
       shortcut: autocrash
       category: invalid
@@ -341,6 +353,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -365,6 +378,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -490,6 +504,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -512,6 +527,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -537,6 +553,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -561,6 +578,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -585,6 +603,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -641,6 +660,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
       name: Feature request
@@ -661,6 +681,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
         - mctest
@@ -705,6 +726,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -724,6 +746,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -758,6 +781,7 @@ messages:
     - project:
         - bds
         - mcd
+        - mclg
         - mcpe
         - realms
         - web
@@ -878,6 +902,19 @@ messages:
 
         %quick_links%
       fillname: []
+    - project:
+        - mclg
+      name: Minimum requirements not met
+      shortcut: min
+      category: invalid
+      message: |-
+        *Thank you for your report!* 
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360038937032-Dungeons-Minimum-Specifications-for-Gameplay] to run Minecraft Legends.
+
+        %quick_links%
+      fillname: []
   modified-game:
     - project:
         - mc
@@ -955,6 +992,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
       name: Multiple issues in one report
@@ -975,6 +1013,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1009,6 +1048,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1038,6 +1078,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1055,6 +1096,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1072,6 +1114,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1091,6 +1134,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1109,6 +1153,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
       name: Panel - Added affected version to resolved ticket
@@ -1127,6 +1172,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1144,6 +1190,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1200,6 +1247,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -1251,6 +1299,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
         - web
@@ -1265,6 +1314,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
         - web
@@ -1289,6 +1339,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
         - web
@@ -1317,6 +1368,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
         - web
@@ -1337,6 +1389,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
       name: Temporary Service Outage
@@ -1445,6 +1498,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
       name: Wrong project
@@ -1457,8 +1511,9 @@ messages:
         This is related to a different project. Use one of the links below to go to the correct project.
         -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
-        -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10 (from the Microsoft Store), Xbox, Nintendo Switch, PlayStation, Fire OS, and Gear VR
-        -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
+        -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10/11, ChromeOS, Xbox, Nintendo Switch, PlayStation, and Amazon Fire
+        -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Dungeon-crawler spin-off game
+        -- [Minecraft Legends|https://bugs.mojang.com/browse/MCLG] --- Action strategy spin-off game
         -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
 
         Please don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.
@@ -1471,6 +1526,7 @@ messages:
         - mc
         - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
       name: Wrong project (Moved)
@@ -1484,8 +1540,9 @@ messages:
         These are the projects where bugs for the respective game version are tracked:
         -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
-        -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10 (from the Microsoft Store), Xbox, Nintendo Switch, PlayStation, Fire OS, and Gear VR
-        -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Action-adventure title set in the Minecraft universe
+        -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10/11, ChromeOS, Xbox, Nintendo Switch, PlayStation, and Amazon Fire
+        -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Dungeon-crawler spin-off game
+        -- [Minecraft Legends|https://bugs.mojang.com/browse/MCLG] --- Action strategy spin-off game
         -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
 
         %quick_links%
