@@ -10,46 +10,60 @@ categories:
   - category: misc
     name: Miscellaneous
 variables:
+  help_discord:
+    - project:
+        - bds
+        - mc
+        - mcl
+        - mcpe
+        - realms
+        - web
+      value: "[Community Support|https://discord.com/invite/58Sxm23]"
+    - project: mcd
+      value: "[Community Support|https://discord.com/invite/minecraftdungeons]"
+    - project: mclg
+      value: "[Community Support|https://discord.com/invite/minecraftlegends]"
+
   quick_links:
     - project: bds
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
     - project: mc
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcd
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftdungeons] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mclg
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftlegends] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcpe
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: realms
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
           *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
           📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com]
   project_id:
     - project: mc
@@ -435,7 +449,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact *[Community Support|https://discord.com/invite/58Sxm23]* and refer to this ticket by providing a link.
+        -- If that did not help, please contact *%help_discord%* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -451,7 +465,7 @@ messages:
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
-        -- If that did not help, please contact *[Community Support|https://discord.com/invite/58Sxm23]* and refer to this ticket by providing a link.
+        -- If that did not help, please contact *%help_discord%* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -479,7 +493,7 @@ messages:
         We're tracking this issue in *MCL-14369*, so this ticket is being resolved and linked as a *duplicate*.
 
         Please take a look at the Moderator Note on that ticket to see a possible solution to your issue.
-        If that did not help, please contact *[Community Support|https://discord.com/invite/58Sxm23]* and refer to this ticket by providing a link.
+        If that did not help, please contact *%help_discord%* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -525,7 +539,9 @@ messages:
     - project:
         - bds
         - mc
+        - mcd
         - mcl
+        - mclg
         - mcpe
         - mctest
         - realms
@@ -538,41 +554,7 @@ messages:
         We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
-        If you need additional help to fix this problem, please contact *[Community Support|https://discord.com/invite/58Sxm23]* and refer to this ticket by providing a link.
-
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
-
-        %quick_links%
-      fillname:
-        - Enter parent issue ID
-    - project:
-        - mclg
-      name: Duplicate (tech support)
-      shortcut: tdup
-      category: duplicate
-      message: |-
-        *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
-
-        That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
-        If you need additional help to fix this problem, please contact *[Community Support|https://discord.com/invite/minecraftlegends]* and refer to this ticket by providing a link.
-
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
-
-        %quick_links%
-      fillname:
-        - Enter parent issue ID
-    - project:
-        - mcd
-      name: Duplicate (tech support)
-      shortcut: tdup
-      category: duplicate
-      message: |-
-        *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
-
-        That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
-        If you need additional help to fix this problem, please contact *[Community Support|https://discord.com/invite/minecraftdungeons]* and refer to this ticket by providing a link.
+        If you need additional help to fix this problem, please contact *%help_discord%* and refer to this ticket by providing a link.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -843,7 +825,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact *[Community Support|https://discord.com/invite/58Sxm23]* and refer to this ticket by providing a link.
+        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact *%help_discord%* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -857,7 +839,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Simply stating that "My game is laggy" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.com/invite/58Sxm23]* as they might be able to help with your issue.
+        Simply stating that "My game is laggy" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *%help_discord%* as they might be able to help with your issue.
 
         Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues. To learn more about this, head [here|https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-3] (section "Telemetry") for more information.
 
@@ -872,7 +854,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Simply stating that "My game is laggy" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *[Community Support|https://discord.com/invite/58Sxm23]* as they might be able to help with your issue.
+        Simply stating that "My game is laggy" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *%help_discord%* as they might be able to help with your issue.
 
         Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues.
 
@@ -1360,41 +1342,7 @@ messages:
         However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.com/invite/58Sxm23]*.
-
-        %quick_links%
-      fillname: []
-    - project:
-        - mclg
-      name: Report not in English
-      shortcut: lang
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
-
-        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps.
-        However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
-        If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
-
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.com/invite/minecraftlegends]*.
-
-        %quick_links%
-      fillname: []
-    - project:
-        - mcd
-      name: Report not in English
-      shortcut: lang
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
-
-        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps.
-        However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
-        If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
-
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.com/invite/minecraftdungeons]*.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *%help_discord%*.
 
         %quick_links%
       fillname: []
@@ -1431,7 +1379,9 @@ messages:
     - project:
         - bds
         - mc
+        - mcd
         - mcl
+        - mclg
         - mcpe
         - realms
         - web
@@ -1443,35 +1393,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please contact *[Community Support|https://discord.com/invite/58Sxm23]* for assistance and refer to this ticket by providing a link.
-
-        %quick_links%
-      fillname: []
-    - project:
-        - mclg
-      name: Technical support issue
-      shortcut: tech
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please contact *[Community Support|https://discord.com/invite/minecraftlegends]* for assistance and refer to this ticket by providing a link.
-
-        %quick_links%
-      fillname: []
-    - project:
-        - mcd
-      name: Technical support issue
-      shortcut: tech
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please contact *[Community Support|https://discord.com/invite/minecraftdungeons]* for assistance and refer to this ticket by providing a link.
+        Please contact *%help_discord%* for assistance and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -1479,6 +1401,8 @@ messages:
     - project:
         - mc
         - mcl
+        - mclg
+        - mcd
         - mcpe
         - realms
       name: Temporary Service Outage
@@ -1492,47 +1416,7 @@ messages:
 
         Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
 
-        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.com/invite/58Sxm23]* for assistance and refer to this ticket by providing a link.
-        You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
-
-        If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://aka.ms/Minecraft-Support].
-
-        %quick_links%
-      fillname: []
-    - project:
-        - mclg
-      name: Temporary Service Outage
-      shortcut: outage
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
-
-        Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
-
-        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.com/invite/minecraftlegends]* for assistance and refer to this ticket by providing a link.
-        You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
-
-        If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://aka.ms/Minecraft-Support].
-
-        %quick_links%
-      fillname: []
-    - project:
-        - mcd
-      name: Temporary Service Outage
-      shortcut: outage
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
-
-        Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
-
-        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.com/invite/minecraftdungeons]* for assistance and refer to this ticket by providing a link.
+        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *%help_discord%* for assistance and refer to this ticket by providing a link.
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
 
         If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://aka.ms/Minecraft-Support].
