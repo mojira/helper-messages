@@ -251,6 +251,23 @@ messages:
 
         %quick_links%
       fillname: []
+  awaiting-response-generic:
+    - project:
+      - bds
+      - mc
+      - mcd
+      - mcl
+      - mcpe
+      - realms
+      - web
+      name: Awaiting Response (generic)
+      shortcut: ar
+      category: ar
+      message: |-
+        %awaiting_response%
+        
+        %quick_links%
+      fillname: []
   banned:
     - project:
         - mcd
