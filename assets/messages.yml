@@ -27,44 +27,44 @@ variables:
   quick_links:
     - project: bds
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [BDS Wiki|https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
     - project: mc
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mcd
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: mclg
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcpe
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com/wiki/Minecraft_Wiki]
     - project: realms
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
-          *Quick Links*:
-          📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
-          📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com]
+        *Quick Links*:
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 %help_discord% -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com]
   project_id:
     - project: mc
       value: MC
@@ -456,7 +456,7 @@ messages:
   duplicate-of-mc-297:
     - project: mc
       name: Duplicate of MC-297 (Bad video card drivers)
-      shortcut: '297'
+      shortcut: "297"
       category: duplicate
       message: |-
         *Thank you for your report!*
