@@ -525,9 +525,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -541,6 +539,40 @@ messages:
 
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
         If you need additional help to fix this problem, please contact *[Community Support|https://discord.com/invite/58Sxm23]* and refer to this ticket by providing a link.
+
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
+    - project:
+        - mclg
+      name: Duplicate (tech support)
+      shortcut: tdup
+      category: duplicate
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
+        If you need additional help to fix this problem, please contact *[Community Support|https://discord.com/invite/minecraftlegends]* and refer to this ticket by providing a link.
+
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+
+        %quick_links%
+      fillname:
+        - Enter parent issue ID
+    - project:
+        - mcd
+      name: Duplicate (tech support)
+      shortcut: tdup
+      category: duplicate
+      message: |-
+        *Thank you for your report!*
+        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+
+        That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
+        If you need additional help to fix this problem, please contact *[Community Support|https://discord.com/invite/minecraftdungeons]* and refer to this ticket by providing a link.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
 
@@ -1314,7 +1346,6 @@ messages:
         - mc
         - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -1330,6 +1361,40 @@ messages:
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
         Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.com/invite/58Sxm23]*.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mclg
+      name: Report not in English
+      shortcut: lang
+      category: invalid
+      message: |-
+        *Thank you for your report!*
+        Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
+
+        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps.
+        However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
+        If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
+
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.com/invite/minecraftlegends]*.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcd
+      name: Report not in English
+      shortcut: lang
+      category: invalid
+      message: |-
+        *Thank you for your report!*
+        Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
+
+        You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps.
+        However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
+        If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
+
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *[Community Support|https://discord.com/invite/minecraftdungeons]*.
 
         %quick_links%
       fillname: []
@@ -1366,9 +1431,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -1384,12 +1447,38 @@ messages:
 
         %quick_links%
       fillname: []
+    - project:
+        - mclg
+      name: Technical support issue
+      shortcut: tech
+      category: invalid
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
+        Please contact *[Community Support|https://discord.com/invite/minecraftlegends]* for assistance and refer to this ticket by providing a link.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcd
+      name: Technical support issue
+      shortcut: tech
+      category: invalid
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
+        Please contact *[Community Support|https://discord.com/invite/minecraftdungeons]* for assistance and refer to this ticket by providing a link.
+
+        %quick_links%
+      fillname: []
   temporary-outage:
     - project:
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
       name: Temporary Service Outage
@@ -1404,6 +1493,46 @@ messages:
         Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
 
         If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.com/invite/58Sxm23]* for assistance and refer to this ticket by providing a link.
+        You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
+
+        If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://aka.ms/Minecraft-Support].
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mclg
+      name: Temporary Service Outage
+      shortcut: outage
+      category: invalid
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
+
+        Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
+
+        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.com/invite/minecraftlegends]* for assistance and refer to this ticket by providing a link.
+        You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
+
+        If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://aka.ms/Minecraft-Support].
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcd
+      name: Temporary Service Outage
+      shortcut: outage
+      category: invalid
+      message: |-
+        *Thank you for your report!*
+        However, this issue is {color:#FF5722}*Invalid*{color}.
+
+        Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
+
+        Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
+
+        If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *[Community Support|https://discord.com/invite/minecraftdungeons]* for assistance and refer to this ticket by providing a link.
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
 
         If you are still unable to access a paid service such as a realm or purchased content, please contact [Mojang Support|https://aka.ms/Minecraft-Support].
