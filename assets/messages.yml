@@ -65,6 +65,7 @@ variables:
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
         📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://feedback.minecraft.net/] -- 📖 [Game Wiki|https://minecraft.fandom.com]
+
   project_id:
     - project: mc
       value: MC
@@ -82,10 +83,20 @@ variables:
       value: REALMS
     - project: web
       value: WEB
+
   awaiting_response:
-    - project: [MC, MCD, MCPE, MCL, BDS, REALMS, WEB]
+    - project:
+        - mc
+        - mcd
+        - mcpe
+        - mcl
+        - mclg
+        - bds
+        - realms
+        - web
       value: |-
         ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
+
 messages:
   account-issue:
     - project:
