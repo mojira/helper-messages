@@ -998,7 +998,7 @@ messages:
 
         * Any non-standard client/server build needs to be taken up with the appropriate team, not Mojang.
         * Any plugin issues need to be addressed to the creator of the plugin, add-on or resource pack.
-        * If you have problems on large servers, such as Mineplex and Lifeboat, please contact them first as they run modified server software.
+        * If you have problems on large servers, such as Lifeboat, please contact them first as they run modified server software.
 
         %quick_links%
       fillname: []
