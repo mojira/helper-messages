@@ -676,7 +676,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for experimental snapshots; they are for testing and feedback only. Please leave any feedback on the [feedback website|https://discord.gg/MXxTqXnuD5hc/en-us].
+        We're currently not taking bug reports for experimental snapshots; they are for testing and feedback only. Please leave any feedback on the [feedback website|https://discord.gg/MXxTqXnuD5].
         If you experience this issue in the latest release, please search for existing reports. If you did not find one, create a new report with the latest release as the affected version.
 
         If you need help or support, you might like to follow a link below.
@@ -717,7 +717,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         You have posted a feature request or a suggestion. This site is for *bug reports* only.
-        For suggestions, please visit [Minecraft Suggestions on Reddit|https://www.reddit.com/r/minecraftsuggestions] or visit the [Feedback website|https://discord.gg/MXxTqXnuD5hc/en-us].
+        For suggestions, please visit [Minecraft Suggestions on Reddit|https://www.reddit.com/r/minecraftsuggestions] or visit the [Feedback website|https://discord.gg/MXxTqXnuD5].
 
         %quick_links%
       fillname: []
@@ -915,7 +915,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Unfortunately we don't accept issues related to third party Marketplace content here on the bug tracker, but you may wish to contact the content creators directly. Marketplace partners have their own support channels for resolving issues affecting their content. Please visit the [Marketplace FAQ|https://discord.gg/MXxTqXnuD5hc/en-us/articles/360004166751-Marketplace-FAQ] section "I have a problem with the Minecraft world I purchased" for more information, including contact links for some of the Marketplace partners.
+        Unfortunately we don't accept issues related to third party Marketplace content here on the bug tracker, but you may wish to contact the content creators directly. Marketplace partners have their own support channels for resolving issues affecting their content. Please visit the [Marketplace FAQ|https://discord.gg/MXxTqXnuD5/articles/360004166751-Marketplace-FAQ] section "I have a problem with the Minecraft world I purchased" for more information, including contact links for some of the Marketplace partners.
         "Minecraft"-branded content should be reported here on the bug tracker.
 
         %quick_links%
@@ -1267,7 +1267,7 @@ messages:
         * The feature behaves differently in one edition than in the other
         * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
 
-        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Feedback website|https://discord.gg/MXxTqXnuD5hc/en-us/community/topics/360001191251-Parity].
+        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Feedback website|https://discord.gg/MXxTqXnuD5/community/topics/360001191251-Parity].
 
         %quick_links%
       fillname: []
