@@ -28,42 +28,42 @@ variables:
     - project: bds
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [BDS Wiki|https://minecraft.wiki/w/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
     - project: mc
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
     - project: mcd
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftdungeons] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftdungeons] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
     - project: mclg
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftlegends] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftlegends] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcpe
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
     - project: realms
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support|https://aka.ms/Minecraft-Support]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://discord.gg/MXxTqXnuD5] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
 
   project_id:
@@ -116,7 +116,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color} for the bug tracker.
 
         This is an account or billing issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*.
+        Please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*.
 
         %quick_links%
       fillname: []
@@ -1375,7 +1375,7 @@ messages:
         However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *%help_discord%*.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *%help_discord%*.
 
         %quick_links%
       fillname: []
@@ -1401,7 +1401,7 @@ messages:
         However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Mojang Support|https://aka.ms/Minecraft-Support]*.
+        Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*.
 
         _The language of this ticket was detected automatically. As such, closing this ticket may have been incorrect. In that case, please notify us on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/], so that we can reopen it._
         _Language detection is [powered by Dandelion API|https://dandelion.eu/]._
