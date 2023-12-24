@@ -323,7 +323,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [reddit post|https://www.reddit.com/r/Minecraft/comments/idvujw/here_we_go_again_combat_test_snapshot_8b/] or on the [feedback discord server|https://discord.gg/MXxTqXnuD5].
+        We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [Reddit post|https://www.reddit.com/r/Minecraft/comments/idvujw/here_we_go_again_combat_test_snapshot_8b/] or on the [Minecraft Feedback Discord server|https://discord.gg/MXxTqXnuD5].
 
         If you need help or support, you might like to follow a link below.
 
@@ -676,7 +676,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for experimental snapshots; they are for testing and feedback only. Please leave any feedback on the [feedback discord server|https://discord.gg/MXxTqXnuD5].
+        We're currently not taking bug reports for experimental snapshots; they are for testing and feedback only. Please leave any feedback on the [Minecraft Feedback Discord server|https://discord.gg/MXxTqXnuD5].
         If you experience this issue in the latest release, please search for existing reports. If you did not find one, create a new report with the latest release as the affected version.
 
         If you need help or support, you might like to follow a link below.
@@ -717,7 +717,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         You have posted a feature request or a suggestion. This site is for *bug reports* only.
-        For suggestions, please visit [Minecraft Suggestions on Reddit|https://www.reddit.com/r/minecraftsuggestions] or visit the [feedback discord server|https://discord.gg/MXxTqXnuD5].
+        For suggestions, please visit [Minecraft Suggestions on Reddit|https://www.reddit.com/r/minecraftsuggestions] or visit the [Minecraft Feedback Discord server|https://discord.gg/MXxTqXnuD5].
 
         %quick_links%
       fillname: []
@@ -1267,7 +1267,7 @@ messages:
         * The feature behaves differently in one edition than in the other
         * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
 
-        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [feedback discord server|https://discord.gg/MXxTqXnuD5/].
+        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Minecraft Feedback Discord server|https://discord.gg/MXxTqXnuD5/].
 
         %quick_links%
       fillname: []
