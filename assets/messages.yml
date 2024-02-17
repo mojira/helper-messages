@@ -199,6 +199,7 @@ messages:
         - mc
         - mcl
         - mcpe
+        - bds
         - mcd
         - mclg
       name: Attach video (PC)
@@ -219,6 +220,7 @@ messages:
       fillname: []
     - project:
         - mcpe
+        - bds
       name: Attach video (Mobile)
       shortcut: mvid
       category: ar
