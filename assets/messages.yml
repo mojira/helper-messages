@@ -719,7 +719,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         You have posted a feature request or a suggestion. This site is for *bug reports* only.
-        For suggestions, please visit [Minecraft Suggestions on Reddit|https://www.reddit.com/r/minecraftsuggestions] or visit the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord].
+        For suggestions, please visit [Minecraft Suggestions on Reddit|https://feedback.minecraft.net] or visit the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord].
 
         %quick_links%
       fillname: []
@@ -1498,7 +1498,7 @@ messages:
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.wiki/w/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.wiki/w/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
+        [Full Version History|https://minecraft.wiki/w/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.wiki/w/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://feedback.minecraft.net]
 
         %quick_links%
       fillname:
@@ -1516,7 +1516,7 @@ messages:
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
+        [Full Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://feedback.minecraft.net]
 
         %quick_links%
       fillname:
@@ -1534,7 +1534,7 @@ messages:
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.wiki/w/Launcher_version_history] -- [Feature Requests and Suggestions|https://www.reddit.com/r/minecraftsuggestions]
+        [Full Version History|https://minecraft.wiki/w/Launcher_version_history] -- [Feature Requests and Suggestions|https://feedback.minecraft.net]
 
         %quick_links%
       fillname:
