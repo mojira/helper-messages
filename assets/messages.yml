@@ -202,6 +202,7 @@ messages:
         - bds
         - mcd
         - mclg
+        - realms
       name: Attach video (PC)
       shortcut: vid
       category: ar
@@ -221,6 +222,7 @@ messages:
     - project:
         - mcpe
         - bds
+        - realms
       name: Attach video (Mobile)
       shortcut: mvid
       category: ar
