@@ -1342,6 +1342,40 @@ messages:
 
         %quick_links%
       fillname: []
+  steps-to-reproduce:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mclg
+        - mcpe
+        - realms
+        - web
+      name: Provide steps to reproduce
+      shortcut: steps
+      category: ar
+      message: |-
+        _We do not have enough information to reproduce this issue._
+
+        Please include the following information to help us understand your problem:
+        {quote}
+        *Steps to Reproduce:*
+        1. _(Explain what needs to be done for the issue to happen)_
+        2.
+        3.
+
+        *Observed Results:*
+        _(Briefly describe what happens)_
+
+        *Expected Results:*
+        _(Briefly describe what should happen)_
+        {quote}
+        If your ticket does not look like the example given [here|https://help.minecraft.net/hc/en-us/articles/4408887473421-Mojang-Bug-Tracker-Guidelines-and-FAQ#h_01FF6B26Q7A5BTZT7RGCBX9WC4], then it's likely to be closed as {*}Incomplete{*}.
+
+        %awaiting_response%
+
+        %quick_links%
   quick-links:
     - project:
         - bds
