@@ -1353,7 +1353,7 @@ messages:
         - realms
         - web
       name: Provide steps to reproduce
-      shortcut: steps
+      shortcut: repro
       category: ar
       message: |-
         _We do not have enough information to reproduce this issue._
