@@ -20,9 +20,9 @@ variables:
         - web
       value: "[Community Support|https://discord.com/invite/58Sxm23]"
     - project: mcd
-      value: "[Community Support|https://discord.com/invite/minecraftdungeons]"
+      value: "[Community Support|https://discord.com/invite/minecraft]"
     - project: mclg
-      value: "[Community Support|https://discord.com/invite/minecraftlegends]"
+      value: "[Community Support|https://discord.com/invite/minecraft]"
 
   quick_links:
     - project: bds
@@ -38,7 +38,7 @@ variables:
     - project: mcd
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftdungeons] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
@@ -48,7 +48,7 @@ variables:
     - project: mclg
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraftlegends] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcpe
       value: |-
@@ -202,6 +202,7 @@ messages:
         - bds
         - mcd
         - mclg
+        - realms
       name: Attach video (PC)
       shortcut: vid
       category: ar
@@ -221,6 +222,7 @@ messages:
     - project:
         - mcpe
         - bds
+        - realms
       name: Attach video (Mobile)
       shortcut: mvid
       category: ar
