@@ -1376,6 +1376,7 @@ messages:
         %awaiting_response%
 
         %quick_links%
+      fillname: []
   quick-links:
     - project:
         - bds
