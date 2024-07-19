@@ -1563,7 +1563,7 @@ messages:
         -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10/11, ChromeOS, Xbox, Nintendo Switch, PlayStation, and Amazon Fire
         -- [Minecraft Bedrock Dedicated Server|https://bugs.mojang.com/browse/BDS] --- Bugs about the Bedrock Dedicated Server software
         -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
-        -- [Minecraft Web Services|https://bugs.mojang.com/browse/WEB] --- Bugs about the various web services. Including bugs.mojang,com, minecraft.net and API
+        -- [Mojang Web Services|https://bugs.mojang.com/browse/WEB] --- Bugs about the various web services, including bugs.mojang.com, minecraft.net, and APIs
 
         %quick_links%
       fillname: []
