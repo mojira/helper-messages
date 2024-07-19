@@ -1578,43 +1578,14 @@ messages:
         %quick_links%
       fillname:
         - Enter reason/source
-  wrong-project:
-    - project:
-        - bds
-        - mc
-        - mcd
-        - mcl
-        - mclg
-        - mcpe
-        - realms
-      name: Wrong project
-      shortcut: proj
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        This is related to a different project. Use one of the links below to go to the correct project.
-        -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
-        -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
-        -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10/11, ChromeOS, Xbox, Nintendo Switch, PlayStation, and Amazon Fire
-        -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Dungeon-crawler spin-off game
-        -- [Minecraft Legends|https://bugs.mojang.com/browse/MCLG] --- Action strategy spin-off game
-        -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
-
-        Please don't forget to search for an existing issue matching yours in the appropriate project before raising a new one.
-
-        %quick_links%
-      fillname: []
   wrong-project-moved:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
+        - web
       name: Wrong project (Moved)
       shortcut: mov
       category: notice
@@ -1627,9 +1598,9 @@ messages:
         -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
         -- [Minecraft (Bedrock codebase)|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10/11, ChromeOS, Xbox, Nintendo Switch, PlayStation, and Amazon Fire
-        -- [Minecraft Dungeons|https://bugs.mojang.com/browse/MCD] --- Dungeon-crawler spin-off game
-        -- [Minecraft Legends|https://bugs.mojang.com/browse/MCLG] --- Action strategy spin-off game
+        -- [Minecraft Bedrock Dedicated Server|https://bugs.mojang.com/browse/BDS] --- Bugs about the Bedrock Dedicated Server software
         -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
+        -- [Minecraft Web Services|https://bugs.mojang.com/browse/WEB] --- Bugs about the various web services. Including bugs.mojang,com, minecraft.net and API
 
         %quick_links%
       fillname: []
