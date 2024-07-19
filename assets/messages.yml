@@ -1371,7 +1371,9 @@ messages:
         *Expected Results:*
         _(Briefly describe what should happen)_
         {quote}
-        If your ticket does not look like the example given [here|https://help.minecraft.net/hc/en-us/articles/4408887473421-Mojang-Bug-Tracker-Guidelines-and-FAQ#h_01FF6B26Q7A5BTZT7RGCBX9WC4], then it's likely to be closed as {*}Incomplete{*}.
+        Please also attach any needed commands, datapacks, resourcepacks, screenshots, videos, or worlds needed to help reproduce this issue.
+
+        Refer to the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] for more information about how to write helpful bug reports. Bug reports with insufficient information may be closed as *Incomplete*.
 
         %awaiting_response%
 
