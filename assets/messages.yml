@@ -34,37 +34,37 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
     - project: mcd
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcl
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
     - project: mclg
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
     - project: mcpe
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCPE/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
     - project: realms
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
+        📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
     - project: web
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki]
+        📓 [Project Summary|https://bugs.mojang.com/projects/WEB/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
 
   project_id:
     - project: mc
