@@ -29,7 +29,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [BDS Wiki|https://minecraft.wiki/w/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
+        📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [BDS Wiki|https://minecraft.wiki/w/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/4408873961869]
     - project: mc
       value: |-
         *Quick Links*:
@@ -59,7 +59,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
+        📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki/w/Minecraft_Wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/4409247032845]
     - project: web
       value: |-
         *Quick Links*:
@@ -935,7 +935,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/4409225939853-Minecraft-Java-Edition-Installation-Issues-FAQ#h_01FFJMSQWJH31CH16H63GX4YKE] to run Minecraft.
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/articles/4409225939853] to run Minecraft.
 
         %quick_links%
       fillname: []
