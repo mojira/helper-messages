@@ -143,6 +143,8 @@ messages:
       shortcut: f3screen
       category: ar
       message: |-
+        _We do not have enough information to find the cause of this issue._
+
         Please attach a screenshot of this occurring while the F3 debug screen is enabled.
 
         %awaiting_response%
@@ -173,8 +175,11 @@ messages:
       shortcut: server
       category: ar
       message: |-
-        *Thank you for your report!*
+        _We do not have enough information to find the cause of this issue._
+
         Could you please include information about your server? Without it we may be unable to reproduce the issue.
+
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -280,7 +285,7 @@ messages:
       category: ar
       message: |-
         %awaiting_response%
-        
+
         %quick_links%
       fillname: []
   banned:
@@ -1033,6 +1038,8 @@ messages:
         We only accept reports about the unmodified ('vanilla') game here on the bug tracker. To rule out that the modified game is responsible for the crash,
         please try reproducing this issue with a newly created world or a world that has not been opened with a modified game in the past. If you experience
         the crash there as well, please attach that crash report too. Otherwise, please report this issue to the author of the modification instead.
+
+        %awaiting_response%
 
         %quick_links%
       fillname: []
