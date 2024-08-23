@@ -29,7 +29,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [BDS Wiki|https://minecraft.wiki/w/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360035131651-Dedicated-Servers-for-Minecraft-on-Bedrock-]
+        📓 [Project Summary|https://bugs.mojang.com/projects/BDS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [BDS Wiki|https://minecraft.wiki/w/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/4408873961869]
     - project: mc
       value: |-
         *Quick Links*:
@@ -39,7 +39,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/360041345271]
     - project: mcl
       value: |-
         *Quick Links*:
@@ -49,7 +49,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/articles/360041345271]
+        📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/360041345271]
     - project: mcpe
       value: |-
         *Quick Links*:
@@ -59,7 +59,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/en-us/sections/360004954931-Minecraft-Realms]
+        📓 [Project Summary|https://bugs.mojang.com/projects/REALMS/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/4409247032845]
     - project: web
       value: |-
         *Quick Links*:
@@ -143,6 +143,8 @@ messages:
       shortcut: f3screen
       category: ar
       message: |-
+        _We do not have enough information to find the cause of this issue._
+
         Please attach a screenshot of this occurring while the F3 debug screen is enabled.
 
         %awaiting_response%
@@ -173,8 +175,11 @@ messages:
       shortcut: server
       category: ar
       message: |-
-        *Thank you for your report!*
+        _We do not have enough information to find the cause of this issue._
+
         Could you please include information about your server? Without it we may be unable to reproduce the issue.
+
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -280,7 +285,7 @@ messages:
       category: ar
       message: |-
         %awaiting_response%
-        
+
         %quick_links%
       fillname: []
   banned:
@@ -935,7 +940,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/4409225939853-Minecraft-Java-Edition-Installation-Issues-FAQ#h_01FFJMSQWJH31CH16H63GX4YKE] to run Minecraft.
+        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/articles/4409225939853] to run Minecraft.
 
         %quick_links%
       fillname: []
@@ -1033,6 +1038,8 @@ messages:
         We only accept reports about the unmodified ('vanilla') game here on the bug tracker. To rule out that the modified game is responsible for the crash,
         please try reproducing this issue with a newly created world or a world that has not been opened with a modified game in the past. If you experience
         the crash there as well, please attach that crash report too. Otherwise, please report this issue to the author of the modification instead.
+
+        %awaiting_response%
 
         %quick_links%
       fillname: []
@@ -1371,7 +1378,7 @@ messages:
         *Expected Results:*
         _(Briefly describe what should happen)_
         {quote}
-        Please also attach any needed commands, datapacks, resourcepacks, screenshots, videos, or worlds needed to help reproduce this issue.
+        Please also attach any needed commands, add-ons/behavior packs, data packs, resource packs, screenshots, videos, or worlds needed to help reproduce this issue.
 
         Refer to the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] for more information about how to write helpful bug reports. Bug reports with insufficient information may be closed as *Incomplete*.
 
