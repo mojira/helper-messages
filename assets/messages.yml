@@ -721,7 +721,7 @@ messages:
       shortcut: bot
       category: misc
       message:
-        "I am a bot. This action was performed automatically!"
+        "I am a bot. This action was performed automatically!
         If you think it was incorrect, please notify us
         on [Discord](https://discordapp.com/invite/rpCyfKV) or [Reddit](https://www.reddit.com/r/Mojira/)"
       fillname: []
@@ -741,7 +741,7 @@ messages:
       shortcut: bot-dup
       category: misc
       message:
-        "I am a bot. This action was performed automatically!"
+        "I am a bot. This action was performed automatically!
         The ticket was resolved by one of our moderators, and I left this message to give more information to you."
       fillname: []
   incomplete:
@@ -873,10 +873,10 @@ messages:
         Your game, launcher or server is modified.
         If you can reproduce the issue in a vanilla environment, please recreate the issue.
 
-* Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.
-* A world which had previously been opened with a modified client might be corrupted. Please try reproducing the issue in a newly generated world.
-* Any plugin issues need to be addressed to the creator of the plugin or resource pack.
-* If you have problems on large servers like Hypixel, please contact them first as they run modified server software.
+        * Any non-standard client/server/launcher build needs to be taken up with the appropriate team, not Mojang.
+        * A world which had previously been opened with a modified client might be corrupted. Please try reproducing the issue in a newly generated world.
+        * Any plugin issues need to be addressed to the creator of the plugin or resource pack.
+        * If you have problems on large servers like Hypixel, please contact them first as they run modified server software.
       fillname: []
     - project:
         - bds
@@ -891,9 +891,9 @@ messages:
         The server you are playing on is modified.
         If you can reproduce the issue in a vanilla environment, please recreate the issue.
 
-* Any non-standard client/server build needs to be taken up with the appropriate team, not Mojang.
-* Any plugin issues need to be addressed to the creator of the plugin, add-on or resource pack.
-* If you have problems on large servers, such as Lifeboat, please contact them first as they run modified server software.
+        * Any non-standard client/server build needs to be taken up with the appropriate team, not Mojang.
+        * Any plugin issues need to be addressed to the creator of the plugin, add-on or resource pack.
+        * If you have problems on large servers, such as Lifeboat, please contact them first as they run modified server software.
       fillname: []
   modify-entity-during-lifetime:
     - project: mc
@@ -989,7 +989,7 @@ messages:
       shortcut: env
       category: notice
       message:
-        {panel:bgColor=fefae6}The environment is supposed to only contain PC details.{panel}
+        "{panel:bgColor=fefae6}The environment is supposed to only contain PC details.{panel}"
       fillname: []
   panel-future-version:
     - project:
@@ -1000,7 +1000,7 @@ messages:
       shortcut: fut-old
       category: notice
       message:
-        {panel:bgColor=fefae6}Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
+        "{panel:bgColor=fefae6}Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}"
       fillname: []
   panel-mark-private:
     - project:
@@ -1017,7 +1017,7 @@ messages:
       shortcut: mkpriv
       category: notice
       message:
-        {panel:bgColor=fefae6} Your bug report has been marked as _private_, as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}
+        "{panel:bgColor=fefae6} Your bug report has been marked as _private_, as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
       fillname: []
   panel-mojang-priority:
     - project:
@@ -1034,7 +1034,7 @@ messages:
       shortcut: prio
       category: notice
       message:
-        {panel:bgColor=fefae6} Do not try to change "Mojang Priority". It may only be changed by the developers. Consider this a warning.{panel}
+        '{panel:bgColor=fefae6} Do not try to change "Mojang Priority". It may only be changed by the developers. Consider this a warning.{panel}'
       fillname: []
   panel-note:
     - project:
@@ -1071,7 +1071,7 @@ messages:
       shortcut: priv
       category: notice
       message:
-        {panel:bgColor=fefae6} Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}
+        "{panel:bgColor=fefae6} Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}"
       fillname: []
   panel-removed-version:
     - project:
@@ -1107,7 +1107,7 @@ messages:
       shortcut: unpriv
       category: notice
       message:
-        {panel:bgColor=fefae6} Please do not unmark issues from _private_ after a moderator had set it that way.{panel}
+        "{panel:bgColor=fefae6} Please do not unmark issues from _private_ after a moderator had set it that way.{panel}"
       fillname: []
   panel-workaround:
     - project:
@@ -1142,9 +1142,9 @@ messages:
         However, this issue is **Invalid**
 
         You reported a parity issue. We are only tracking parity issues that meet the following criteria on this bug tracker:
-* The feature affected by the parity issue is present in both Bedrock Edition and Java Edition in the latest release or development version
-* The feature behaves differently in one edition than in the other
-* The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
+        * The feature affected by the parity issue is present in both Bedrock Edition and Java Edition in the latest release or development version
+        * The feature behaves differently in one edition than in the other
+        * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
 
         Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Minecraft Feedback Discord server](https://aka.ms/MinecraftFeedbackDiscord/).
       fillname: []
