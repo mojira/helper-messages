@@ -1316,7 +1316,7 @@ messages:
         _We do not have enough information to reproduce this issue._
 
         Please include the following information to help us understand your problem:
-        >
+
         **Steps to Reproduce:**
         1. _(Explain what needs to be done for the issue to happen)_
         2.
@@ -1327,7 +1327,7 @@ messages:
 
         *Expected Results:*
         _(Briefly describe what should happen)_
-        >
+
         Please also attach any needed commands, add-ons/behavior packs, data packs, resource packs, screenshots, videos, or worlds needed to help reproduce this issue.
 
         Refer to the [**Bug Tracker Guidelines**](https://aka.ms/MCBugTrackerHelp) for more information about how to write helpful bug reports. Bug reports with insufficient information may be closed as **Incomplete**.
