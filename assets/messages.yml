@@ -18,11 +18,11 @@ variables:
         - mcpe
         - realms
         - web
-      value: "[Community Support|https://discord.com/invite/58Sxm23]"
+      value: "[Community Support](https://discord.com/invite/58Sxm23)"
     - project: mcd
-      value: "[Community Support|https://discord.com/invite/minecraft]"
+      value: "[Community Support](https://discord.com/invite/minecraft)"
     - project: mclg
-      value: "[Community Support|https://discord.com/invite/minecraft]"
+      value: [Community Support](https://discord.com/invite/minecraft)"
 
   quick_links:
     - project: bds
