@@ -1317,16 +1317,16 @@ messages:
 
         Please include the following information to help us understand your problem:
 
-        **Steps to Reproduce:**
-        1. _(Explain what needs to be done for the issue to happen)_
-        2.
-        3.
+        > **Steps to Reproduce:**
+        > 1. _(Explain what needs to be done for the issue to happen)_
+        > 2.
+        > 3.
 
-        *Observed Results:*
-        _(Briefly describe what happens)_
+        > *Observed Results:*
+        > _(Briefly describe what happens)_
 
-        *Expected Results:*
-        _(Briefly describe what should happen)_
+        > *Expected Results:*
+        > _(Briefly describe what should happen)_
 
         Please also attach any needed commands, add-ons/behavior packs, data packs, resource packs, screenshots, videos, or worlds needed to help reproduce this issue.
 
