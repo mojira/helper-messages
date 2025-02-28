@@ -1143,7 +1143,7 @@ messages:
       shortcut: mkpriv
       category: notice
       message:
-        "{panel:borderColor=orange}(!) Your bug report has been marked as _private_,
+        "{panel:bgColor=#fefae6} Your bug report has been marked as _private_,
         as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
       fillname: []
   panel-mark-private-comment:
@@ -1161,7 +1161,7 @@ messages:
       shortcut: mkprivcomm
       category: notice
       message:
-        "{panel:borderColor=orange}(!) Your comment(s) has been marked as _private_,
+        "{panel:bgColor=#fefae6} Your comment(s) has been marked as _private_,
         as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
       fillname: []
   panel-mojang-priority:
