@@ -1102,6 +1102,24 @@ messages:
       message:
         "{panel:bgColor=fefae6} Your bug report has been marked as _private_, as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
       fillname: []
+  panel-mark-private-comment:
+    - project:
+        - bds
+        - mc
+        - mcd
+        - mcl
+        - mclg
+        - mcpe
+        - mctest
+        - realms
+        - web
+      name: Panel - Sensitive Information in the Comment
+      shortcut: mkprivcomm
+      category: notice
+      message:
+        "{panel:borderColor=orange}(!) Your comment(s) has been marked as _private_,
+        as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
+      fillname: []
   panel-mojang-priority:
     - project:
         - bds
