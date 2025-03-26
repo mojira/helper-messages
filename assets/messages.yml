@@ -1072,7 +1072,7 @@ messages:
       shortcut: env
       category: notice
       message:
-        "{panel:bgColor=fefae6}The environment is supposed to only contain PC details.{panel}"
+        "{panel:borderColor=orange}(!) The environment is supposed to only contain PC details.{panel}"
       fillname: []
   panel-future-version:
     - project:
@@ -1083,7 +1083,7 @@ messages:
       shortcut: fut-old
       category: notice
       message:
-        "{panel:bgColor=fefae6}Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}"
+        "{panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}"
       fillname: []
   panel-mark-private:
     - project:
@@ -1100,7 +1100,7 @@ messages:
       shortcut: mkpriv
       category: notice
       message:
-        "{panel:bgColor=fefae6} Your bug report has been marked as _private_, as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
+        "{panel:borderColor=orange}(!) Your bug report has been marked as _private_, as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
       fillname: []
   panel-mark-private-comment:
     - project:
@@ -1135,7 +1135,7 @@ messages:
       shortcut: prio
       category: notice
       message:
-        '{panel:bgColor=fefae6} Do not try to change "Mojang Priority". It may only be changed by the developers. Consider this a warning.{panel}'
+        '{panel:borderColor=orange}(!) Do not try to change "Mojang Priority". It may only be changed by the developers. Consider this a warning.{panel}'
       fillname: []
   panel-note:
     - project:
@@ -1172,7 +1172,7 @@ messages:
       shortcut: priv
       category: notice
       message:
-        "{panel:bgColor=fefae6} Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}"
+        "{panel:borderColor=orange}(!) Please do not mark issues as _private_, unless your bug report is an exploit or contains information about your username or server.{panel}"
       fillname: []
   panel-removed-version:
     - project:
@@ -1187,7 +1187,7 @@ messages:
       shortcut: remver
       category: notice
       message: |-
-        {panel:bgColor=fefae6}
+        {panel:borderColor=orange}(!)
         Please do not add Affected Versions to resolved reports.
 
         Have a look at the Resolution and the comments to see why this ticket has been resolved. If you think this ticket has been resolved erroneously you can contact the Mojira staff on **[Discord](https://discord.com/invite/rpCyfKV)** or **[Reddit](https://www.reddit.com/r/Mojira/)**.
@@ -1208,7 +1208,7 @@ messages:
       shortcut: unpriv
       category: notice
       message:
-        "{panel:bgColor=fefae6} Please do not unmark issues from _private_ after a moderator had set it that way.{panel}"
+        "{panel:borderColor=orange}(!) Please do not unmark issues from _private_ after a moderator had set it that way.{panel}"
       fillname: []
   panel-workaround:
     - project:
@@ -1281,7 +1281,7 @@ messages:
       shortcut: fut
       category: ar
       message: |-
-        {panel:bgColor=fefae6} Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
+        {panel:borderColor=orange}(!) Please do not mark _Unreleased Versions_ as affected. You don't have access to them yet.{panel}
 
         _We have removed it and added the latest released version_
 
