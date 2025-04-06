@@ -19,10 +19,6 @@ variables:
         - realms
         - web
       value: "[Community Support|https://discord.com/invite/58Sxm23]"
-    - project: mcd
-      value: "[Community Support|https://discord.com/invite/minecraft]"
-    - project: mclg
-      value: "[Community Support|https://discord.com/invite/minecraft]"
 
   quick_links:
     - project: bds
@@ -35,21 +31,11 @@ variables:
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MC/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
-    - project: mcd
-      value: |-
-        *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCD/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/360041345271]
     - project: mcl
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
         📓 [Project Summary|https://bugs.mojang.com/projects/MCL/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
-    - project: mclg
-      value: |-
-        *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/minecraft] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://bugs.mojang.com/projects/MCLG/summary] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/360041345271]
     - project: mcpe
       value: |-
         *Quick Links*:
@@ -69,14 +55,10 @@ variables:
   project_id:
     - project: mc
       value: MC
-    - project: mcd
-      value: MCD
     - project: mcpe
       value: MCPE
     - project: mcl
       value: MCL
-    - project: mclg
-      value: MCLG
     - project: bds
       value: BDS
     - project: realms
@@ -87,10 +69,8 @@ variables:
   awaiting_response:
     - project:
         - mc
-        - mcd
         - mcpe
         - mcl
-        - mclg
         - bds
         - realms
         - web
@@ -102,9 +82,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -205,8 +183,6 @@ messages:
         - mcl
         - mcpe
         - bds
-        - mcd
-        - mclg
         - realms
       name: Attach video (PC)
       shortcut: vid
@@ -275,7 +251,6 @@ messages:
     - project:
       - bds
       - mc
-      - mcd
       - mcl
       - mcpe
       - realms
@@ -290,8 +265,6 @@ messages:
       fillname: []
   banned:
     - project:
-        - mcd
-        - mclg
         - mcpe
         - realms
         - web
@@ -356,22 +329,6 @@ messages:
 
         %quick_links%
       fillname: []
-    - project:
-        - mcd
-        - mclg
-      name: Crash logged automatically
-      shortcut: autocrash
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        Crashes are logged automatically and sent to Mojang if you press the "Send" button after the crash occurs.
-
-        If you need help or have a suggestion, you might like to follow a link below.
-
-        %quick_links%
-      fillname: []
   debug-stick:
     - project: mc
       name: Debug Stick
@@ -406,9 +363,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -431,9 +386,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -456,7 +409,6 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
         - mcpe
         - mctest
@@ -557,9 +509,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -580,9 +530,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -606,9 +554,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -631,9 +577,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -656,9 +600,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -713,9 +655,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
       name: Feature request
@@ -734,9 +674,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - mctest
@@ -779,9 +717,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -799,9 +735,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -835,8 +769,6 @@ messages:
       fillname: []
     - project:
         - bds
-        - mcd
-        - mclg
         - mcpe
         - realms
         - web
@@ -944,32 +876,6 @@ messages:
 
         %quick_links%
       fillname: []
-    - project:
-        - mcd
-      name: Minimum requirements not met
-      shortcut: min
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360038937032-Dungeons-Minimum-Specifications-for-Gameplay] to run Minecraft Dungeons.
-
-        %quick_links%
-      fillname: []
-    - project:
-        - mclg
-      name: Minimum requirements not met
-      shortcut: min
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        Your computer does not meet the [minimum system requirements|https://help.minecraft.net/hc/en-us/articles/360038937032-Dungeons-Minimum-Specifications-for-Gameplay] to run Minecraft Legends.
-
-        %quick_links%
-      fillname: []
   modified-game:
     - project:
         - mc
@@ -1047,9 +953,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
       name: Multiple issues in one report
@@ -1068,9 +972,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1102,9 +1004,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1132,9 +1032,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1150,9 +1048,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1168,9 +1064,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1186,9 +1080,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1206,9 +1098,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1225,9 +1115,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
       name: Panel - Added affected version to resolved ticket
@@ -1244,9 +1132,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1262,9 +1148,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1319,9 +1203,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - mctest
         - realms
@@ -1371,9 +1253,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -1408,9 +1288,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -1423,9 +1301,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -1448,9 +1324,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -1477,9 +1351,7 @@ messages:
     - project:
         - bds
         - mc
-        - mcd
         - mcl
-        - mclg
         - mcpe
         - realms
         - web
@@ -1499,8 +1371,6 @@ messages:
     - project:
         - mc
         - mcl
-        - mclg
-        - mcd
         - mcpe
         - realms
       name: Temporary Service Outage
