@@ -1242,7 +1242,7 @@ messages:
 
         %quick_links%
       fillname: []
-  steps-to-reproduce:
+  provide-steps-to-reproduce:
     - project:
         - bds
         - mc
