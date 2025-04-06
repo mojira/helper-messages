@@ -274,20 +274,6 @@ messages:
 
         %quick_links%
       fillname: []
-  auth-server-down:
-    - project: mc
-      name: Auth server down
-      shortcut: auth
-      category: invalid
-      message: |-
-        *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
-
-        The authentication services are offline.
-        This will be fixed shortly, please hang tight. Check tweets from [@MojangSupport|https://twitter.com/MojangSupport] for the current status.
-
-        %quick_links%
-      fillname: []
   awaiting-response-generic:
     - project:
       - bds
