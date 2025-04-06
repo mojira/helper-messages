@@ -130,8 +130,8 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please *attach the crash report* found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}} here.
-        If you cannot find a crash report, please attach the *full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        Please *attach the crash report* found in [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/] here.
+        If you cannot find a crash report, please attach the *full launcher log* found in [{{minecraft/launcher_log.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
 
         %awaiting_response%
 
@@ -160,7 +160,7 @@ messages:
         _We do not have enough information to find the cause of this issue._
 
         While the lag occurs, please press {{F3}} + {{L}} once, then wait a short moment until profiling has finished.
-        Afterwards, please *attach the generated {{.zip}} file* containing the profiling results here. The file path is shown in chat; the file can be found in {{[minecraft/debug/profiling/<DATE>.zip|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        Afterwards, please *attach the generated {{.zip}} file* containing the profiling results here. The file path is shown in chat; the file can be found in [{{minecraft/debug/profiling/<DATE>.zip}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
 
         If you are playing on a server please additionally run the command {{/perf start}} to create a profiling report for the server. In case you do not have the permission to run this command, make sure that you're a server operator.
         Once profiling has finished, please *attach the generated {{.zip}} file* from {{debug/profiling/<DATE>.zip}} of the server folder.
@@ -193,7 +193,7 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please *attach the full launcher log* found in {{[minecraft/launcher_log.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        Please *attach the full launcher log* found in [{{minecraft/launcher_log.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
 
         %awaiting_response%
 
@@ -760,7 +760,7 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ({{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}) here.
+        Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ([{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/]) here.
 
         %awaiting_response%
 
@@ -773,7 +773,7 @@ messages:
       category: misc
       message:
         For any new or ongoing hashtag issues, please create a new ticket for
-        any gamertags still affected and use the label {{[chat-filter|https://bugs.mojang.com/issues/?jql=labels+%3D+chat-filter]}}.
+        any gamertags still affected and use the label [{{chat-filter}}|https://bugs.mojang.com/issues/?jql=labels+%3D+chat-filter].
       fillname: []
   i-am-a-bot:
     - project:
@@ -828,7 +828,7 @@ messages:
 
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
-        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
         However, please review the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] before creating new reports. Be sure to search for an existing issue as it is likely to have already been reported.
 
         %quick_links%
@@ -1094,7 +1094,7 @@ messages:
 
         Your Minecraft version is *outdated*. We only take issues for the *latest release* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
-        In case of a game crash, please also attach the crash report found in {{[minecraft/crash-reports/crash-<DATE>-client.txt|https://minecrafthopper.net/help/finding-minecraft-data-folder/]}}.
+        In case of a game crash, please also attach the crash report found in [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
 
         %quick_links%
       fillname: []
