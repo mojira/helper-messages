@@ -398,7 +398,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please have a look at the Moderator Note on MCL-16570: it describes what you have to do to solve this issue and contains links to resources with further information.
+        Please have a look at the Moderator Note on *[MCL-16570|https://bugs.mojang.com/browse/MCL-16570]*: it describes what you have to do to solve this issue and contains links to resources with further information.
 
         %quick_links%
       fillname: []
@@ -418,7 +418,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[%s%|https://bugs.mojang.com/browse/%s%]*, so this ticket is being resolved and linked as a *duplicate*.
 
         If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
@@ -443,7 +443,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[%s%|https://bugs.mojang.com/browse/%s%]*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as Fixed. Please check the Fix Version/s field in that ticket to see in which version this behavior was or will be fixed.
 
@@ -467,9 +467,9 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[%s%|https://bugs.mojang.com/browse/%s%]*, so this ticket is being resolved and linked as a *duplicate*.
 
-        That ticket has already been resolved as invalid. Please take a look at the parent ticket (%s%) and see if an explanation is provided there in the description of the ticket or in the comments for why this issue is invalid.
+        That ticket has already been resolved as invalid. Please take a look at the parent ticket ([%s%|https://bugs.mojang.com/browse/%s%]) and see if an explanation is provided there in the description of the ticket or in the comments for why this issue is invalid.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
 
@@ -485,7 +485,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *MC-128302*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[MC-128302|https://bugs.mojang.com/browse/MC-128302]*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
@@ -501,7 +501,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *MC-297*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[MC-297|https://bugs.mojang.com/browse/MC-297]*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
         -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
@@ -517,7 +517,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *MCL-5638*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[MCL-5638|https://bugs.mojang.com/browse/MCL-5638]*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be an issue involving detection of the Java runtime.
         Please take a look at the Moderator Note on that ticket to see solutions to your issue.
@@ -531,7 +531,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *MCL-14369*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[MCL-14369|https://bugs.mojang.com/browse/MCL-14369]*, so this ticket is being resolved and linked as a *duplicate*.
 
         Please take a look at the Moderator Note on that ticket to see a possible solution to your issue.
         If that did not help, please contact *%help_discord%* and refer to this ticket by providing a link.
@@ -545,7 +545,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *MC-108*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[MC-108|https://bugs.mojang.com/browse/MC-108]*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
@@ -592,9 +592,9 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[%s%|https://bugs.mojang.com/browse/%s%]*, so this ticket is being resolved and linked as a *duplicate*.
 
-        That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
+        That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket ([%s%|https://bugs.mojang.com/browse/%s%]) and see if a solution is provided there.
         If you need additional help to fix this problem, please contact *%help_discord%* and refer to this ticket by providing a link.
 
         If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
@@ -618,7 +618,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue in *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue in *[%s%|https://bugs.mojang.com/browse/%s%]*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
@@ -643,7 +643,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're tracking this issue as *%s%*, so this ticket is being resolved and linked as a *duplicate*.
+        We're tracking this issue as *[%s%|https://bugs.mojang.com/browse/%s%]*, so this ticket is being resolved and linked as a *duplicate*.
 
         That ticket has already been resolved as Won't Fix, which means this is considered a bug but won't be fixed. The description of that ticket or the comments might explain the rationale. Please do not leave a comment on the linked ticket.
 
@@ -668,7 +668,7 @@ messages:
       category: duplicate
       message: |-
         *Thank you for your report!*
-        We're resolving and linking this ticket forward as a *duplicate* of *%s%*, as that ticket contains more detailed information and/or has already been triaged by Mojang.
+        We're resolving and linking this ticket forward as a *duplicate* of *[%s%|https://bugs.mojang.com/browse/%s%]*, as that ticket contains more detailed information and/or has already been triaged by Mojang.
 
         If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
@@ -866,7 +866,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is a technical support issue; this site is for bug reports only. We do not have the resources to provide you with technical support.
-        Please check *MCL-6550* for help with your issue. If you still need assistance after that, please contact *%help_discord%* and refer to this ticket by providing a link.
+        Please check *[MCL-6550|https://bugs.mojang.com/browse/MCL-6550]* for help with your issue. If you still need assistance after that, please contact *%help_discord%* and refer to this ticket by providing a link.
 
         %quick_links%
       fillname: []
@@ -1021,7 +1021,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         {quote}Problems related to modifying internal NBT tags during the lifetime of an entity are not considered bugs.
-        -- Searge's comment in [MC-66943|https://bugs.mojang.com/browse/MC-66943].{quote}
+        -- Searge's comment in *[MC-66943|https://bugs.mojang.com/browse/MC-66943]*.{quote}
 
         %quick_links%
       fillname: []
