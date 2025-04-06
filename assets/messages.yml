@@ -745,15 +745,6 @@ messages:
 
         %quick_links%
       fillname: []
-  hashtag-issue:
-    - project: mcpe
-      name: Hashtag issue
-      shortcut: hashtag
-      category: misc
-      message:
-        For any new or ongoing hashtag issues, please create a new ticket for
-        any gamertags still affected and use the label [{{chat-filter}}|https://bugs.mojang.com/issues/?jql=labels+%3D+chat-filter].
-      fillname: []
   i-am-a-bot:
     - project:
         - bds
