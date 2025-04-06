@@ -1064,22 +1064,6 @@ messages:
         "{panel:bgColor=#fffae6}Your comment(s) has been marked as _private_,
         as it contains some sensitive privacy information (e.g. an email address or session ID).{panel}"
       fillname: []
-  panel-mojang-priority:
-    - project:
-        - bds
-        - mc
-        - mcl
-        - mcpe
-        - mctest
-        - realms
-        - web
-      name: Panel - Mojang Priority
-      shortcut: prio
-      category: notice
-      message:
-        '{panel:borderColor=orange}(!) Don''t try to change "Mojang Priority".
-        It may only be changed by the developers. Consider this a warning.{panel}'
-      fillname: []
   panel-note:
     - project:
         - bds
