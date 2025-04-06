@@ -422,7 +422,7 @@ messages:
 
         If you would like to add a vote and any extra information to the main ticket it would be appreciated.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
 
         %quick_links%
       fillname:
@@ -447,7 +447,7 @@ messages:
 
         That ticket has already been resolved as Fixed. Please check the Fix Version/s field in that ticket to see in which version this behavior was or will be fixed.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
 
         %quick_links%
       fillname:
@@ -471,7 +471,7 @@ messages:
 
         That ticket has already been resolved as invalid. Please take a look at the parent ticket (%s%) and see if an explanation is provided there in the description of the ticket or in the comments for why this issue is invalid.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
 
         %quick_links%
       fillname:
@@ -597,7 +597,7 @@ messages:
         That ticket has already been resolved as invalid, which means this is a technical support issue. Please take a look at the parent ticket (%s%) and see if a solution is provided there.
         If you need additional help to fix this problem, please contact *%help_discord%* and refer to this ticket by providing a link.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
 
         %quick_links%
       fillname:
@@ -622,7 +622,7 @@ messages:
 
         That ticket has already been resolved as working as intended, which means this is not considered a bug and won't be fixed. Please do not leave a comment on the linked ticket.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
 
         %quick_links%
       fillname:
@@ -647,7 +647,7 @@ messages:
 
         That ticket has already been resolved as Won't Fix, which means this is considered a bug but won't be fixed. The description of that ticket or the comments might explain the rationale. Please do not leave a comment on the linked ticket.
 
-        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/issues/?jql=project=%project_id%] to see if the issue has already been mentioned.
+        If you haven't already, you might like to make use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] to see if the issue has already been mentioned.
 
         %quick_links%
       fillname:
@@ -1021,7 +1021,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         {quote}Problems related to modifying internal NBT tags during the lifetime of an entity are not considered bugs.
-        -- [~searge]'s comment [here|https://bugs.mojang.com/browse/MC-66943?focusedCommentId=188032&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-188032] in MC-66943.{quote}
+        -- Searge's comment in [MC-66943|https://bugs.mojang.com/browse/MC-66943].{quote}
 
         %quick_links%
       fillname: []
@@ -1437,7 +1437,7 @@ messages:
         Thank you for taking the time to report a bug. Unfortunately we are only able to accept bug reports in English since it is the common language used on this tracker.
 
         You are welcome to create a new ticket about your issue in English. You can use an online translator, if it helps.
-        However, please [*+search+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
+        However, please [*+search+*|https://bugs.mojang.com/browse/%project_id%] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
         Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *%help_discord%*.
@@ -1463,7 +1463,7 @@ messages:
         We appreciate you taking the time to report a bug. Unfortunately we are only able to accept bug reports in English, since it is the common language used by Mojang Studios and on this bug tracker.
 
         You are welcome to *create a new ticket* about your issue in English. You can use an online translator, if it helps. *Do note that if you edit this ticket, it is not guaranteed to be noticed, as the ticket is currently resolved.*
-        However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/issues/] before writing a new bug report, as it's very likely that someone else already reported your issue before.
+        However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
         Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*.
