@@ -1366,7 +1366,7 @@ messages:
         - mcl
         - mcpe
         - realms
-      name: Temporary Service Outage
+      name: Temporary service outage
       shortcut: outage
       category: invalid
       message: |-
