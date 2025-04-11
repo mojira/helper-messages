@@ -77,6 +77,23 @@ variables:
       value: |-
         ~This issue is being temporarily resolved as {color:#d04437}*Awaiting Response*{color}. Once the requested information has been delivered, the report will be reopened automatically.~
 
+  wai_links:
+    - project: bds
+      value: |-
+        [Full Version History|https://minecraft.wiki/w/Bedrock_Dedicated_Server#History] -- [The official Minecraft feedback site|https://feedback.minecraft.net]
+    - project: mc
+      value: |-
+        [Full Version History|https://minecraft.wiki/w/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.wiki/w/Java_Edition_version_history/Development_versions] -- [The official Minecraft feedback site|https://feedback.minecraft.net]
+    - project: mcl
+      value: |-
+        [Full Version History|https://minecraft.wiki/w/Launcher_version_history] -- [The official Minecraft feedback site|https://feedback.minecraft.net]
+    - project: mcpe
+      value: |-
+        [Full Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history] -- [Beta & Preview Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history/Development_versions] -- [The official Minecraft feedback site|https://feedback.minecraft.net]
+    - project: realms
+      value: |-
+        [Full Version History|https://minecraft.wiki/w/Realms#History] -- [The official Minecraft feedback site|https://feedback.minecraft.net]
+
 messages:
   account-issue:
     - project:
@@ -320,6 +337,23 @@ messages:
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
         Please have a look at the [Community Standards|https://www.minecraft.net/community-standards] for guidelines that players are expected to follow.
         To learn more about player reporting, potential causes for a ban, and instructions regarding how to request a case review of a ban, please visit the [Minecraft: Java Edition Player Reporting FAQ page|https://aka.ms/chatreportingfaq].
+
+        %quick_links%
+      fillname: []
+  cannot-reproduce:
+    - project:
+      - bds
+      - mc
+      - mcl
+      - mcpe
+      - realms
+      - web
+      name: Cannot Reproduce
+      shortcut: cr
+      category: misc
+      message: |-
+        *Thank you for your report!*
+        ~Unfortunately, the described issue cannot be reproduced. Therefore, this ticket is being resolved as {color:#d04437}*Cannot Reproduce*{color}.~
 
         %quick_links%
       fillname: []
@@ -1412,7 +1446,12 @@ messages:
         %quick_links%
       fillname: []
   wai:
-    - project: mc
+    - project:
+        - bds
+        - mc
+        - mcl
+        - mcpe
+        - realms
       name: Works As Intended
       shortcut: wai
       category: misc
@@ -1425,12 +1464,12 @@ messages:
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.wiki/w/Java_Edition_version_history] -- [Snapshot Version History|https://minecraft.wiki/w/Java_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://feedback.minecraft.net]
+        %wai_links%
 
         %quick_links%
       fillname:
         - Enter reason/source
-    - project: mcpe
+    - project: web
       name: Works As Intended
       shortcut: wai
       category: misc
@@ -1440,32 +1479,71 @@ messages:
 
         The report you have submitted is working as intended: %s%.
 
-        Please note, that mechanics of the game may change between updates.
-        Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
-
-        [Full Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history] -- [Snapshot Version History|https://minecraft.wiki/w/Bedrock_Edition_version_history/Development_versions] -- [Feature Requests and Suggestions|https://feedback.minecraft.net]
-
         %quick_links%
       fillname:
         - Enter reason/source
-    - project: mcl
-      name: Works As Intended
-      shortcut: wai
+  wai-internal:
+    - project:
+        - bds
+        - mc
+        - mcl
+        - mcpe
+        - realms
+      name: Works As Intended (internal)
+      shortcut: wai-int
       category: misc
       message: |-
         *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Working as Intended*{color}.
-
-        The report you have submitted is working as intended: %s%.
+        After consideration, the issue is being closed as {color:#FF5722}*Working as Intended*{color}.
 
         Please note, that mechanics of the game may change between updates.
         Things such as graphics, sounds, world creation, biomes, redstone, villagers, and animals may not work the same in current versions.
 
-        [Full Version History|https://minecraft.wiki/w/Launcher_version_history] -- [Feature Requests and Suggestions|https://feedback.minecraft.net]
+        %wai_links%
 
         %quick_links%
-      fillname:
-        - Enter reason/source
+      fillname: []
+    - project: web
+      name: Works As Intended (internal)
+      shortcut: wai-int
+      category: misc
+      message: |-
+        *Thank you for your report!*
+        After consideration, the issue is being closed as {color:#FF5722}*Working as Intended*{color}.
+
+        %quick_links%
+      fillname: []
+  wf:
+    - project:
+        - bds
+        - mc
+        - mcpe
+        - realms
+      name: Won't Fix
+      shortcut: wf
+      category: misc
+      message: |-
+        *Thank you for your report!*
+        After consideration, the issue is being closed as {color:#FF5722}*Won't Fix*{color}.
+
+        Please note that this is not the same as {color:#FF5722}*Working as Intended*{color}, as this bug report correctly describes behavior in the game that might not be the intended or desirable behavior, but it will not be fixed right now. Sometimes, this is because the issue reported is minor and/or impossible to change without large architectural changes to the code base.
+
+        %quick_links%
+      fillname: []
+    - project:
+        - mcl
+        - web
+      name: Won't Fix
+      shortcut: wf
+      category: misc
+      message: |-
+        *Thank you for your report!*
+        After consideration, the issue is being closed as {color:#FF5722}*Won't Fix*{color}.
+
+        Please note that this is not the same as {color:#FF5722}*Working as Intended*{color}, as this bug report correctly describes behavior that might not be the intended or desirable behavior, but it will not be fixed right now. Sometimes, this is because the issue reported is minor and/or impossible to change without large architectural changes to the code base.
+
+        %quick_links%
+      fillname: []
   wrong-project-moved:
     - project:
         - bds
