@@ -35,7 +35,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
-        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/7] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
+        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/7] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Launcher Wiki|https://minecraft.wiki/w/Minecraft_Launcher]
     - project: mcpe
       value: |-
         *Quick Links*:
@@ -45,12 +45,12 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
-        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/9] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
+        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/9] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Realms Wiki|https://minecraft.wiki/w/Realms]
     - project: web
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
-        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/10] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
+        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/10] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Web Services Wiki|https://minecraft.wiki/w/Minecraft.net]
 
   project_id:
     - project: mc
