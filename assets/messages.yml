@@ -24,32 +24,32 @@ variables:
     - project: bds
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/4] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [BDS Wiki|https://minecraft.wiki/w/Bedrock_Dedicated_Server] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/4408873961869]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
+        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/4] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [BDS Wiki|https://minecraft.wiki/w/Bedrock_Dedicated_Server]
     - project: mc
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
         📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/2] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
     - project: mcl
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
         📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/7] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
     - project: mcpe
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
         📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/6] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
     - project: realms
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
-        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/9] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki] -- 📖 [FAQs|https://help.minecraft.net/hc/articles/4409247032845]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
+        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/9] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
     - project: web
       value: |-
         *Quick Links*:
-        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us/]
+        📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
         📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/10] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Game Wiki|https://minecraft.wiki]
 
   project_id:
@@ -94,7 +94,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color} for the bug tracker.
 
         This is an account or billing issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*.
+        Please contact *[Microsoft Support|https://support.xbox.com/contact-us]*.
 
         %quick_links%
       fillname: []
@@ -108,8 +108,8 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please *attach the crash report* found in [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/] here.
-        If you cannot find a crash report, please attach the *full launcher log* found in [{{minecraft/launcher_log.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        Please *attach the crash report* found in [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder] here.
+        If you cannot find a crash report, please attach the *full launcher log* found in [{{minecraft/launcher_log.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder].
 
         %awaiting_response%
 
@@ -138,7 +138,7 @@ messages:
         _We do not have enough information to find the cause of this issue._
 
         While the lag occurs, please press {{F3}} + {{L}} once, then wait a short moment until profiling has finished.
-        Afterwards, please *attach the generated {{.zip}} file* containing the profiling results here. The file path is shown in chat; the file can be found in [{{minecraft/debug/profiling/<DATE>.zip}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        Afterwards, please *attach the generated {{.zip}} file* containing the profiling results here. The file path is shown in chat; the file can be found in [{{minecraft/debug/profiling/<DATE>.zip}}|https://minecrafthopper.net/help/finding-minecraft-data-folder].
 
         If you are playing on a server please additionally run the command {{/perf start}} to create a profiling report for the server. In case you do not have the permission to run this command, make sure that you're a server operator.
         Once profiling has finished, please *attach the generated {{.zip}} file* from {{debug/profiling/<DATE>.zip}} of the server folder.
@@ -171,7 +171,7 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please *attach the full launcher log* found in [{{minecraft/launcher_log.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        Please *attach the full launcher log* found in [{{minecraft/launcher_log.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder].
 
         %awaiting_response%
 
@@ -193,7 +193,7 @@ messages:
         Please *record a video of this happening* and attach it to this report.
         If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in app for recording game footage.
         If you are on Mac (Mojave or later), you can use {{Shift}}\+{{Command}}\+{{5}} to open a [built-in app|https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac] for recording your screen.
-        In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com/].
+        In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com].
         In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
 
         %awaiting_response%
@@ -276,7 +276,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please have a look at the help article "[Why have I been banned from Minecraft?|https://help.minecraft.net/hc/en-us/articles/4408964729869-Why-Have-I-Been-Banned-from-Minecraft-]" and the [Community Standards|https://www.minecraft.net/en-us/community-standards].
+        Please have a look at the help article "[Banned Minecraft Accounts and the Appeal Process|https://help.minecraft.net/hc/articles/4408964729869]" and the [Community Standards|https://www.minecraft.net/community-standards].
         To request a case review of a ban, please contact Mojang Support through [this page|https://aka.ms/Case-Review-Minecraft].
 
         %quick_links%
@@ -291,7 +291,7 @@ messages:
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
         This is an account issue. We do not have the tools to help you with this issue on this bug tracker.
-        Please have a look at the [Community Standards|https://www.minecraft.net/en-us/community-standards] for guidelines that players are expected to follow.
+        Please have a look at the [Community Standards|https://www.minecraft.net/community-standards] for guidelines that players are expected to follow.
         To learn more about player reporting, potential causes for a ban, and instructions regarding how to request a case review of a ban, please visit the [Minecraft: Java Edition Player Reporting FAQ page|https://aka.ms/chatreportingfaq].
 
         %quick_links%
@@ -305,7 +305,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [Reddit post|https://www.reddit.com/r/Minecraft/comments/idvujw/here_we_go_again_combat_test_snapshot_8b/] or on the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord].
+        We're currently not taking bug reports for the Combat Test experiment; it is for testing the combat system only. Please leave any combat-related feedback on the [Reddit post|https://www.reddit.com/r/Minecraft/comments/idvujw] or on the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord].
 
         If you need help or support, you might like to follow a link below.
 
@@ -338,7 +338,7 @@ messages:
         *Thank you for your report!*
         However, this issue won't be fixed.
 
-        Any issues regarding block states being created or changed by using the Debug Stick are not accepted on the bug tracker according to this [reddit post|https://www.reddit.com/r/Minecraft/comments/7es23r/please_mojang_let_us_keep_the_debug_stick_it_has/dq7fjld/] from Mojang.
+        Any issues regarding block states being created or changed by using the Debug Stick are not accepted on the bug tracker according to this [reddit post|https://www.reddit.com/r/Minecraft/comments/7es23r/comment/dq7fjld] from Mojang.
 
         %quick_links%
       fillname: []
@@ -440,7 +440,7 @@ messages:
         We're tracking this issue in *[MC-128302|https://bugs.mojang.com/browse/MC-128302]*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
-        -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
+        -- Update your [graphics card drivers|https://help.minecraft.net/hc/articles/4409137348877]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
         -- If that did not help, please contact *%help_discord%* and refer to this ticket by providing a link.
 
@@ -456,7 +456,7 @@ messages:
         We're tracking this issue in *[MC-297|https://bugs.mojang.com/browse/MC-297]*, so this ticket is being resolved and linked as a *duplicate*.
 
         This is known to be a problem with your computer.
-        -- Update your [graphics card drivers|https://help.minecraft.net/hc/en-us/articles/360029643912--Updating-video-card-drivers]. (Do not rely on automatic updates)
+        -- Update your [graphics card drivers|https://help.minecraft.net/hc/articles/4409137348877]. (Do not rely on automatic updates)
         -- If you are using Java arguments to increase the amount of memory, please reduce it to the default 2GB.
         -- If that did not help, please contact *%help_discord%* and refer to this ticket by providing a link.
 
@@ -698,7 +698,7 @@ messages:
       message: |-
         _We do not have enough information to find the cause of this issue._
 
-        Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ([{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/]) here.
+        Please force a crash by pressing *F3 + C* for *10 seconds* while in-game and attach the crash report ([{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder]) here.
 
         %awaiting_response%
 
@@ -729,7 +729,7 @@ messages:
       message:
         "~{color:#888}-- I am a bot. This action was performed automatically!
         If you think it was incorrect, please notify us
-        on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/]{color}~"
+        on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira]{color}~"
       fillname: []
   i-am-a-bot-dupe:
     - project:
@@ -762,7 +762,7 @@ messages:
 
         Your report does not contain enough information. As such, we're unable to understand or reproduce the problem.
 
-        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        You are welcome to create a new ticket about your issue with more detailed information. In case of a game crash, be sure to attach the crash report from [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder].
         However, please review the [*Bug Tracker Guidelines*|https://aka.ms/MCBugTrackerHelp] before creating new reports. Be sure to search for an existing issue as it is likely to have already been reported.
 
         %quick_links%
@@ -814,7 +814,7 @@ messages:
 
         Simply stating that "My game is laggy" is not helpful for Mojang to diagnose your issue. If you can pinpoint a specific cause when lag happens for you, please open a new report for that specific issue. If you think this might be a hardware issue please contact *%help_discord%* as they might be able to help with your issue.
 
-        Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues. To learn more about this, head [here|https://www.minecraft.net/en-us/article/minecraft-java-edition-1-19-3] (section "Telemetry") for more information.
+        Keep in mind that Mojang is constantly optimizing the game and simply playing the game provides feedback to Mojang on which parts cause performance issues. To learn more about this, head [here|https://www.minecraft.net/article/minecraft-java-edition-1-19-3] (section "Telemetry") for more information.
 
         %quick_links%
       fillname: []
@@ -856,7 +856,7 @@ messages:
         *Thank you for your report!*
         However, this issue is {color:#FF5722}*Invalid*{color}.
 
-        Unfortunately we don't accept issues related to third party Marketplace content here on the bug tracker, but you may wish to contact the content creators directly. Marketplace partners have their own support channels for resolving issues affecting their content. Please visit the [Marketplace FAQ|https://feedback.minecraft.net/hc/en-us/articles/360004166751-Marketplace-FAQ] section "I have a problem with the Minecraft world I purchased" for more information, including contact links for some of the Marketplace partners.
+        Unfortunately we don't accept issues related to third party Marketplace content here on the bug tracker, but you may wish to contact the content creators directly. Marketplace partners have their own support channels for resolving issues affecting their content. Please visit the [Marketplace FAQ|https://feedback.minecraft.net/hc/articles/360004166751] section "I have a problem with the Minecraft world I purchased" for more information, including contact links for some of the Marketplace partners.
         "Minecraft"-branded content should be reported here on the bug tracker.
 
         %quick_links%
@@ -983,7 +983,7 @@ messages:
       category: notice
       message: |-
         This report is currently missing crucial information. Please take a look at the other comments to find out what we are looking for.
-        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/].
+        If you added the required information and a moderator sees your comment, they will reopen and update the report. However, if you think your update to this report has been overlooked or you want to make sure that this report is reopened, you can contact the Mojira staff on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira].
       fillname: []
   outdated-client:
     - project: mc
@@ -996,7 +996,7 @@ messages:
 
         Your Minecraft version is *outdated*. We only take issues for the *latest release* and the *latest snapshot*.
         Please update to the latest version as it includes the newest fixes. If you still have this problem after updating, then please create a new issue.
-        In case of a game crash, please also attach the crash report found in [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder/].
+        In case of a game crash, please also attach the crash report found in [{{minecraft/crash-reports/crash-<DATE>-client.txt}}|https://minecrafthopper.net/help/finding-minecraft-data-folder].
 
         %quick_links%
       fillname: []
@@ -1125,7 +1125,7 @@ messages:
         {panel:borderColor=orange}
         (!) Please do not add Affected Versions to resolved reports.
 
-        Have a look at the Resolution and the comments to see why this ticket has been resolved. If you think this ticket has been resolved erroneously you can contact the Mojira staff on *[Discord|https://discord.com/invite/rpCyfKV]* or *[Reddit|https://www.reddit.com/r/Mojira/]*.
+        Have a look at the Resolution and the comments to see why this ticket has been resolved. If you think this ticket has been resolved erroneously you can contact the Mojira staff on *[Discord|https://discord.com/invite/rpCyfKV]* or *[Reddit|https://www.reddit.com/r/Mojira]*.
         {panel}
       fillname: []
   panel-unmark-private-issue:
@@ -1179,7 +1179,7 @@ messages:
         * The feature behaves differently in one edition than in the other
         * The parity issue was introduced in Buzzy Bees (Bedrock Edition 1.14 / Java Edition 1.15) or later and was not present before
 
-        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord/].
+        Any parity issue that does not meet these criteria will not be tracked on the bug tracker and should instead be reported on the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord].
 
         %quick_links%
       fillname: []
@@ -1316,7 +1316,7 @@ messages:
         However, please [*+search+*|https://bugs.mojang.com/browse/%project_id%] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *%help_discord%*.
+        Please note that this bug tracker is not for support or technical issues. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us]*. If you need help with a technical issue (e.g. Minecraft doesn't start at all), please contact *%help_discord%*.
 
         %quick_links%
       fillname: []
@@ -1340,10 +1340,10 @@ messages:
         However, we recommend making use of the [*+search feature+*|https://bugs.mojang.com/browse/%project_id%] before writing a new bug report, as it's very likely that someone else already reported your issue before.
         If you find an existing ticket about your issue, you can add a vote and any new information to it instead of reporting it yourself.
 
-        Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us/]*.
+        Please note that this bug tracker is not for support. If you have a payment issue or an issue with your account, please contact *[Microsoft Support|https://support.xbox.com/contact-us]*.
 
-        _The language of this ticket was detected automatically. As such, closing this ticket may have been incorrect. In that case, please notify us on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira/], so that we can reopen it._
-        _Language detection is [powered by Dandelion API|https://dandelion.eu/]._
+        _The language of this ticket was detected automatically. As such, closing this ticket may have been incorrect. In that case, please notify us on [Discord|https://discordapp.com/invite/rpCyfKV] or [Reddit|https://www.reddit.com/r/Mojira], so that we can reopen it._
+        _Language detection is [powered by Dandelion API|https://dandelion.eu]._
 
         %quick_links%
       fillname: []
