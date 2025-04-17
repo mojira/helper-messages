@@ -255,6 +255,7 @@ messages:
       fillname: []
   attach-world-file:
     - project:
+        - bds
         - mc
         - mcl
       name: Attach world file
