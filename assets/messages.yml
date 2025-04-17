@@ -977,6 +977,7 @@ messages:
         - mcl
         - mcpe
         - realms
+        - web
       name: Multiple issues in one report
       shortcut: mult
       category: invalid
