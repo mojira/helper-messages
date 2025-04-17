@@ -1197,6 +1197,7 @@ messages:
         - mc
         - mcl
         - mcpe
+        - web
       name: Pirated Minecraft
       shortcut: pir
       category: invalid
