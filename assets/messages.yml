@@ -720,6 +720,7 @@ messages:
         - mcl
         - mcpe
         - realms
+        - web
       name: Feature request
       shortcut: feat
       category: invalid
