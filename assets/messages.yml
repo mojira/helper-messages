@@ -177,13 +177,12 @@ messages:
 
         %quick_links%
       fillname: []
-  attach-video:
+  attach-video-pc:
     - project:
         - mc
         - mcl
-        - mcpe
-        - bds
         - realms
+        - web
       name: Attach video (PC)
       shortcut: vid
       category: ar
@@ -201,9 +200,29 @@ messages:
         %quick_links%
       fillname: []
     - project:
-        - mcpe
         - bds
+        - mcpe
+      name: Attach video (PC)
+      shortcut: vid
+      category: ar
+      message: |-
+        _We do not have enough information to find the cause of this issue._
+
+        Please *record a video of this happening* and attach it to this report.
+        If you are on Windows, you can use {{Windows}}\+{{Alt}}\+{{R}} to open a built-in app for recording game footage.
+        In case you don't have a program to record videos, we recommend using the free recording software [OBS|https://obsproject.com].
+        In case the resulting video file is too large to be uploaded to the bug tracker directly, please upload it elsewhere (e.g. as unlisted video on YouTube) and link to it here.
+
+        %awaiting_response%
+
+        %quick_links%
+      fillname: []
+  attach-video-mobile:
+    - project:
+        - bds
+        - mcpe
         - realms
+        - web
       name: Attach video (Mobile)
       shortcut: mvid
       category: ar
