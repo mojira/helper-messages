@@ -726,10 +726,10 @@ messages:
       category: invalid
       message: |-
         *Thank you for your report!*
-        However, this issue is {color:#FF5722}*Invalid*{color}.
+        After consideration, the issue is being closed as {color:#FF5722}*Invalid*{color}.
 
         You have posted a feature request or a suggestion. This site is for *bug reports* only.
-        For suggestions, please visit [The Minecraft Feedback Site|https://feedback.minecraft.net] or visit the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord].
+        For suggestions, please visit [The official Minecraft feedback site|https://feedback.minecraft.net] or visit the [Minecraft Feedback Discord server|https://aka.ms/MinecraftFeedbackDiscord].
 
         %quick_links%
       fillname: []
