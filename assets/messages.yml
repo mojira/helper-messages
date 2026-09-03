@@ -354,7 +354,9 @@ messages:
       category: misc
       message: |-
         *Thank you for your report!*
-        ~Unfortunately, the described issue cannot be reproduced. Therefore, this ticket is being resolved as {color:#d04437}*Cannot Reproduce*{color}.~
+        Unfortunately, the described issue cannot be reproduced. Therefore, this ticket is being resolved as {color:#d04437}*Cannot Reproduce*{color}.
+
+        If you feel this is still a valid issue then please comment, or create a new ticket following the [Issue Guidelines|https://aka.ms/MCBugTrackerHelp] which includes steps to reproduce the problem.
 
         %quick_links%
       fillname: []
