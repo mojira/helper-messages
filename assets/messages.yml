@@ -36,7 +36,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
-        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/51] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Dungeons 2 Wiki|https://minecraft.wiki/w/Minecraft_Dungeons_II]
+        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/51] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Dungeons II Wiki|https://minecraft.wiki/w/Minecraft_Dungeons_II]
     - project: mcl
       value: |-
         *Quick Links*:
@@ -1586,7 +1586,7 @@ messages:
         These are the projects where bugs for the respective game version are tracked:
         -- [Minecraft: Java Edition|https://bugs.mojang.com/browse/MC] --- Windows, macOS, and Linux
         -- [Minecraft: Bedrock Edition|https://bugs.mojang.com/browse/MCPE] --- Android, iOS, Windows 10/11, ChromeOS, Xbox, Nintendo Switch, PlayStation, and Amazon Fire
-        -- [Minecraft Dungeons 2|https://bugs.mojang.com/browse/MCD2] --- Windows, Xbox, Nintendo Switch, and PlayStation
+        -- [Minecraft Dungeons II|https://bugs.mojang.com/browse/MCD2] --- Windows, Xbox, Nintendo Switch, and PlayStation
         -- [Minecraft Realms|https://bugs.mojang.com/browse/REALMS] --- Bugs which only occur on Realms but not in singleplayer or on third-party servers
         -- [Minecraft Launcher|https://bugs.mojang.com/browse/MCL] --- Bugs about the Minecraft Launcher specifically
         -- [Bedrock Dedicated Server|https://bugs.mojang.com/browse/BDS] --- Bugs about the Bedrock Dedicated Server software
