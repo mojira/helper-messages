@@ -1382,7 +1382,7 @@ messages:
 
         Issues such as these are often due to a temporary service outage, and are handled by the team outside the bug tracker.
 
-        Watch [Mojang Status|https://twitter.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
+        Watch [Mojang Status|https://x.com/MojangStatus] for official announcements, or [Downdetector|https://downdetector.com/status/minecraft] for community reported outages.
 
         If there is no general outage, please first try to verify that the problem is not with your local connection or network settings. Afterwards contact *%help_discord%* for assistance and refer to this ticket by providing a link.
         You might also try to deactivate any VPN in use, and check your firewall settings. If your device supports mobile data, try switching to wifi. If possible, try using a different wifi network.
