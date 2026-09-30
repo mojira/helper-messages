@@ -36,7 +36,7 @@ variables:
       value: |-
         *Quick Links*:
         📓 [Bug Tracker Guidelines|https://aka.ms/MCBugTrackerHelp] -- 💬 [Community Support|https://discord.com/invite/58Sxm23] -- 📧 [Mojang Support (Technical Issues)|https://aka.ms/Minecraft-Support] -- 📧 [Microsoft Support (Account Issues)|https://support.xbox.com/contact-us]
-        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/51] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Dungeons II Wiki|https://minecraft.wiki/w/Minecraft_Dungeons_II]
+        📓 [Project Summary|https://report.bugs.mojang.com/servicedesk/customer/portal/2050] -- ✍️ [Feedback and Suggestions|https://aka.ms/MinecraftFeedbackDiscord] -- 📖 [Dungeons II Wiki|https://minecraft.wiki/w/Minecraft_Dungeons_II]
     - project: mcl
       value: |-
         *Quick Links*:
